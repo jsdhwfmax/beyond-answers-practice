@@ -1,0 +1,15 @@
+.brief{margin:16px 0;min-width:0;padding:18px 20px;border-left:3px solid var(--accent,#923f32);border-radius:0 6px 6px 0;background:var(--soft-light,#fbf1e3);color:var(--ink,#442c27);overflow-wrap:anywhere;font-size:14px;line-height:1.8}
+.header{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin-bottom:9px}
+.header h2{font-family:var(--font-title,"Songti SC",SimSun,serif);font-size:21px;line-height:1.5;margin:0}
+.brief .sourcesButton{font-size:12px;min-height:40px;padding:4px 0;color:var(--accent,#923f32);text-decoration:underline;text-underline-offset:4px;background:none;border:0}
+.question{min-width:0;max-width:75ch}.questionTitle{font-size:12px;font-weight:400;color:var(--muted,#765e50);line-height:1.7;margin:0 0 10px}
+.takeaway{font-size:15px;margin:0 0 11px;line-height:1.8}.takeaway>span{display:block;font-size:11px;color:var(--accent,#923f32);margin-bottom:2px}
+.application{margin:0;padding:10px 12px;background:var(--white,#fffdf8);border-radius:4px;font-size:13px;line-height:1.85}.application strong{display:block;font-size:12px;margin-bottom:2px;color:var(--accent,#923f32)}
+.brief details{font-size:12px;color:var(--muted,#765e50)}.brief summary{cursor:pointer;min-height:40px;padding:9px 0;line-height:1.7}.brief details p{margin:7px 0}.brief blockquote{margin:8px 0;padding:0 0 0 12px;border-left:2px solid var(--line-strong,#a88670);white-space:pre-wrap;color:var(--ink,#442c27);line-height:1.9;font-size:13px}
+.quoteLabel{font-size:11px;color:var(--muted,#765e50);margin:8px 0 4px}.boundary{font-size:11px;line-height:1.85}.goal{font-size:12px;color:var(--muted,#765e50);margin:7px 0}.fallback{font-size:13px;margin:0 0 8px}.brief .preview{font-size:13px;margin:9px 0}
+.sourceLinks{display:flex;flex-wrap:wrap;gap:4px 18px}.sourceLinks a,.missingLink{display:inline-flex;align-items:center;min-height:40px;color:var(--accent,#923f32);text-decoration:underline;text-underline-offset:4px;font-size:12px}
+.brief .useButton{margin-top:8px;min-height:42px;padding:8px 13px;border:1px solid var(--line-strong,#a88670);border-radius:4px;background:var(--white,#fffdf8);color:var(--accent,#923f32);font-size:12px;white-space:normal;max-width:100%}
+.more{border-top:1px solid var(--line,#dfc8b2);margin-top:8px}.more .question{padding-top:12px}.more .question+.question{margin-top:16px;border-top:1px solid var(--line,#dfc8b2)}
+.brief :is(a,button,summary):focus-visible{outline:3px solid var(--accent,#923f32);outline-offset:3px}.compact{padding:13px 16px}.compact .header{margin-bottom:5px}.compact .header h2{font-size:19px}.compact .questionTitle{margin-bottom:8px}.compact .takeaway{font-size:14px;margin-bottom:9px}
+@media(max-width:550px){.brief{padding:13px 12px}.header h2{font-size:19px}.header{gap:3px 12px}.takeaway{font-size:14px}.application{padding:9px 10px}.sourceLinks{gap:2px 14px}}
+@media print{.brief .sourcesButton,.brief .useButton{display:none}.brief details::details-content{content-visibility:visible;display:block}.brief{break-inside:avoid;background:transparent}}

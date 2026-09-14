@@ -1,0 +1,44 @@
+import { expect, test } from './fixtures';
+import { mkdir } from 'node:fs/promises';
+
+test('博士211真实来源可以阅读并带着准确题目进入练习草稿', async ({ page }) => {
+  const modelWrites: string[] = [];
+  await page.route('**/api/practice-intake', route => { modelWrites.push(route.request().url()); return route.fulfill({ status: 503, json: { error: { message: 'This source/navigation check does not call models.' } } }); });
+  await page.route('**/api/custom-practices', route => { if (route.request().method() !== 'GET') modelWrites.push(route.request().url()); return route.fulfill({ json: { sessions: [], available: true } }); });
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/discover');
+  await page.getByRole('combobox', { name: '学历', exact: true }).selectOption('doctor');
+  await page.getByRole('combobox', { name: '院校类型', exact: true }).selectOption('211');
+  await page.getByRole('combobox', { name: '当前阶段', exact: true }).selectOption('studying');
+  const pending = page.waitForResponse(response => {
+    const url = new URL(response.url());
+    return url.pathname === '/api/discover' && !url.searchParams.has('preview');
+  });
+  await page.getByRole('button', { name: '查找相近的问题', exact: true }).click();
+  const response = await pending; expect(response.ok()).toBe(true);
+  const result = await response.json();
+  expect(result.total).toBeGreaterThanOrEqual(5);
+  expect(result.filters).toEqual({ education: 'doctor', schoolTier: '211', stage: 'studying' });
+  const id = 'zhihu-q-2012555174539961491';
+  const question = result.matches.find((match: { question: { id: string } }) => match.question.id === id).question;
+  const card = page.locator(`[data-discovery-question="${id}"]`);
+  await expect(card).toBeVisible();
+  await expect(card).toContainText('截至 2026-09-14');
+  await expect(card).not.toContainText('采集时');
+  await card.getByText('在这里核对摘要与出处', { exact: true }).click();
+  await expect(card.locator('blockquote').last()).toHaveText(question.answers[0].excerpt);
+  await expect(card.getByRole('link', { name: '读知乎原回答' })).toHaveAttribute('href', question.answers[0].url);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(391);
+  const environment = process.env.E2E_BASE_URL?.startsWith('https:') ? 'production' : 'local';
+  const evidenceDirectory = process.env.E2E_EVIDENCE_DIR ? `${process.env.E2E_EVIDENCE_DIR}/profile-expansion-v15` : `docs/verification/profile-expansion-v15/${environment}`;
+  await mkdir(evidenceDirectory, { recursive: true });
+  await page.screenshot({ path: `${evidenceDirectory}/doctor-211-390.png`, fullPage: true });
+  const selectedSource = page.waitForResponse(response => new URL(response.url()).pathname === `/api/campus-library/${id}`);
+  await card.getByRole('link', { name: '从这题开始练习' }).click();
+  expect((await selectedSource).ok()).toBe(true);
+  await expect(page.getByLabel('我想练习……', { exact: true })).toHaveValue(new RegExp(question.scenarioSeed.userRole));
+  await expect(page.getByRole('link', { name: question.title, exact: true })).toHaveAttribute('href', question.questionUrl);
+  await page.reload();
+  await expect(page.getByLabel('我想练习……', { exact: true })).toHaveValue(new RegExp(question.scenarioSeed.userRole));
+  expect(modelWrites).toEqual([]);
+});

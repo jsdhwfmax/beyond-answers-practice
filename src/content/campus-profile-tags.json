@@ -1,0 +1,3774 @@
+{
+  "version": "campus-profile-2026-09-14-v3",
+  "entries": {
+    "zhihu-q-312969211": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一上挂科后果严重吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-412987451": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一要当班干部吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-422702958": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生如何提高综测?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-329772007": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一,我想当班长,有木有人有竞选成功的演讲稿?参考一下下,谢谢啦?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1927889751337342731": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生,目标是保研,要考虑竞选班干部吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-559650574": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一学生会面试,一般会问什么问题?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-344495223": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "在大一当班长是怎样一种体验?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-554421561": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一刚开学,室友天天在宿舍学到十二点,严重影响我睡觉怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-265939871": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一已经确定要考研的人,大学四年该怎样过?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2053305780770693319": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "对刚上大学的新生有什么建议?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-491158463": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "国庆期间浙大新生自愿到西湖捡垃圾,这种大学生志愿活动有哪些积极的意义?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-442945198": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生想退学生会,有什么好点的理由?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-339920462": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生如何交新朋友?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-27177500": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一学生很迷茫,觉得人生浑浑噩噩的,怎么调整状态?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1935998716843635116": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "请问大家对大一新生有什么好的建议吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-483395017": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生太想家了怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-516284068": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一进入了迷茫期,怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-663855519": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "马上大一了,对自己的未来感到很迷茫,有什么建议吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2061658465320318156": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "被中南大学城市地下空间工程录取了,这个大学的这个专业咋样啊,有必要努力转专业吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论入学或大一适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-375827539": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "大三挂科十多门,我该怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-450864905": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "大三了,一个平时很自闭的室友突然说他三年来对我积怨已久,扬言要揍我,请问我该怎么做化解矛盾?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-279426192": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "跨专业考研选择什么专业?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        },
+        {
+          "id": "bachelor-cross-major",
+          "label": "回答讨论不喜欢本科专业而考虑跨专业考研的人，尚未就读硕士",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "如果觉得对你自己的本科专业真的不感兴趣",
+              "sourceScope": "answer",
+              "matchLabel": "回答明确提到本科专业",
+              "answerId": "868397645"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "那么可以去考虑跨专业考研",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论跨专业升学准备",
+              "answerId": "868397645"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-462743447": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考研任何人都可以跨专业考研吗?难度在哪里?有什么建议吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-507662045": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "想辞职考研,父母不同意,要不要强硬辞职?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-27216537": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考研失败是种怎样的体验?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-337566585": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "跨考考研,跨什么专业好一点?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-23449907": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "想跨专业考研,怎么选择专业?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-28156218": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考研二战、三战、四战。。。N战 失败是一种什么感受?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-586150236": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "我考研为什么会失败?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-371545287": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考研复试联系导师的邮件怎么写?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-27258718": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "父母很反对考研,理由是无男友硕士毕业年纪大嫁不出,怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-350812550": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "96年女生考研家里人反对,是否应该坚持?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-528738006": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "家里极力反对我辞职考研,我该反抗吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-40166886": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "父母不让考研怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-316770994": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "大三了,决定跨专业考研,但是不知道考哪个专业,如何选择合适的学校和专业?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            },
+            {
+              "value": "graduation_further_study",
+              "quote": "大三了,决定跨专业考研,但是不知道考哪个专业,如何选择合适的学校和专业?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-19628805": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "怎样寻找实习机会？",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-28434997": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "从来没有实习经历的大学生如何找实习？",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-58570383": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "讲真,应届生一般工资多少啊?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        },
+        {
+          "id": "past-third-year-internship",
+          "label": "回答回顾大三的一次实习，不将“除985以外”标成985",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "大三的一次正经实习",
+              "sourceScope": "answer",
+              "matchLabel": "回答回顾大三在读",
+              "answerId": "3527295890"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "大三的一次正经实习",
+              "sourceScope": "answer",
+              "matchLabel": "回答回顾实际实习",
+              "answerId": "3527295890"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-27840814": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "面试服务器开发方向 C++ 实习生时,大致会被问到哪些问题?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-592549539": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "本科生在水刊上发了两篇论文，会成为学术污点吗？",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "本科生在水刊上发了两篇论文，会成为学术污点吗？",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1953488107186943906": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "本科生怎么联系老师做科研?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "本科生怎么联系老师做科研?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-551892414": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士第三年了,还没有一篇paper,感觉自己啥也不会,每周开组会汇报进展都会被骂,怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到博士"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "博士第三年了,还没有一篇paper,感觉自己啥也不会,每周开组会汇报进展都会被骂,怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-389305597": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士延毕了,不知道该怎么过去,心里特别难过,半年的时间用来做什么呢?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到硕士"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "硕士延毕了,不知道该怎么过去,心里特别难过,半年的时间用来做什么呢?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-519087887": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题讨论本科经历及考研后联系导师，不认定已经就读硕士",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "考研初试成绩一般,本科也没有什么竞赛科研,要如何联系导师?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考研初试成绩一般,本科也没有什么竞赛科研,要如何联系导师?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2080699146155945987": {
+      "contexts": [
+        {
+          "id": "new-student",
+          "label": "原问题中的大一新生",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生",
+              "sourceScope": "question",
+              "matchLabel": "题目中的新生背景"
+            }
+          ]
+        },
+        {
+          "id": "senior-roommate",
+          "label": "原问题中的大四学姐，与新生是不同人物",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "大四学姐",
+              "sourceScope": "question",
+              "matchLabel": "题目中的在读大四学姐"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-453910744": {
+      "contexts": [
+        {
+          "id": "author-college-entry",
+          "label": "回答回顾作者当年进入普通一本的经历，不代表作者现在在校",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "渤海边的普通一本",
+              "sourceScope": "answer",
+              "matchLabel": "回答原文称“普通一本”，未推断作者现学历",
+              "answerId": "3610837684"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "后来到了大学，渤海边的普通一本，远离了父母，开始放飞自我，开学第一课",
+              "sourceScope": "answer",
+              "matchLabel": "回答回顾当年刚入学",
+              "answerId": "3610837684"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-24363994": {
+      "contexts": [
+        {
+          "id": "doctoral-supervisor",
+          "label": "回答讨论缺乏指导经验的博士生，不与被指导的本科生合并身份",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "让缺乏指导经验的博士生带本科生",
+              "sourceScope": "answer",
+              "matchLabel": "回答中的博士生指导者",
+              "answerId": "2653061117"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "博士生",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论在读博士生",
+              "answerId": "2653061117"
+            }
+          ]
+        },
+        {
+          "id": "bachelor-learner",
+          "label": "回答讨论被博士生指导的本科生，不根据校名增加学校层次",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "让缺乏指导经验的博士生带本科生",
+              "sourceScope": "answer",
+              "matchLabel": "回答中的本科生被指导者",
+              "answerId": "2653061117"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "本科生",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论在读本科生",
+              "answerId": "2653061117"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-20414212": {
+      "contexts": [
+        {
+          "id": "author-doctoral-entry",
+          "label": "回答回顾作者刚到德国读博士时的报告经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "我刚到德国读博士时",
+              "sourceScope": "answer",
+              "matchLabel": "回答原文明确读博士",
+              "answerId": "15068277"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "我刚到德国读博士时",
+              "sourceScope": "answer",
+              "matchLabel": "回答回顾刚开始异地读博",
+              "answerId": "15068277"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-307274405": {
+      "contexts": [
+        {
+          "id": "author-bachelor-dorm",
+          "label": "回答回顾作者本科寝室经历，不认定作者现在仍在读",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "我本科寝室",
+              "sourceScope": "answer",
+              "matchLabel": "回答明确回顾本人本科寝室",
+              "answerId": "2259632634"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "我本科寝室有个室友基本只在宿舍学习",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论本科期间寝室学习",
+              "answerId": "2259632634"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-535483677": {
+      "contexts": [
+        {
+          "id": "past-doctorate",
+          "label": "回答作者明确提到过去的海外博士经历，未标记现在阶段",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "作为在海外读phd后回国的人",
+              "sourceScope": "answer",
+              "matchLabel": "回答明确过去读phd的经历",
+              "answerId": "2076476998826844886"
+            }
+          ],
+          "schoolTier": [],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-8724501141": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "985生物信息大三本科在读,如何自救?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985生物信息大三本科在读,如何自救?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到985"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "985生物信息大三本科在读,如何自救?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1988685364362249159": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "现在的双非大学生真的很难找工作吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        },
+        {
+          "id": "ordinary-bachelor-applicant",
+          "label": "回答明确讨论已有项目、希望招聘方阅读材料的普通学校本科生",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "如果一个普通学校的本科生，已经做过这些项目，那他应该怎么让招聘方愿意看完他的材料？",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论普通学校本科生",
+              "answerId": "2036453998484566681"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "如果一个普通学校的本科生",
+              "sourceScope": "answer",
+              "matchLabel": "回答原文“普通学校的本科生”",
+              "answerId": "2036453998484566681"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "那他应该怎么让招聘方愿意看完他的材料？",
+              "sourceScope": "answer",
+              "matchLabel": "回答讨论求职材料",
+              "answerId": "2036453998484566681"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-357810399": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "985本科毕业后好找工作吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985本科毕业后好找工作吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到985"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "985本科毕业后好找工作吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "985本科毕业后好找工作吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        },
+        {
+          "id": "author-later-master",
+          "label": "回答中的后来阶段：双非硕士研一；与前面的985本科学历分开",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士是双非了",
+              "sourceScope": "answer",
+              "matchLabel": "回答明确硕士阶段",
+              "answerId": "2648873197"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "硕士是双非了",
+              "sourceScope": "answer",
+              "matchLabel": "学校层次原文为“双非”，此处是硕士阶段，不表示正读本科",
+              "answerId": "2648873197"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "在浑浑噩噩中结束了研一上学期",
+              "sourceScope": "answer",
+              "matchLabel": "回答明确研一在读阶段",
+              "answerId": "2648873197"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-565851440": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题假设本科四年在985就读的情境，不认定答主本人为该身份",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "想知道如果本科在985却摆烂四年(仅仅不挂科),会混成什么样子?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "想知道如果本科在985却摆烂四年(仅仅不挂科),会混成什么样子?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到985"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "想知道如果本科在985却摆烂四年(仅仅不挂科),会混成什么样子?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-379152355": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "大专生毕业了能干什么?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到专科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "大专生毕业了能干什么?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-614081488": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "20岁,大专毕业,一无是处,还有机会挽救自己吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到专科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "20岁,大专毕业,一无是处,还有机会挽救自己吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        },
+        {
+          "id": "author-junior-college-job-search",
+          "label": "回答回顾作者专科毕业后与同伴找工作，不混入后来取得的本科学历",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "我大专毕业的时候23岁",
+              "sourceScope": "answer",
+              "matchLabel": "回答作者当时专科毕业",
+              "answerId": "3164601035"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "然后找工作的时候关系好的几个一块就去了",
+              "sourceScope": "answer",
+              "matchLabel": "回答回顾当时找工作",
+              "answerId": "3164601035"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-277688634": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士毕业后,你还做科研吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到博士"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "博士毕业后,你还做科研吗?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1938046432872489353": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "985计算机专业本科毕业能找到什么样的工作?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到本科"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985计算机专业本科毕业能找到什么样的工作?",
+              "sourceScope": "question",
+              "matchLabel": "题目明确提到985"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "985计算机专业本科毕业能找到什么样的工作?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论毕业或升学准备"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "985计算机专业本科毕业能找到什么样的工作?",
+              "sourceScope": "question",
+              "matchLabel": "题目讨论实习或求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-423892725": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "如何度过专科大一才不浪费?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及专科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "如何度过专科大一才不浪费?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        },
+        {
+          "id": "question-background-v3-school-evidence",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "专科大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "专科大一",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            },
+            {
+              "value": "studying",
+              "quote": "大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-540620540": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "题目讨论专科阶段考上本科后的升学选择",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "专升本考上了,学费两万,可是我专科舍友说本科没用,和专科没区别,他们是吃不到葡萄说葡萄酸还是真没用?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及专科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "专升本考上了,学费两万,可是我专科舍友说本科没用,和专科没区别,他们是吃不到葡萄说葡萄酸还是真没用?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及毕业升学"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "回答回顾后来两年的本科在读经历，和此前专科阶段分开",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "在校期间一直在兼职维持生活，简单一点就是寒暑假赚学费，在校赚生活费，坚持了两年的本科生活。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及本科",
+              "answerId": "2555917780"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "在校期间一直在兼职维持生活，简单一点就是寒暑假赚学费，在校赚生活费，坚持了两年的本科生活。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及在读学习",
+              "answerId": "2555917780"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-549764289": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "大一新生,读的是中流 211 的计算机科学与技术,现在看到 23 年的秋招哀鸿遍野,很迷茫怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及211"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一新生,读的是中流 211 的计算机科学与技术,现在看到 23 年的秋招哀鸿遍野,很迷茫怎么办?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-383630190": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "题目从双非背景讨论升学准备，双一流是目标学校",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "从「双非」考上「双一流」大学,需要付出怎样的努力?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及普通院校 / 双非"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "从「双非」考上「双一流」大学,需要付出怎样的努力?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及毕业升学"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-460296697": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "题目明确讨论专升本之后的本科在读生活",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "专升本后的两年本科生活,该如何度过呢?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及本科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "专升本后的两年本科生活,该如何度过呢?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-629263572": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "本科大二如何接触科研?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及本科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "本科大二如何接触科研?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "作者回顾自己在普通211就读本科大二的同一段经历",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "我的本科就读于一个普通211，排名大概50的水平。在大二期末考试结束，找到了一个模式识别的老师，想要进他课题组。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及本科",
+              "answerId": "3290959693"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "我的本科就读于一个普通211，排名大概50的水平。在大二期末考试结束，找到了一个模式识别的老师，想要进他课题组。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及211",
+              "answerId": "3290959693"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "我的本科就读于一个普通211，排名大概50的水平。在大二期末考试结束，找到了一个模式识别的老师，想要进他课题组。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及在读学习",
+              "answerId": "3290959693"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1937499790540801906": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "目前是在读博士,想再启动一个课题,如何跟导师沟通?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及博士"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "目前是在读博士,想再启动一个课题,如何跟导师沟通?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-20943610": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "如何和研究生导师进行有效沟通,研究生如何做科研?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1912719718743274500": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "专科大一很迷茫,该如何调整好?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及专科"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "专科大一很迷茫,该如何调整好?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        },
+        {
+          "id": "question-background-v3-school-evidence",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "专科大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "专科大一",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            },
+            {
+              "value": "studying",
+              "quote": "大一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-624741964": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "某双一流信息安全大二,对未来就业很迷茫,求解!!?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及双一流"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "某双一流信息安全大二,对未来就业很迷茫,求解!!?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-401636801": {
+      "contexts": [
+        {
+          "id": "answer-context-0",
+          "label": "回答在该高等专科学校就读经历中回顾2023年实习后的专科毕业升学准备",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "因实习，已经离开学校一年多了。后来又参加了专升本集训，久违的感觉到了上课的感觉。前天集训也结束了，接下来就是专科三年生涯中倒数第二战——专升本。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及专科",
+              "answerId": "2453644577"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "在重庆三峡医药高等专科学校就读是什么体验?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及高职 / 专科院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "因实习，已经离开学校一年多了。后来又参加了专升本集训，久违的感觉到了上课的感觉。前天集训也结束了，接下来就是专科三年生涯中倒数第二战——专升本。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及毕业升学",
+              "answerId": "2453644577"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-401648188": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "该高等专科学校回答开头回顾大三临近毕业阶段",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "在西安电力高等专科学校就读是什么体验?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及高职 / 专科院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "大三狗来报道，马上毕业了",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及毕业升学",
+              "answerId": "3083948243"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "作者回顾自己以专科学历进入单位的经历；同事211不属于作者背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "想我单位今年录取13人，就我一个专科，其中还有不少211",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及专科",
+              "answerId": "3083948243"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "在西安电力高等专科学校就读是什么体验?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及高职 / 专科院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "想我单位今年录取13人，就我一个专科，其中还有不少211",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及实习求职",
+              "answerId": "3083948243"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-401637837": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "该高等专科学校回答叙述本人学前教育在读的阶段",
+          "education": [],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "在赣州师范高等专科学校就读是什么体验?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及高职 / 专科院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "我是学前教育在读",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及在读学习",
+              "answerId": "1363695126"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-482483423": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题是双一流硕士应届毕业生的岗位选择",
+          "education": [
+            {
+              "value": "master",
+              "quote": "双一流药学女硕士应届毕业生,好迷茫,老家四线三甲医院和正大天晴的CRA不知道如何选,求教各位药学前辈?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及硕士"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流药学女硕士应届毕业生,好迷茫,老家四线三甲医院和正大天晴的CRA不知道如何选,求教各位药学前辈?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及双一流"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "双一流药学女硕士应届毕业生,好迷茫,老家四线三甲医院和正大天晴的CRA不知道如何选,求教各位药学前辈?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及毕业升学"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "双一流药学女硕士应届毕业生,好迷茫,老家四线三甲医院和正大天晴的CRA不知道如何选,求教各位药学前辈?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及实习求职"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "回答者另述自己2020年211硕士毕业经历，与题主双一流背景分开",
+          "education": [
+            {
+              "value": "master",
+              "quote": "本人211硕，2020年毕业的。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及硕士",
+              "answerId": "2084616979"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "本人211硕，2020年毕业的。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及211",
+              "answerId": "2084616979"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "本人211硕，2020年毕业的。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及毕业升学",
+              "answerId": "2084616979"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-637062313": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研究生期间遇到什么样的导师是最舒服的?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-64270965": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "即将步入研究生,有什么忠告?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-625453804": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "研究生新生要懂得哪些「生存技巧」?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-626639333": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士生第一年怎么度过?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及博士"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "博士生第一年怎么度过?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-324577110": {
+      "contexts": [
+        {
+          "id": "answer-context-0",
+          "label": "该职业技术学院回答者回顾自己以专科学历求职与变换工作的经历",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "在我到期之后，我用我的专科学历和专业，公务员和事业编都考了第一名，最后选择了公务员，现在工资6000+。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及专科",
+              "answerId": "1445995497"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "在包头职业技术学院就读是什么体验?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及高职 / 专科院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "在我到期之后，我用我的专科学历和专业，公务员和事业编都考了第一名，最后选择了公务员，现在工资6000+。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及实习求职",
+              "answerId": "1445995497"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-351675467": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题是假设重返研一的规划讨论",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "重返研一,你会怎么过?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "回答者回顾已取得硕士学位后的经历；没有把毕业以后自动当成毕业升学阶段",
+          "education": [
+            {
+              "value": "master",
+              "quote": "直到成为研究生，拿到硕士学位后我才明白了一个道理：",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及硕士",
+              "answerId": "2711973214"
+            }
+          ],
+          "schoolTier": [],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-431748898": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研究生一个人搞科研真的好难 ,有没有来吐吐槽的!?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及在读学习"
+            }
+          ]
+        },
+        {
+          "id": "answer-context-1",
+          "label": "回答者回顾已取得硕士学位后的经历；没有把毕业以后自动当成毕业升学阶段",
+          "education": [
+            {
+              "value": "master",
+              "quote": "我最开始接触科研都是硕士毕业以后的事情了。",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及硕士",
+              "answerId": "1619739250"
+            }
+          ],
+          "schoolTier": [],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-55777345": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "关于一个实习老师,如何融入学校教师群体?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及实习求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-422469908": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的背景",
+          "education": [],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "研一应该做什么?",
+              "sourceScope": "question",
+              "matchLabel": "该情境明确涉及入学适应"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-394144563": {
+      "contexts": [
+        {
+          "id": "answer-context-0",
+          "label": "作者回顾自己专科阶段实习及毕业初次求职，同篇其他舍友另属其人",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "西北4线城市专科毕业 都是16年7月开始实习的。 17年正式毕业。专业 机电一体化",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及专科",
+              "answerId": "1741803227"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "西北4线城市专科毕业 都是16年7月开始实习的。 17年正式毕业。专业 机电一体化",
+              "sourceScope": "answer",
+              "matchLabel": "该情境明确涉及实习求职",
+              "answerId": "1741803227"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-266044689": {
+      "contexts": [
+        {
+          "id": "answer-doctor-study",
+          "label": "回答讨论的博士阶段汇报情境",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "老师会默认你已经是博士生了",
+              "sourceScope": "answer",
+              "answerId": "2024317935611552146",
+              "matchLabel": "片段明确是博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "而是他交给你一个方向、一个任务，默认你应该自己往下走一段，再回来和他汇报。",
+              "sourceScope": "answer",
+              "answerId": "2024317935611552146",
+              "matchLabel": "片段描述在读博士的科研汇报"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-579770225": {
+      "contexts": [
+        {
+          "id": "answer-graduated-doctor",
+          "label": "回答作者明确回顾的博士经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "刚毕业博士来聊聊。",
+              "sourceScope": "answer",
+              "answerId": "2924253015",
+              "matchLabel": "作者片段明确说明博士毕业背景"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "刚毕业博士来聊聊。",
+              "sourceScope": "answer",
+              "answerId": "2924253015",
+              "matchLabel": "片段明确为刚毕业后的经验回顾"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-605982190": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "读博",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "读博该怎么和导师相处",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1933983740398405481": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "想换研究课题",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-9036959244": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原题已被录取博士的入学准备背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "被录取了",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-665901087": {
+      "contexts": [
+        {
+          "id": "answer-985-candidate",
+          "label": "回答中博士延期影响报到的候选人经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "三985博士",
+              "sourceScope": "answer",
+              "answerId": "1895219979307181432",
+              "matchLabel": "同一候选人明确为博士"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "三985博士",
+              "sourceScope": "answer",
+              "answerId": "1895219979307181432",
+              "matchLabel": "原文明确三阶段985，不扩展211或双一流"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "面试时评委印象也极佳。",
+              "sourceScope": "answer",
+              "answerId": "1895219979307181432",
+              "matchLabel": "同一候选人处于面试与报到沟通"
+            },
+            {
+              "value": "graduation_further_study",
+              "quote": "延期半年，不能按期报到。",
+              "sourceScope": "answer",
+              "answerId": "1895219979307181432",
+              "matchLabel": "同一候选人因毕业延期影响报到"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-666870541": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "简历会不会不好看",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-483836857": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "末流211博一",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "博一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            },
+            {
+              "value": "studying",
+              "sourceScope": "question",
+              "quote": "博一",
+              "matchLabel": "同一背景明确为已经在读的博士年级"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-530201491": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "读博",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "在普通211读博",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "现在博一",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            },
+            {
+              "value": "studying",
+              "sourceScope": "question",
+              "quote": "现在博一",
+              "matchLabel": "同一背景明确为已经在读的博士年级"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-547418783": {
+      "contexts": [
+        {
+          "id": "answer-211-first-year",
+          "label": "回答自述的杭州某211博士一年级经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博一",
+              "sourceScope": "answer",
+              "answerId": "3254467977",
+              "matchLabel": "同一片段明确博士一年级"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "博一，杭州某末流211",
+              "sourceScope": "answer",
+              "answerId": "3254467977",
+              "matchLabel": "博士阶段与211院校在同一句"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "博一",
+              "sourceScope": "answer",
+              "answerId": "3254467977",
+              "matchLabel": "片段明确第一年经历"
+            },
+            {
+              "value": "studying",
+              "sourceScope": "answer",
+              "quote": "博一",
+              "matchLabel": "同一背景明确为已经在读的博士年级",
+              "answerId": "3254467977"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-374715072": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博三",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "现在211学校博三",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "能获得什么学校的教职",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            },
+            {
+              "value": "studying",
+              "sourceScope": "question",
+              "quote": "现在211学校博三",
+              "matchLabel": "同一背景明确为已经在读的博士年级"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2012555174539961491": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "硕博211",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "硕博211",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "想留校",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            },
+            {
+              "value": "studying",
+              "sourceScope": "question",
+              "quote": "现在博三",
+              "matchLabel": "同一背景明确为已经在读的博士年级"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1964985194458097079": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "三211博",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "三211博",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "特别研究助理,选哪个",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-559157484": {
+      "contexts": [
+        {
+          "id": "answer-doctor-job-search",
+          "label": "回答作者的博士求职经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博为C9",
+              "sourceScope": "answer",
+              "answerId": "2078221324384847283",
+              "matchLabel": "片段明确博士阶段"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "大湾区求职，主要找教职。",
+              "sourceScope": "answer",
+              "answerId": "2078221324384847283",
+              "matchLabel": "同一经历明确在求职"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2025134647130990349": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非博士",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "进大厂",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1943261312277803720": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "西安双非毕业的博士",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "出路在哪里",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2003765546324345662": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非博",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "就业方向",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-624440493": {
+      "contexts": [
+        {
+          "id": "answer-peer-a-ordinary-doctor",
+          "label": "回答中的A同学：在同一双非院校读博的经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士继续在该双非读",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "A同学明确在博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "博士继续在该双非读",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "同一句明确博士学校为双非"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "读博期间，参与各种国家项目",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "同一A同学的在读研究经历"
+            }
+          ]
+        },
+        {
+          "id": "answer-peer-b-985-doctor",
+          "label": "回答中的B同学：在985读博并毕业求职的经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博士继续在985读",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "B同学明确在博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "博士继续在985读",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "同一句明确博士院校为985"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "选的博导人品好，但能力有限，勉强毕业后。",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "同一B同学已毕业"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "毕业后，想去A同学学校任教，但竞争激烈，没上",
+              "sourceScope": "answer",
+              "answerId": "3297709588",
+              "matchLabel": "同一B同学的求职经历"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-308523686": {
+      "contexts": [
+        {
+          "id": "answer-parent-doctor-study",
+          "label": "回答作者：有孩子、辞职读博的博三经历",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "博三",
+              "sourceScope": "answer",
+              "answerId": "825793058",
+              "matchLabel": "作者自述博士三年级"
+            }
+          ],
+          "schoolTier": [],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "博三",
+              "sourceScope": "answer",
+              "answerId": "825793058",
+              "matchLabel": "同一自述明确在读阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-659692584": {
+      "contexts": [
+        {
+          "id": "question-doctor-background",
+          "label": "原问题明确讨论的博士背景",
+          "education": [
+            {
+              "value": "doctor",
+              "quote": "毕业博士",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论博士阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流临床专业毕业博士",
+              "sourceScope": "question",
+              "matchLabel": "原题同一博士背景明确提到该院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "去二三线城市当医生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确讨论这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-68712884": {
+      "contexts": [
+        {
+          "id": "answer-465725967-master-background",
+          "label": "回答者叙述的同一段985硕士毕业背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士",
+              "sourceScope": "answer",
+              "answerId": "465725967",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985",
+              "sourceScope": "answer",
+              "answerId": "465725967",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "即将毕业",
+              "sourceScope": "answer",
+              "answerId": "465725967",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1887571861715546461": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1910153326953234613": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "马上研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-15512956453": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2064782466276128259": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "985",
+              "quote": "985",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-488442559": {
+      "contexts": [
+        {
+          "id": "answer-3384249231-master-background",
+          "label": "回答者叙述的211硕士毕业背景（不继承题目中的985）",
+          "education": [
+            {
+              "value": "master",
+              "quote": "本硕",
+              "sourceScope": "answer",
+              "answerId": "3384249231",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "211",
+              "sourceScope": "answer",
+              "answerId": "3384249231",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "即将毕业",
+              "sourceScope": "answer",
+              "answerId": "3384249231",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2037626392": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "211",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-492326095": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "211",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-667490414": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "211",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "硕士毕业",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1984737966090904831": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研一",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研一",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-465437037": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "本硕",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研一",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "转金融找实习",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-513785762": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研一",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研一",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1946123019337565903": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "二本",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "在读二本测绘工程研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1952010287180936425": {
+      "contexts": [
+        {
+          "id": "answer-1965176516531954571-master-background",
+          "label": "回答中复述的题主同一段双非机械硕士研二背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "机械硕",
+              "sourceScope": "answer",
+              "answerId": "1965176516531954571",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非",
+              "sourceScope": "answer",
+              "answerId": "1965176516531954571",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "开学研二",
+              "sourceScope": "answer",
+              "answerId": "1965176516531954571",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-634976934": {
+      "contexts": [
+        {
+          "id": "answer-3334003827-master-background",
+          "label": "回答中复述的题主同一段双非硕士研二背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "硕士",
+              "sourceScope": "answer",
+              "answerId": "3334003827",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非",
+              "sourceScope": "answer",
+              "answerId": "3334003827",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "研二",
+              "sourceScope": "answer",
+              "answerId": "3334003827",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-613264605": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原问题明确讨论的同一段硕士背景",
+          "education": [
+            {
+              "value": "master",
+              "quote": "研二",
+              "sourceScope": "question",
+              "matchLabel": "原文明确的硕士阶段，不借用其他学历经历"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非",
+              "sourceScope": "question",
+              "matchLabel": "同一硕士背景明确提到的院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "准研二",
+              "sourceScope": "question",
+              "matchLabel": "同一背景中直接提到的阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2072719994115380379": {
+      "contexts": [
+        {
+          "id": "answer-211-bachelor-job",
+          "label": "回答作者自述的211本科秋招经历",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "我是一个211的本科生",
+              "sourceScope": "answer",
+              "answerId": "2072738610189809394",
+              "matchLabel": "作者明确自述本科阶段"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "我是一个211的本科生",
+              "sourceScope": "answer",
+              "answerId": "2072738610189809394",
+              "matchLabel": "同一句明确本科所在院校为211"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "我是明年毕业",
+              "sourceScope": "answer",
+              "answerId": "2072738610189809394",
+              "matchLabel": "同一作者尚未毕业"
+            },
+            {
+              "value": "internship_job_search",
+              "quote": "今年6月就已经开始投秋招了",
+              "sourceScope": "answer",
+              "answerId": "2072738610189809394",
+              "matchLabel": "同一作者已经开始秋招"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-661191887": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "机械工程本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "末流211机械工程本科",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "就业如何",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-9388556602": {
+      "contexts": [
+        {
+          "id": "question-211-bachelor-project",
+          "label": "原题211大一机械在读、回答针对其本科就业路径",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "如果未来打算本科直接就业",
+              "sourceScope": "answer",
+              "answerId": "2073744734766609841",
+              "matchLabel": "回答针对题主的本科培养与就业路径"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "211",
+              "quote": "中等211大一机械大类在读",
+              "sourceScope": "question",
+              "matchLabel": "原题明确当前211院校"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一机械大类在读",
+              "sourceScope": "question",
+              "matchLabel": "原题大一适应阶段"
+            },
+            {
+              "value": "studying",
+              "quote": "大一机械大类在读",
+              "sourceScope": "question",
+              "matchLabel": "原题明确在读"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1915373317210243436": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "本科的法学生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流本科",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "我是双一流本科的法学生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-5959812165": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "大一本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "电科(双一流)",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "大一本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            },
+            {
+              "value": "studying",
+              "quote": "大一本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-508849600": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "本科大一学生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "double_first_class",
+              "quote": "双一流本科",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "现在大一上过完了",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            },
+            {
+              "value": "studying",
+              "quote": "现在大一上过完了",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-653302630": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "普通一本",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非普通一本",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "studying",
+              "quote": "目前大二下半学期",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-1937359390949742387": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "二本",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非二本",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": []
+        }
+      ]
+    },
+    "zhihu-q-2039678621305065789": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "双非本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非本科",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "建议重新考研读研吗",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2079061405823656731": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "双非本科",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "双非本科",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "graduation_further_study",
+              "quote": "考个在职研究生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-2031889266456934136": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "bachelor",
+              "quote": "二本会计专业",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "ordinary_undergraduate",
+              "quote": "二本会计专业",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "internship_job_search",
+              "quote": "空窗后如何进入职场",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    },
+    "zhihu-q-349332993": {
+      "contexts": [
+        {
+          "id": "question-background",
+          "label": "原题明确的同一学历与院校背景",
+          "education": [
+            {
+              "value": "junior_college",
+              "quote": "大专新生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一学历背景"
+            }
+          ],
+          "schoolTier": [
+            {
+              "value": "vocational_college",
+              "quote": "大专新生",
+              "sourceScope": "question",
+              "matchLabel": "原题同一学历背景明确院校类型"
+            }
+          ],
+          "stage": [
+            {
+              "value": "entering",
+              "quote": "新生",
+              "sourceScope": "question",
+              "matchLabel": "原题明确这一阶段"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

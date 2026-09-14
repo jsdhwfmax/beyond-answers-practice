@@ -1,0 +1,2834 @@
+{
+  "version": "campus-profile-2026-09-14-v3",
+  "questions": [
+    {
+      "id": "zhihu-q-8724501141",
+      "questionId": "8724501141",
+      "title": "985生物信息大三本科在读,如何自救?",
+      "questionUrl": "https://www.zhihu.com/question/8724501141",
+      "category": "合作学习",
+      "tags": [
+        "科研入门",
+        "导师沟通",
+        "职业探索"
+      ],
+      "answers": [
+        {
+          "answerId": "86444519126",
+          "url": "https://www.zhihu.com/question/8724501141/answer/86444519126?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "Bing",
+          "voteCount": 132,
+          "fetchedAt": "2026-09-13T15:40:18.7262215Z",
+          "excerpt": "首先要想清楚自己以后想从事什么样的工作。\n…\n建议本科的时候就联系本校或外校知名的课题组去实验室学习，参与课题。\n…\n学习一些基本的实验技能，对科研有一个初步的认知，也能知道自己是否喜欢从事科研工作。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6547690834130636056",
+          "searchHashId": "8d7bc023b7b9805ff51c045fbe5d0f49",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先想清楚希望从事的工作。",
+            "作者建议本科阶段联系课题组参与学习，通过基本实验技能的尝试了解自己是否喜欢科研。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "大三本科生",
+        "counterpartRole": "课题组老师",
+        "situation": "你想了解科研是否适合自己，准备向一位课题组老师询问是否有适合本科生参与的基础学习任务。",
+        "goal": "说明已有基础和可投入时间，询问一个入门任务及其要求，记录尚待老师判断的条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-1988685364362249159",
+      "questionId": "1988685364362249159",
+      "title": "现在的双非大学生真的很难找工作吗?",
+      "questionUrl": "https://www.zhihu.com/question/1988685364362249159",
+      "category": "实习与初入职场",
+      "tags": [
+        "项目表达",
+        "简历",
+        "求职反馈"
+      ],
+      "answers": [
+        {
+          "answerId": "2036453998484566681",
+          "url": "https://www.zhihu.com/question/1988685364362249159/answer/2036453998484566681?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "暮光之眼",
+          "voteCount": 400,
+          "fetchedAt": "2026-09-13T15:40:29.6811461Z",
+          "excerpt": "也经历过和社区维护者沟通、修复边界问题、适配构建系统的过程。\n…\n至少从结果看，简历投递阶段并没有明显帮到我。我投递了很多家公司，但反馈非常少。\n…\n如果一个普通学校的本科生，已经做过这些项目，那他应该怎么让招聘方愿意看完他的材料？",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-7500687678288131790",
+          "searchHashId": "f4751598311f03f89d27a621b091a20d",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者叙述了与开源社区维护者沟通、修复问题的经历，同时说明自己投递简历后反馈很少。",
+            "作者提出的具体困惑是：已有项目经历的普通学校本科生，怎样让招聘方愿意读完材料。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备求职的本科生",
+        "counterpartRole": "愿意看简历的学长",
+        "situation": "你做过几个项目，但投递后收到的反馈很少，想请学长帮你判断简历里是否讲清楚了个人贡献。",
+        "goal": "说明目标岗位和一个项目的个人贡献，请对方指出最需要补证据的一处，并约定修改后的反馈方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-357810399",
+      "questionId": "357810399",
+      "title": "985本科毕业后好找工作吗?",
+      "questionUrl": "https://www.zhihu.com/question/357810399",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "研究生规划",
+        "同伴求助",
+        "毕业与就业"
+      ],
+      "answers": [
+        {
+          "answerId": "2648873197",
+          "url": "https://www.zhihu.com/question/357810399/answer/2648873197?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "zaiziwamei",
+          "voteCount": 126,
+          "fetchedAt": "2026-09-13T15:40:51.9436292Z",
+          "excerpt": "在浑浑噩噩中结束了研一上学期\n…\n但我只有985本科学历，还是挖煤的本科，硕士是双非了，该何去何从了？\n…\n通过和师兄交流也大概了解了自己的发展方向：\n…\n现在需要全心投入到研究中，先达到毕业要求再全力准备工作的事；",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2543374181941055646",
+          "searchHashId": "c24e0cf6a11604a11af1fea5192e2869",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者区分了自己过去的985本科经历与后来的双非硕士阶段，并描述了研一后的迷茫。",
+            "作者叙述，与师兄交流后，自己把先达到研究毕业要求、再集中准备工作作为当时的安排。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "研一学生",
+        "counterpartRole": "同组师兄",
+        "situation": "研究任务和求职准备都让你焦虑，你想请师兄帮忙核对近期必须满足的毕业要求。",
+        "goal": "把毕业要求、当前研究进度和求职准备分别说清，商量近期可完成的一步，并保留需要导师确认的事项。"
+      }
+    },
+    {
+      "id": "zhihu-q-565851440",
+      "questionId": "565851440",
+      "title": "想知道如果本科在985却摆烂四年(仅仅不挂科),会混成什么样子?",
+      "questionUrl": "https://www.zhihu.com/question/565851440",
+      "category": "学习与时间安排",
+      "tags": [
+        "经验适用条件",
+        "同伴比较",
+        "学业规划"
+      ],
+      "answers": [
+        {
+          "answerId": "3279319516",
+          "url": "https://www.zhihu.com/question/565851440/answer/3279319516?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "炫光",
+          "voteCount": 159,
+          "fetchedAt": "2026-09-13T15:40:51.9436292Z",
+          "excerpt": "以我的几个本科同学的经历来看，他们都是武汉大学计算机学院的毕业生\n…\n不过，具体情况需要具体分析。\n…\n他们都是2022年毕业的\n…\n因此他们凭借985本科的身份，还是找到了相对不错的工作。\n…\n而从现在的情况看，他们的经历或许是难以复制的。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "920670694471778386",
+          "searchHashId": "c24e0cf6a11604a11af1fea5192e2869",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者以几位2022年毕业的本科同学为例谈求职经历。",
+            "作者同时提醒具体情况需要具体分析，这些同学的经历未必能够复制。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在安排大学学习的学生",
+        "counterpartRole": "分享毕业经历的学长",
+        "situation": "你听到学长说身边有人大学投入不多也顺利找到了工作，想进一步了解这些经历是否适用于自己的情况。",
+        "goal": "礼貌询问毕业时间、专业和个人经历的差异，分清可以借鉴的做法与尚未证明适用的结论。"
+      }
+    },
+    {
+      "id": "zhihu-q-379152355",
+      "questionId": "379152355",
+      "title": "大专生毕业了能干什么?",
+      "questionUrl": "https://www.zhihu.com/question/379152355",
+      "category": "实习与初入职场",
+      "tags": [
+        "专科毕业",
+        "职业探索",
+        "经验请教"
+      ],
+      "answers": [
+        {
+          "answerId": "1139990347",
+          "url": "https://www.zhihu.com/question/379152355/answer/1139990347?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "HR大掌柜",
+          "voteCount": 1251,
+          "fetchedAt": "2026-09-13T15:41:24.6620365Z",
+          "excerpt": "授人以鱼不如授人以渔，每个人的经历、特质不一样，所以，我不会直接给让大家从事某行业、岗位的建议，那样太不负责任了。\n…\n喜忧参半，核心的是在你不断试错过程当中找准方向：自己擅长的、喜欢的、自己投入很多精力不觉得烦和累的；",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4287125235018577108",
+          "searchHashId": "969c73ce1c6f9886c0024b5325e3a8cb",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者认为每个人的经历和特质不同，因此不直接替所有人指定某个行业或岗位。",
+            "作者建议在尝试中辨认自己擅长、喜欢、愿意投入的方向。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备求职的专科毕业生",
+        "counterpartRole": "就业指导老师",
+        "situation": "你对几个工作方向都不了解，希望先和老师讨论哪些事情值得去体验，而不是立即决定一辈子的职业。",
+        "goal": "说明自己的兴趣与已有尝试，商量一个能够获得具体反馈的小范围职业探索行动。"
+      }
+    },
+    {
+      "id": "zhihu-q-614081488",
+      "questionId": "614081488",
+      "title": "20岁,大专毕业,一无是处,还有机会挽救自己吗?",
+      "questionUrl": "https://www.zhihu.com/question/614081488",
+      "category": "实习与初入职场",
+      "tags": [
+        "毕业选择",
+        "同伴影响",
+        "职业规划"
+      ],
+      "answers": [
+        {
+          "answerId": "3164601035",
+          "url": "https://www.zhihu.com/question/614081488/answer/3164601035?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "施主请留步",
+          "voteCount": 443,
+          "fetchedAt": "2026-09-13T15:41:24.6620365Z",
+          "excerpt": "我大专毕业的时候23岁\n…\n我也是全日制大专，后来自考的本科\n…\n这就是我们当时毕业时的情景，毫无规划，漫无目的，没有一个人对自己的未来有规划。大家都是互相观望着，你看看我，我看看你，然后找工作的时候关系好的几个一块就去了，没有想着这份工作在未来会给自己带来什么，在自己未来的职业生涯路上会有什么样的影响，从来没有这份考虑。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-798249228304438862",
+          "searchHashId": "969c73ce1c6f9886c0024b5325e3a8cb",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾专科毕业时，自己和同学缺少规划，找工作时常常跟着关系好的同伴一起去。",
+            "作者反思，当时没有认真考虑第一份工作会给自己的后续职业经历带来什么影响。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备找第一份工作的专科毕业生",
+        "counterpartRole": "打算一起求职的朋友",
+        "situation": "朋友邀请你一起去一家公司，你也想与熟悉的人同行，但还不了解岗位内容和自己的目标是否相符。",
+        "goal": "表达珍惜同行关系的同时，提出需要先了解的岗位信息，商量分别评估后再决定是否同行。"
+      }
+    },
+    {
+      "id": "zhihu-q-277688634",
+      "questionId": "277688634",
+      "title": "博士毕业后,你还做科研吗?",
+      "questionUrl": "https://www.zhihu.com/question/277688634",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "博士毕业",
+        "职业选择",
+        "个人体验"
+      ],
+      "answers": [
+        {
+          "answerId": "420696160",
+          "url": "https://www.zhihu.com/question/277688634/answer/420696160?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "炮枫",
+          "voteCount": 1232,
+          "fetchedAt": "2026-09-13T15:41:46.6522385Z",
+          "excerpt": "17年7月在P大化学博士毕业\n…\n遂毕业后，坚决远离科研，坚持去某公司做商务岗。\n…\n某日，突然感觉这样挺无趣，远不如搬砖来得充实。\n科研似乎也不是那么面目可憎了。\n遂辞职，笃定重新入坑，继续科研。\n…\n热爱科研，诚然最佳，但科研就是一种职业，仅以之谋生也无可厚非。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-9000206907501594511",
+          "searchHashId": "ae04f1075a120fa296d834691e2650a7",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者叙述，博士毕业后先尝试了公司的商务岗位，后来又决定回到科研。",
+            "作者认为科研也可以作为一种职业，并不要求每个人都只能以热爱作为从业理由。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "临近博士毕业的学生",
+        "counterpartRole": "愿意交流职业经历的前辈",
+        "situation": "你正在比较科研和企业岗位，希望请前辈讲清不同工作的日常，而不是只听一个应该选哪条路的结论。",
+        "goal": "说明自己在意的工作体验，询问前辈具体经历及适用条件，记录还需亲自了解的一项信息。"
+      }
+    },
+    {
+      "id": "zhihu-q-1938046432872489353",
+      "questionId": "1938046432872489353",
+      "title": "985计算机专业本科毕业能找到什么样的工作?",
+      "questionUrl": "https://www.zhihu.com/question/1938046432872489353",
+      "category": "实习与初入职场",
+      "tags": [
+        "项目复盘",
+        "面试表达",
+        "计算机本科"
+      ],
+      "answers": [
+        {
+          "answerId": "1957714367857563398",
+          "url": "https://www.zhihu.com/question/1938046432872489353/answer/1957714367857563398?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "流水非瀑布",
+          "voteCount": 114,
+          "fetchedAt": "2026-09-13T15:40:51.9436292Z",
+          "excerpt": "最好有个自己做的两三个项目。\n比如仿知乎问答网站后端、在线商城订单系统。\n面试的时候能说清楚自己做了什么、遇到什么问题、怎么解决的。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "1607838917490197845",
+          "searchHashId": "c24e0cf6a11604a11af1fea5192e2869",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者在讨论后端岗位准备时建议做项目，并在面试中说清自己的工作、遇到的问题和解决过程。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备面试的计算机本科毕业生",
+        "counterpartRole": "帮忙模拟面试的同学",
+        "situation": "你做过一个课程项目，但试着介绍时只有技术名词，准备请同学模拟追问一次。",
+        "goal": "清楚说明自己负责的部分、一个具体问题和解决过程，请同学指出尚不清楚的地方。"
+      }
+    },
+    {
+      "id": "zhihu-q-423892725",
+      "questionId": "423892725",
+      "title": "如何度过专科大一才不浪费?",
+      "questionUrl": "https://www.zhihu.com/question/423892725",
+      "category": "学习与时间安排",
+      "tags": [
+        "专科大一",
+        "学习计划",
+        "同伴支持"
+      ],
+      "answers": [
+        {
+          "answerId": "1541313175",
+          "url": "https://www.zhihu.com/question/423892725/answer/1541313175?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "Dioscuri",
+          "voteCount": 163,
+          "fetchedAt": "2026-09-13T23:30:46.2398684Z",
+          "excerpt": "文科的多学些外语，理科的把高等数学弄下来，未来好发展，无论以后专升本 或者 自学进去高收入行业。\n…\n身体保持好，心态就能保持好，谈个上进的对象一起努力。一起经历应有的成功 或者 注定的失败。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-691524233873119845",
+          "searchHashId": "7cd38762a5df1db6df73be4ce47894d4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议在专科大一阶段积累外语或数学基础，也提醒保持身体状态。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "专科大一学生",
+        "counterpartRole": "愿意一起学习的同学",
+        "situation": "你想把外语基础补起来，但自习时总不知道从哪一步开始，准备找同学约一次共同学习。",
+        "goal": "说明薄弱处和可用时间，商量一项能够完成的小任务及互相检查的方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-540620540",
+      "questionId": "540620540",
+      "title": "专升本考上了,学费两万,可是我专科舍友说本科没用,和专科没区别,他们是吃不到葡萄说葡萄酸还是真没用?",
+      "questionUrl": "https://www.zhihu.com/question/540620540",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "专升本",
+        "家庭沟通",
+        "时间与预算"
+      ],
+      "answers": [
+        {
+          "answerId": "2555917780",
+          "url": "https://www.zhihu.com/question/540620540/answer/2555917780?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "小金豆",
+          "voteCount": 370,
+          "fetchedAt": "2026-09-13T23:30:59.4328247Z",
+          "excerpt": "我本人就是专升本的受益者，我专升本的时候家里人都反对，学费1.8w/年，我自己存了点钱，然后开学的时候我闺蜜借了5k给我，交了第一年的学费，在校期间一直在兼职维持生活，简单一点就是寒暑假赚学费，在校赚生活费，坚持了两年的本科生活。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "8775577421071885321",
+          "searchHashId": "f816b1d99ba11adfc22a2ca5c0773df1",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己的专升本经历：家人起初反对，自己结合积蓄、朋友帮助和兼职承担了学习生活费用。",
+            "这是作者的个人经历，不能由此认定借款或兼职对每个人都可行。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备专升本入学的学生",
+        "counterpartRole": "担心费用的家人",
+        "situation": "你考上了本科，但家人担心学费和生活费。你准备把已知费用、可用资金和仍未确认的条件一起拿出来讨论。",
+        "goal": "说清继续升学的原因，核对费用与资金来源，商量需要继续查证的一项条件，不把借款或兼职收入当成保证。"
+      }
+    },
+    {
+      "id": "zhihu-q-549764289",
+      "questionId": "549764289",
+      "title": "大一新生,读的是中流 211 的计算机科学与技术,现在看到 23 年的秋招哀鸿遍野,很迷茫怎么办?",
+      "questionUrl": "https://www.zhihu.com/question/549764289",
+      "category": "学习与时间安排",
+      "tags": [
+        "211大一",
+        "兴趣辨认",
+        "具体尝试"
+      ],
+      "answers": [
+        {
+          "answerId": "2674070976",
+          "url": "https://www.zhihu.com/question/549764289/answer/2674070976?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "feces",
+          "voteCount": 455,
+          "fetchedAt": "2026-09-13T23:32:43.8813365Z",
+          "excerpt": "首先是看清自己，一定要选择自己喜欢的，什么能给你带来快乐才去做什么工作。\n…\n你喜欢计算机吗？\n是喜欢软件多一点还是硬件多一点？\n喜欢软件的话有没有经常尝试用自己的思路而不是复制粘贴来解决问题？\n喜欢硬件的话自己动手DIY过多少物件？",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "4203633441735688498",
+          "searchHashId": "72549c7d4f5a5cf39493f549de03cb42",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者提出用具体经历辨认兴趣：更喜欢软件还是硬件，是否亲手尝试解决过问题。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "计算机专业大一学生",
+        "counterpartRole": "愿意分享经验的学长",
+        "situation": "你被网上的就业讨论弄得迷茫，想请学长帮你从自己做过的事情中辨认兴趣，而不是预测几年后的市场。",
+        "goal": "说清一次亲手尝试及遇到的困难，商量下一项小实践和复盘时间。"
+      }
+    },
+    {
+      "id": "zhihu-q-383630190",
+      "questionId": "383630190",
+      "title": "从「双非」考上「双一流」大学,需要付出怎样的努力?",
+      "questionUrl": "https://www.zhihu.com/question/383630190",
+      "category": "学习与时间安排",
+      "tags": [
+        "考研准备",
+        "信息核实",
+        "经验请教"
+      ],
+      "answers": [
+        {
+          "answerId": "1115000788",
+          "url": "https://www.zhihu.com/question/383630190/answer/1115000788?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "SwanGlide",
+          "voteCount": 678,
+          "fetchedAt": "2026-09-13T23:33:35.610891Z",
+          "excerpt": "因此，在这期间的主要任务是：找到目标学校，了解招生政策，其中包括考试科目，参考用书（好像近几年有的地方规定不能指定用书），往年招录比分数线，然后从考上的学长学姐中买到考研资料。\n…\n查找这些东西一般有两个途径，一是学校官网，二是中国研究生招生网，切记找到官方网站：全国高等学校学生信息咨询与就业指导中心主办，以后考研报名也是在这里",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "8123016536284565458",
+          "searchHashId": "2b3fd32fdf2596d640b505c6c13ba5bf",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者把了解目标学校及招生信息列为准备任务，并提醒通过官方网站查找。",
+            "节选反映作者当时的经验，当前招生要求仍需向对应官方渠道核实。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备考研的学生",
+        "counterpartRole": "已经考上的学姐",
+        "situation": "你收集了很多备考建议，但还没有分清学校当前要求和学姐往年的个人安排。",
+        "goal": "带着一份信息清单请教，区分往年经验和需要官网核实的事项，确定下一步查证。"
+      }
+    },
+    {
+      "id": "zhihu-q-460296697",
+      "questionId": "460296697",
+      "title": "专升本后的两年本科生活,该如何度过呢?",
+      "questionUrl": "https://www.zhihu.com/question/460296697",
+      "category": "实习与初入职场",
+      "tags": [
+        "专升本后",
+        "职业访谈",
+        "交付目标"
+      ],
+      "answers": [
+        {
+          "answerId": "2025608780604355871",
+          "url": "https://www.zhihu.com/question/460296697/answer/2025608780604355871?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "北辰居所",
+          "voteCount": 56,
+          "fetchedAt": "2026-09-13T23:31:51.4019483Z",
+          "excerpt": "・做一次职业访谈找你专业对应的行业里，工作3-5年的学长学姐（领英、脉脉、小红书都能搜到）。请人家喝杯咖啡或线上聊20分钟，就问三个问题：①你每天具体干啥？②这岗位最让你崩溃的是啥？③想入行，哪三个技能最重要？\n…\n别光看教程，要给自己定一个交付目标。完成，比完美重要100倍。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "8683372692619951522",
+          "searchHashId": "44aa678d01904c3d4b91ea8f268e3b29",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议请有工作经历的学长学姐介绍岗位日常、困难与入门技能。",
+            "作者提醒把看教程变成一个明确的交付目标。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "专升本后的本科生",
+        "counterpartRole": "已工作的同专业学姐",
+        "situation": "你想了解本专业的实际工作，准备邀请学姐做一次简短职业访谈。",
+        "goal": "礼貌说明来意和预计时间，询问工作日常与入门技能，再选一个可以亲自尝试的小任务。"
+      }
+    },
+    {
+      "id": "zhihu-q-629263572",
+      "questionId": "629263572",
+      "title": "本科大二如何接触科研?",
+      "questionUrl": "https://www.zhihu.com/question/629263572",
+      "category": "合作学习",
+      "tags": [
+        "本科科研",
+        "211在读",
+        "任务范围"
+      ],
+      "answers": [
+        {
+          "answerId": "3290959693",
+          "url": "https://www.zhihu.com/question/629263572/answer/3290959693?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "横渡大海的神仙鱼",
+          "voteCount": 53,
+          "fetchedAt": "2026-09-13T23:32:30.9468608Z",
+          "excerpt": "这个问题我还真能帮到你。因为我就是大二开始接触科研的！\n…\n我的本科就读于一个普通211，排名大概50的水平。在大二期末考试结束，找到了一个模式识别的老师，想要进他课题组。那个老师也同意了，但是不太管我。后面我换课题组了，做计算生物学，带我的老师很好，给我课题，还让一个博士师姐带我做，最后在大三寒假的时候成功发表了自己的第一sci，水平不高，就五六分，但是也为后来的求学生涯提供了助力。\n…\n3.一开始不要做大课题，做小课题。大课题的成果要很久才能发表出来，而且你不一定是主要作者。做小课题你是有机会拿第一作者的",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "3192814223756672740",
+          "searchHashId": "0e95a94329e39fd64826cbe49c0c5525",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己在普通211读本科时，大二联系老师、后来更换课题组并由师姐带领的经历。",
+            "作者建议从小课题开始；节选中的个人成果不保证他人也能得到。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "本科大二学生",
+        "counterpartRole": "课题组老师",
+        "situation": "你想申请进入课题组，但不清楚自己能承担什么任务，也担心老师没有时间指导。",
+        "goal": "说明基础与每周可用时间，询问一个小任务、指导方式和阶段检查点。"
+      }
+    },
+    {
+      "id": "zhihu-q-1937499790540801906",
+      "questionId": "1937499790540801906",
+      "title": "目前是在读博士,想再启动一个课题,如何跟导师沟通?",
+      "questionUrl": "https://www.zhihu.com/question/1937499790540801906",
+      "category": "合作学习",
+      "tags": [
+        "博士在读",
+        "课题提议",
+        "准备证据"
+      ],
+      "answers": [
+        {
+          "answerId": "1952859754146792078",
+          "url": "https://www.zhihu.com/question/1937499790540801906/answer/1952859754146792078?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "爱学习的T先生",
+          "voteCount": 32,
+          "fetchedAt": "2026-09-13T23:34:42.3196243Z",
+          "excerpt": "读博期间想启动新课题，和导师沟通的关键是：带着扎实的前期准备去谈。\n…\n阅读足够的文献，理清思路，然后拿着文献列表、笔记和思考框架找导师，用证据证明课题的价值与可行性。\n…\n研0的时候，阅读完一两篇新文献，稍作思考就觉得自己想出了超级棒的idea，然后就急匆匆找导师讨论。毫无疑问，每次的结果都是被打回。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4746345112714388302",
+          "searchHashId": "51fba24ac68fa9295e707a41283b71fc",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议讨论新课题前整理文献、笔记与思考框架，用材料说明价值和可行性。",
+            "作者回顾自己早期准备不足便去讨论、被要求继续阅读思考的经历。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想启动新课题的博士生",
+        "counterpartRole": "导师",
+        "situation": "你对一个新方向感兴趣，但现有课题仍有任务，准备向导师讨论是否值得继续验证。",
+        "goal": "说明问题、已读材料、未知风险和已有任务，争取一个有限的验证范围及继续或停止的判断条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-20943610",
+      "questionId": "20943610",
+      "title": "如何和研究生导师进行有效沟通,研究生如何做科研?",
+      "questionUrl": "https://www.zhihu.com/question/20943610",
+      "category": "合作学习",
+      "tags": [
+        "导师沟通",
+        "组会汇报",
+        "具体问题"
+      ],
+      "answers": [
+        {
+          "answerId": "131871790",
+          "url": "https://www.zhihu.com/question/20943610/answer/131871790?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "生之源",
+          "voteCount": 574,
+          "fetchedAt": "2026-09-13T23:34:16.4355103Z",
+          "excerpt": "举个例子，在学生讨论问题时，我希望很具体很明确，不希望泛泛而谈，比如上次学生讲数据降维的相关研究，结果就照着ppt念了几种方法，典型的是在应付，或许还没有经过正规的学术训练；我希望听到的是，维度的概念是什么，降维的目的是什么，降维的方法有哪些，怎么来实现，不同方法的局限性，我们用于解决哪些问题等等，所以与导师交流前先明确交流这个问题，导师可能怎么想，也是常说的换位思考，当然初期可能难度比较大，到了二年级或三年级或者博士可能就与导师产生了默契，这需要慢慢摸索、培养。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "7555978394516683692",
+          "searchHashId": "701cfd47c773848465d948add4ac3250",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者从导师角度希望学生把讨论的问题讲具体，包括概念、目的、方法、实现和局限。",
+            "作者认为交流默契需要逐步摸索和培养。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备研究汇报的学生",
+        "counterpartRole": "导师",
+        "situation": "你准备了很多方法介绍，却还没讲清楚它们与自己的研究问题有什么关系。",
+        "goal": "先说清要解决的问题，再比较方法及局限，请导师指出需要进一步验证的一点。"
+      }
+    },
+    {
+      "id": "zhihu-q-1912719718743274500",
+      "questionId": "1912719718743274500",
+      "title": "专科大一很迷茫,该如何调整好?",
+      "questionUrl": "https://www.zhihu.com/question/1912719718743274500",
+      "category": "学习与时间安排",
+      "tags": [
+        "专科大一",
+        "升学准备",
+        "寻求帮助"
+      ],
+      "answers": [
+        {
+          "answerId": "1937658039030219511",
+          "url": "https://www.zhihu.com/question/1912719718743274500/answer/1937658039030219511?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "Cryastal",
+          "voteCount": 80,
+          "fetchedAt": "2026-09-13T23:30:46.2398684Z",
+          "excerpt": "我是大专毕业，目前工作两年，作为一个过来人，给你来点建议吧。\n…\n目前你是大一，相对来说你规划未来的时间还是比较充裕的，我自己就是反面例子，主要是那阵也不懂。\n…\n说我自己的真是情况，大一那阵家里人觉得大专学历低想让我专升本，那阵懒也不动，就没有去学，大二开始学的，分文理科，但是那阵已经晚了，理科四门语数外+专业课，我当时选的计算机，但是计算机含大量的代码类问题，理论知识我一直是满分但是代码真的学不会对我来说太抽象了，考了两年没考上",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-554255089348008540",
+          "searchHashId": "7cd38762a5df1db6df73be4ce47894d4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己大一时没有开始准备、后来学习编程题遇到困难的经历。",
+            "这段经历提醒读者及早把薄弱处和计划讲具体；不代表别人必须走同一条升学路线。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "专科大一学生",
+        "counterpartRole": "辅导员",
+        "situation": "家人建议你以后升本，但你还没了解课程要求，也不知道自己的基础够不够。",
+        "goal": "讲清自己的想法，核对需要从官方渠道了解的要求，商量一次小范围学习尝试与求助方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-624741964",
+      "questionId": "624741964",
+      "title": "某双一流信息安全大二,对未来就业很迷茫,求解!!?",
+      "questionUrl": "https://www.zhihu.com/question/624741964",
+      "category": "实习与初入职场",
+      "tags": [
+        "双一流在读",
+        "课程与实践",
+        "经验请教"
+      ],
+      "answers": [
+        {
+          "answerId": "1940109706082359134",
+          "url": "https://www.zhihu.com/question/624741964/answer/1940109706082359134?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "笨鸟咕酱",
+          "voteCount": 93,
+          "fetchedAt": "2026-09-13T23:33:22.6811811Z",
+          "excerpt": "我搁学校的时候，也挺不喜欢学院派那一套，后来就不想读研了，本科毕业即跑路，校招进了某个不知名甲方，到现在三年多一点，回头一看，还是能看出来一些不一样的东西。\n…\n搁学校的时候选过一个老师的课，这位老师不怎么讲技术，就喜欢给我们讲故事。讲他在做项目的时候的一些奇葩事，跟我们吐槽那些系统设计的都是什么玩意。\n…\n不得不说，在学校学的理论会忘，练过的技术时间长了会生疏，但故事总会让人留下深刻的印象。这个老师的话，我记了好几年。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6434412869948379005",
+          "searchHashId": "664badb8db9a3d802355b6a0e05bed5e",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己毕业工作后，重新理解了老师当年讲的项目故事。",
+            "这是个人学习和工作的回顾，可用来追问课程知识与真实项目如何关联。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "信息安全专业大二学生",
+        "counterpartRole": "已经工作的学长",
+        "situation": "你觉得课程理论和实际岗位离得很远，想请学长讲一个能说明两者关系的真实项目例子。",
+        "goal": "说清自己困惑的课程内容，询问项目中如何使用、有哪些局限，再找一项能在学校尝试的练习。"
+      }
+    },
+    {
+      "id": "zhihu-q-401636801",
+      "questionId": "401636801",
+      "title": "在重庆三峡医药高等专科学校就读是什么体验?",
+      "questionUrl": "https://www.zhihu.com/question/401636801",
+      "category": "学习与时间安排",
+      "tags": [
+        "专科院校",
+        "实习与备考",
+        "阶段安排"
+      ],
+      "answers": [
+        {
+          "answerId": "2453644577",
+          "url": "https://www.zhihu.com/question/401636801/answer/2453644577?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "阿苦",
+          "voteCount": 100,
+          "fetchedAt": "2026-09-13T23:37:22.8051351Z",
+          "excerpt": "欢迎来到重庆三峡医药高等专科学校。\n…\n因实习，已经离开学校一年多了。后来又参加了专升本集训，久违的感觉到了上课的感觉。前天集训也结束了，接下来就是专科三年生涯中倒数第二战——专升本。4月1日开始考试，希望能取得好成绩。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-6231485756447419482",
+          "searchHashId": "14a8bddf7379c34753f56edd7b566511",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者在专科就读经历的更新中记录了先实习、后来参加升学备考的安排。",
+            "这是一段历史个人记录，学校安排、考试日期和个人机会不能照搬到今天。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "专科毕业年级学生",
+        "counterpartRole": "辅导员",
+        "situation": "实习和升学准备都在近期，你想和辅导员核对自己接下来哪些事情必须完成。",
+        "goal": "列出已经收到的实习与考试要求，说明时间冲突，核对必须由学校确认的安排。"
+      }
+    },
+    {
+      "id": "zhihu-q-401648188",
+      "questionId": "401648188",
+      "title": "在西安电力高等专科学校就读是什么体验?",
+      "questionUrl": "https://www.zhihu.com/question/401648188",
+      "category": "实习与初入职场",
+      "tags": [
+        "专科院校",
+        "求职核实",
+        "前辈访谈"
+      ],
+      "answers": [
+        {
+          "answerId": "3083948243",
+          "url": "https://www.zhihu.com/question/401648188/answer/3083948243?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "素质男青年",
+          "voteCount": 96,
+          "fetchedAt": "2026-09-13T23:37:22.8051351Z",
+          "excerpt": "大三狗来报道，马上毕业了，来写一篇关于学校的回答，给后面的学弟学妹做个参考\n…\n想我单位今年录取13人，就我一个专科，其中还有不少211\n…\n真的学弟学妹找工作记得擦亮眼睛，千万别被HR忽悠了，多多找毕业的学哥学姐打听单位具体薪资",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-717813231906222253",
+          "searchHashId": "14a8bddf7379c34753f56edd7b566511",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾专科毕业求职后的个人体验，建议学弟学妹向已经毕业的学长学姐了解单位的具体情况。",
+            "节选中的单位录取人数是作者当时的叙述，不代表普遍就业结果。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备求职的专科学生",
+        "counterpartRole": "在目标单位工作的学长",
+        "situation": "招聘介绍看起来很吸引你，但你还没了解岗位日常、轮班安排和待遇构成。",
+        "goal": "说明正在比较的岗位，请学长区分个人体验与需向单位核实的条款，整理下一轮询问清单。"
+      }
+    },
+    {
+      "id": "zhihu-q-401637837",
+      "questionId": "401637837",
+      "title": "在赣州师范高等专科学校就读是什么体验?",
+      "questionUrl": "https://www.zhihu.com/question/401637837",
+      "category": "学习与时间安排",
+      "tags": [
+        "专科院校",
+        "技能考核",
+        "阶段复盘"
+      ],
+      "answers": [
+        {
+          "answerId": "1363695126",
+          "url": "https://www.zhihu.com/question/401637837/answer/1363695126?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "chessman",
+          "voteCount": 49,
+          "fetchedAt": "2026-09-13T23:37:22.8051351Z",
+          "excerpt": "每次快到期末才疯狂背书什么的。大二可不能这样了。\n…\n我是学前教育在读，我想学语文教育的被调剂了我哭。不过也还好，学前教育专业生活真的丰富多彩。钢琴、舞蹈、绘画、书法、剪纸、刻纸......\n…\n好的。考完技能考我又可以了！收回转业的话，觉得还能再挣扎一下。下学期任务贼重，实习、考教资。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2342718428658983706",
+          "searchHashId": "14a8bddf7379c34753f56edd7b566511",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者记录了课程与技能考核带来的压力，以及考试后重新调整想法的过程。",
+            "作者也反思自己临近期末才集中背书的做法，希望下个阶段有所改变。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "面对多项技能考核的学生",
+        "counterpartRole": "同班同学",
+        "situation": "技能练习和理论复习挤在一起，你前几天想放弃，考完一项后又想重新安排。",
+        "goal": "把情绪和具体任务分开，商量本周先练哪一项、怎样检查进度，并记录尚待老师说明的要求。"
+      }
+    },
+    {
+      "id": "zhihu-q-482483423",
+      "questionId": "482483423",
+      "title": "双一流药学女硕士应届毕业生,好迷茫,老家四线三甲医院和正大天晴的CRA不知道如何选,求教各位药学前辈?",
+      "questionUrl": "https://www.zhihu.com/question/482483423",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "硕士毕业",
+        "岗位比较",
+        "职业体验"
+      ],
+      "answers": [
+        {
+          "answerId": "2084616979",
+          "url": "https://www.zhihu.com/question/482483423/answer/2084616979?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "夏末",
+          "voteCount": 97,
+          "fetchedAt": "2026-09-13T23:39:07.0105181Z",
+          "excerpt": "本人211硕，2020年毕业的。\n…\n去恒瑞干了一个多月，就觉得没意思了，恒瑞的协调员其实和销售类似，自己既不喜欢也不擅长做这个，就裸辞了。裸辞后思来想去，觉得做实验的工作里面，制剂这一块还相对轻松一点，又有后期发展一些，就去做制剂了，换行业了，就又慢慢学嘛。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "9189126070526772738",
+          "searchHashId": "c31f8777f207e3fcfc02a251289a9319",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己2020年硕士毕业后的工作选择，实际尝试后发现岗位与个人兴趣和擅长之处不一致。",
+            "这段回顾可以用来讨论选择前该了解哪些岗位日常，不构成辞职或特定职业推荐。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在比较工作机会的硕士毕业生",
+        "counterpartRole": "有相关经历的前辈",
+        "situation": "两个工作机会各有吸引力，你想在决定前弄清岗位日常是否适合自己。",
+        "goal": "说明自己在意的工作内容与条件，追问前辈实际做过什么，再列出需向招聘方核实的问题。"
+      }
+    },
+    {
+      "id": "zhihu-q-637062313",
+      "questionId": "637062313",
+      "title": "研究生期间遇到什么样的导师是最舒服的?",
+      "questionUrl": "https://www.zhihu.com/question/637062313",
+      "category": "合作学习",
+      "tags": [
+        "指导方式",
+        "研究节点",
+        "沟通期待"
+      ],
+      "answers": [
+        {
+          "answerId": "3392295788",
+          "url": "https://www.zhihu.com/question/637062313/answer/3392295788?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "小狸北美成长笔记",
+          "voteCount": 758,
+          "fetchedAt": "2026-09-13T23:39:46.5220293Z",
+          "excerpt": "他没事不找你，你找他他总在。\n…\n小细节他不管你，大方向上帮你牢牢把关。\n…\n什么时候工作什么时候做科研他不管，但是重要节点他都会帮你记着。重要的资料什么时候提交，文章发表的timeline，研究生期间各个节点需要完成的工作他都清楚，并且督促你提前完成。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5849127785438758007",
+          "searchHashId": "f7a69b83ed1be2bf7dd77469c00cda48",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者描述自己理想的指导方式：保留自主安排，同时在大方向和重要节点获得帮助。",
+            "这是对合作方式的期待，不代表每位导师已有这种承诺。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "希望明确指导方式的研究生",
+        "counterpartRole": "导师",
+        "situation": "你不确定哪些事情该自己决定，哪些节点需要提前向导师汇报，想先把沟通习惯谈清。",
+        "goal": "提出自己需要帮助的环节，询问汇报频率、关键节点及联系渠道，区分期待和对方真正接受的安排。"
+      }
+    },
+    {
+      "id": "zhihu-q-64270965",
+      "questionId": "64270965",
+      "title": "即将步入研究生,有什么忠告?",
+      "questionUrl": "https://www.zhihu.com/question/64270965",
+      "category": "合作学习",
+      "tags": [
+        "研究生新生",
+        "主动请教",
+        "表达练习"
+      ],
+      "answers": [
+        {
+          "answerId": "1281071634",
+          "url": "https://www.zhihu.com/question/64270965/answer/1281071634?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "安子夏",
+          "voteCount": 7589,
+          "fetchedAt": "2026-09-13T23:39:59.5482073Z",
+          "excerpt": "同时，一定要积极和导师沟通（大多数的导师还是不错的），\n…\n同时和同门的师兄师姐搞好关系，多向他们学习。\n…\n但是！！！\n我当年就是因为口语被一家外企拒掉了，为什么呢？\n因为我口语流利度不够啊！！！",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-625933299516826086",
+          "searchHashId": "2dd89f0e9fcf2c4adf12b80c86f58592",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议积极与导师交流并向同门学习。",
+            "作者也回顾一次因口语表达不够流利而未获录用的经历；个人经历不能推出统一面试门槛。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "刚进入课题组的新生",
+        "counterpartRole": "同组师姐",
+        "situation": "你有一份要介绍的研究材料，却担心自己讲不清，想请师姐帮忙听一次简短说明。",
+        "goal": "说明需要反馈的部分和预计时长，尝试用自己的话讲清问题，再请对方指出一处难理解的地方。"
+      }
+    },
+    {
+      "id": "zhihu-q-625453804",
+      "questionId": "625453804",
+      "title": "研究生新生要懂得哪些「生存技巧」?",
+      "questionUrl": "https://www.zhihu.com/question/625453804",
+      "category": "合作学习",
+      "tags": [
+        "研究交接",
+        "验证材料",
+        "新生请教"
+      ],
+      "answers": [
+        {
+          "answerId": "3265595425",
+          "url": "https://www.zhihu.com/question/625453804/answer/3265595425?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "阿托品",
+          "voteCount": 234,
+          "fetchedAt": "2026-09-13T23:39:59.5482073Z",
+          "excerpt": "1.从师兄师姐手中接过来的东西，要继续做接续性研究的，交接时首先进行验证。别在投入了大量的时间、金钱之后发现材料就有问题，接了个烂摊子。\n…\n有问题就问，缺器材缺药就借或换，不会的实验，看谁会就跟着猫两眼。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5670030751419647776",
+          "searchHashId": "2dd89f0e9fcf2c4adf12b80c86f58592",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者提醒继续前人的研究前先验证交接材料，并主动询问不懂的步骤。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "刚接手研究材料的新生",
+        "counterpartRole": "交接工作的师兄",
+        "situation": "师兄留下的数据和步骤你还没完全理解，准备在正式投入前一起核对。",
+        "goal": "列出已有文件和不确定之处，商量一个小范围复核步骤及问题反馈方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-626639333",
+      "questionId": "626639333",
+      "title": "博士生第一年怎么度过?",
+      "questionUrl": "https://www.zhihu.com/question/626639333",
+      "category": "合作学习",
+      "tags": [
+        "博士入学",
+        "课题范围",
+        "阅读准备"
+      ],
+      "answers": [
+        {
+          "answerId": "3257413306",
+          "url": "https://www.zhihu.com/question/626639333/answer/3257413306?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "刘易安Eureka",
+          "voteCount": 1518,
+          "fetchedAt": "2026-09-13T23:40:25.7607705Z",
+          "excerpt": "博士一年级前几月赶紧把将要研究的课题的相关综述，挑两篇重要的读一读，掌握这个领域基本的进展和基本知识。\n…\n然后就准备研究课题的工具箱，开始做科研，软磨硬泡导师或者师兄也得拿到课题做了，半年一般都能出点结果出来。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6602199690790908447",
+          "searchHashId": "29fcba2dcf654d8675efb6d712b3e095",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议博士第一年围绕研究课题阅读相关综述，了解进展并着手准备工具。",
+            "作者强调尽早进入具体课题，但节选中的产出时间是个人判断，不作为练习中的成果保证。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "博士一年级学生",
+        "counterpartRole": "导师",
+        "situation": "你读了几篇综述，却还不知道近期该围绕哪个问题动手，准备和导师核对优先级。",
+        "goal": "简述已理解的问题、已有工具和知识缺口，询问第一个可验证的小任务及反馈节点。"
+      }
+    },
+    {
+      "id": "zhihu-q-324577110",
+      "questionId": "324577110",
+      "title": "在包头职业技术学院就读是什么体验?",
+      "questionUrl": "https://www.zhihu.com/question/324577110",
+      "category": "实习与初入职场",
+      "tags": [
+        "职业技术学院",
+        "专科就业",
+        "岗位日常"
+      ],
+      "answers": [
+        {
+          "answerId": "1445995497",
+          "url": "https://www.zhihu.com/question/324577110/answer/1445995497?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "两鬓斑白可认你",
+          "voteCount": 55,
+          "fetchedAt": "2026-09-13T23:40:51.6946853Z",
+          "excerpt": "我毕业确实也找到了专业对口的工作，在变电站做变电运行，工作不太累就是需要倒班。工作了一年多我就辞职了\n…\n在我到期之后，我用我的专科学历和专业，公务员和事业编都考了第一名，最后选择了公务员，现在工资6000+。\n…\n学弟学妹们，大专生我们不必自卑，不必自怨自艾。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5480526199434586280",
+          "searchHashId": "f8c44fb2271e53147e3749e656424d7d",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾先从事专业对口的轮班工作、后来再改变方向的经历。",
+            "这是个人职业回顾，后来的考试结果、收入和路线不表示他人可以复制。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "即将毕业的专科学生",
+        "counterpartRole": "已经工作的学长",
+        "situation": "你对一份专业对口的工作感兴趣，但还没了解轮班对生活和学习的影响。",
+        "goal": "请学长介绍具体的班次与日常，说明自己的顾虑，整理向招聘方核实的问题。"
+      }
+    },
+    {
+      "id": "zhihu-q-351675467",
+      "questionId": "351675467",
+      "title": "重返研一,你会怎么过?",
+      "questionUrl": "https://www.zhihu.com/question/351675467",
+      "category": "学习与时间安排",
+      "tags": [
+        "硕士复盘",
+        "尝试与反思",
+        "研究生规划"
+      ],
+      "answers": [
+        {
+          "answerId": "2711973214",
+          "url": "https://www.zhihu.com/question/351675467/answer/2711973214?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "严徒",
+          "voteCount": 196,
+          "fetchedAt": "2026-09-13T23:42:43.6073268Z",
+          "excerpt": "直到成为研究生，拿到硕士学位后我才明白了一个道理：\n…\n你想要的改变从来不会自动发生，懂得学习也是一项需要习得的技能。\n…\n就这样，2年间里，我尝试了很多事情。可后来回顾下来，2年的读研生活，并没有让我收获太多。那些新鲜的尝试也都只停留在了表面的体验层面，没有让我深入思考自己的方向应该在哪里。或者说，我还是没明白到底什么才是读研阶段该有的学习模样。于是我还是平平淡淡的毕业，按部就班的工作。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "3852659519358517414",
+          "searchHashId": "9cc261284439b9a5d5be0e389e790639",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己的硕士学习，认为尝试很多事情并不自动带来深入思考和方向感。",
+            "作者把是否改变自己的理解和行动作为反思学习的一部分。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "希望重新安排研一生活的学生",
+        "counterpartRole": "愿意复盘经历的学长",
+        "situation": "你参加了不少活动和学习，却说不清每次尝试给自己留下了什么，想找学长一起复盘。",
+        "goal": "选一次具体尝试，说清做了什么、得到什么反馈，再商量下一步要改变的一项行为。"
+      }
+    },
+    {
+      "id": "zhihu-q-431748898",
+      "questionId": "431748898",
+      "title": "研究生一个人搞科研真的好难 ,有没有来吐吐槽的!?",
+      "questionUrl": "https://www.zhihu.com/question/431748898",
+      "category": "合作学习",
+      "tags": [
+        "科研交流",
+        "独立与合作",
+        "主动请教"
+      ],
+      "answers": [
+        {
+          "answerId": "1619739250",
+          "url": "https://www.zhihu.com/question/431748898/answer/1619739250?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "微调",
+          "voteCount": 210,
+          "fetchedAt": "2026-09-13T23:42:56.5421416Z",
+          "excerpt": "我最开始接触科研都是硕士毕业以后的事情了。\n…\n一个人搞科研其不代表没有交流，我觉得最好的状态是你有独立选择课题的权利，但是有能交流的环境。\n…\n我即使是民科那几年也时不时的参与会议，在知乎上跟大家请教，这样才不至于一叶障目。\n…\n我那会也跟一切能合作的人合作，包括公司里的实习生，学航空航天的老哥，学统计的老板。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4461107187923657913",
+          "searchHashId": "51c14f814e16edb9d2307a619d8bdd9e",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者认为独立做研究不等于不交流，并回顾通过会议、请教和合作接触他人想法的经历。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "独立推进研究的学生",
+        "counterpartRole": "研究方向相近的同学",
+        "situation": "你独自推进一个问题很久，想找别人交流，但又希望保留自己判断和选择的空间。",
+        "goal": "说清已尝试的方法和一个具体疑问，提出有限的交流请求，并区分建议与自己需要继续验证的结论。"
+      }
+    },
+    {
+      "id": "zhihu-q-55777345",
+      "questionId": "55777345",
+      "title": "关于一个实习老师,如何融入学校教师群体?",
+      "questionUrl": "https://www.zhihu.com/question/55777345",
+      "category": "实习与初入职场",
+      "tags": [
+        "教学实习",
+        "反馈闭环",
+        "指导老师"
+      ],
+      "answers": [
+        {
+          "answerId": "1600776157",
+          "url": "https://www.zhihu.com/question/55777345/answer/1600776157?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "苯宝宝想装醇",
+          "voteCount": 447,
+          "fetchedAt": "2026-09-13T23:31:12.3994493Z",
+          "excerpt": "我是一个情商很低，在为人处世方面比较笨的人。在实习期间，我做的不好，现在实习结束了，把我得到的教训写下来，希望能帮到大家。\n…\n批改完作业，给指导老师说一下学生们哪里错的多，哪里掌握的不好，是批改作业的最后一步！",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "7730130385714595174",
+          "searchHashId": "6afcc62931cc856e9ecd383431b8396f",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者把批改作业后的共性问题反馈，视为交付的一部分。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "教学实习生",
+        "counterpartRole": "指导老师",
+        "situation": "你已经批完一份作业，想把学生普遍遇到的问题报告给指导老师，并请教后续跟进。",
+        "goal": "用具体例子说明常见错误，区分观察和判断，请老师确认下一步要检查的内容。"
+      }
+    },
+    {
+      "id": "zhihu-q-422469908",
+      "questionId": "422469908",
+      "title": "研一应该做什么?",
+      "questionUrl": "https://www.zhihu.com/question/422469908",
+      "category": "学习与时间安排",
+      "tags": [
+        "研一规划",
+        "前辈访谈",
+        "主动行动"
+      ],
+      "answers": [
+        {
+          "answerId": "2800731541",
+          "url": "https://www.zhihu.com/question/422469908/answer/2800731541?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "严徒",
+          "voteCount": 143,
+          "fetchedAt": "2026-09-13T23:42:43.6073268Z",
+          "excerpt": "通过咨询那些读研毕业后的师兄师姐的境况与感悟，给自己要如何度过读研时光做好规划与方向，再决定自己要如何度过读研时光；",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-9180746593032877013",
+          "searchHashId": "9cc261284439b9a5d5be0e389e790639",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先请毕业的师兄师姐介绍境况与感悟，再思考自己如何安排读研时间。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "希望安排研一生活的新生",
+        "counterpartRole": "已毕业的同门师姐",
+        "situation": "你听到很多互相矛盾的读研建议，准备向师姐了解她具体经历过什么。",
+        "goal": "说明自己的一个真实困惑，礼貌约定短聊的范围，分清可借鉴的做法和仍需自己尝试的事。"
+      }
+    },
+    {
+      "id": "zhihu-q-394144563",
+      "questionId": "394144563",
+      "title": "当年的大专同学都混的怎么样?",
+      "questionUrl": "https://www.zhihu.com/question/394144563",
+      "category": "实习与初入职场",
+      "tags": [
+        "专科实习",
+        "转向选择",
+        "信息核实"
+      ],
+      "answers": [
+        {
+          "answerId": "1741803227",
+          "url": "https://www.zhihu.com/question/394144563/answer/1741803227?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "彳亍",
+          "voteCount": 102,
+          "fetchedAt": "2026-09-13T23:43:36.5998783Z",
+          "excerpt": "西北4线城市专科毕业 都是16年7月开始实习的。 17年正式毕业。专业 机电一体化\n…\n然后就是我了。 我实习的时候换了五六份工作。 其中大部分都是在工厂之间徘徊。 各种各样的工厂都试变了。 最后拿了毕业证。 直接跑到长三角地区。 因为当时网络看到 说长三角地区制造业发达。就业不成问题。所以就跑来了。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5571531429397367745",
+          "searchHashId": "b5df8de6e4e4fd88734d1a1b994595e4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己专科阶段实习时多次换工作、毕业后又去外地求职的经历。",
+            "节选中的地区就业判断是当时听到的信息，不能当成已经核验的就业保证。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "考虑更换实习方向的专科学生",
+        "counterpartRole": "已经工作的学长",
+        "situation": "你觉得现在的实习不合适，又看到另一个行业的乐观介绍，想先把转向的理由谈清楚。",
+        "goal": "说明当前岗位具体不适合的地方，请学长帮忙核对下一岗位需要了解的条件，再决定如何继续调查。"
+      }
+    },
+    {
+      "id": "zhihu-q-401647533",
+      "questionId": "401647533",
+      "title": "在同济大学就读是什么体验?",
+      "questionUrl": "https://www.zhihu.com/question/401647533",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "择校讨论",
+        "兴趣与生活",
+        "条件比较"
+      ],
+      "answers": [
+        {
+          "answerId": "3518515745",
+          "url": "https://www.zhihu.com/question/401647533/answer/3518515745?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "Alex Cui",
+          "voteCount": 77,
+          "fetchedAt": "2026-09-13T23:38:54.0798143Z",
+          "excerpt": "不过对于个体报考院校的时候，更要结合家庭背景、兴趣目标、定居就业等因素加以考虑。我在报考同济大学的时候，当时也有人大、北航、南大、武大等学校可选。最终报考同济主要是因为自己更喜欢工科，对于先进科学技术一直有着强烈的好奇心；加上地处上海，宜居宜业，有着很广阔的发展空间；再加上学校历史悠久，在一些行业里有着很高的声望，所以就选择了同济大学。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "5827545672666017945",
+          "searchHashId": "d517651810f899ded8c3d608ed83862a",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己择校时，把兴趣、家庭和未来生活安排一起纳入考虑。",
+            "这是作者个人当时的取舍，不构成对学校排名、就业结果或他人选择的证明。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在考虑学校与专业的学生",
+        "counterpartRole": "对选择有不同看法的家人",
+        "situation": "你和家人看重的因素不一样，想把专业兴趣、生活安排和未知信息摆在一起谈。",
+        "goal": "分别说清各自最在意的条件，寻找可以共同核实的信息，并记录仍需权衡的取舍。"
+      }
+    },
+    {
+      "id": "zhihu-q-266044689",
+      "questionId": "266044689",
+      "title": "怎么与导师有效沟通?",
+      "questionUrl": "https://www.zhihu.com/question/266044689",
+      "category": "合作学习",
+      "tags": [
+        "科研汇报",
+        "导师沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "2024317935611552146",
+          "url": "https://www.zhihu.com/question/266044689/answer/2024317935611552146?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "漂流",
+          "voteCount": 7,
+          "fetchedAt": "2026-09-14T06:10:07.5552770Z",
+          "excerpt": "但到了博士阶段，我发现就不能再完全这样了。\n因为博士导师对你的默认预期，和硕士阶段完全不一样。老师会默认你已经是博士生了，理应更成熟，做事更稳，科研能力也应该更强。很多事情，不再是老师一步一步带着你做，而是他交给你一个方向、一个任务，默认你应该自己往下走一段，再回来和他汇报。所以博士阶段更重要的，不是“有回应”这么简单，而是：你要带着判断、带着方案、带着解决思路去沟通。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2335019580815619480",
+          "searchHashId": "dbb05eda1b6608610fbcbb7f5f8b5881",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者区分了硕士与博士阶段的导师沟通，认为博士生需要带着自己的判断与解决思路汇报。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "遇到实验卡点的博士生",
+        "counterpartRole": "博士导师",
+        "situation": "你做实验时遇到一个卡点，想把已经尝试的方法和备选思路带给导师讨论。",
+        "goal": "说清现象、已尝试的方法与尚未验证的判断，请导师帮助选择下一步核对内容。"
+      }
+    },
+    {
+      "id": "zhihu-q-579770225",
+      "questionId": "579770225",
+      "title": "如何能勇敢的和研究生导师沟通?",
+      "questionUrl": "https://www.zhihu.com/question/579770225",
+      "category": "合作学习",
+      "tags": [
+        "主动求助",
+        "科研汇报"
+      ],
+      "answers": [
+        {
+          "answerId": "2924253015",
+          "url": "https://www.zhihu.com/question/579770225/answer/2924253015?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "博士大师兄-木水",
+          "voteCount": 38,
+          "fetchedAt": "2026-09-14T06:10:07.5552770Z",
+          "excerpt": "刚毕业博士来聊聊。\n跟导师相处，只要学会汇报就足够了，导师最看重的还是你的科研能力与产出。而汇报就是聊科研，只要把话说明白即可，与沟通技能关系不大。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6135971205852665067",
+          "searchHashId": "dbb05eda1b6608610fbcbb7f5f8b5881",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者以刚毕业博士的经历，强调把科研工作与问题在汇报中说清楚。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备向导师汇报的博士生",
+        "counterpartRole": "博士导师",
+        "situation": "你因为担心汇报不够好而迟迟没有找导师，准备先约一次围绕科研卡点的讨论。",
+        "goal": "简要说明本次想讨论的问题，询问合适的沟通方式与准备材料。"
+      }
+    },
+    {
+      "id": "zhihu-q-605982190",
+      "questionId": "605982190",
+      "title": "读博该怎么和导师相处?",
+      "questionUrl": "https://www.zhihu.com/question/605982190",
+      "category": "合作学习",
+      "tags": [
+        "主动汇报",
+        "科研节奏"
+      ],
+      "answers": [
+        {
+          "answerId": "2029692265501606721",
+          "url": "https://www.zhihu.com/question/605982190/answer/2029692265501606721?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "稻田拾光",
+          "voteCount": 11,
+          "fetchedAt": "2026-09-14T06:10:07.5552770Z",
+          "excerpt": "读博期间，你与导师的关系不再是传统意义上的师生关系，更像是项目负责人与CEO/顾问之间的合作。\n作为一个在日本读博第九年的博士，回望过去的博士生涯，和我身边见过的刚刚进入博士课程的学弟学妹们，发现他们常常会有这种困惑：\n・为什么导师完全不管我？\n・每次汇报，导师好像对我的研究都一知半解？\n・我论文没发出来，导师也没说什么，好像导师一点也不着急我能不能毕业",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "3431995474951495495",
+          "searchHashId": "dbb05eda1b6608610fbcbb7f5f8b5881",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者回顾自己的日本读博经历，描述了学生因导师不主动过问进展而产生的困惑。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "希望更主动汇报的博士生",
+        "counterpartRole": "博士导师",
+        "situation": "你想让导师了解近期进展，同时弄清楚哪些节点需要主动约讨论。",
+        "goal": "提出本次汇报的重点，请导师说明希望看到的材料和需要讨论的节点。"
+      }
+    },
+    {
+      "id": "zhihu-q-1933983740398405481",
+      "questionId": "1933983740398405481",
+      "title": "博士生,想换研究课题,如何跟导师沟通?",
+      "questionUrl": "https://www.zhihu.com/question/1933983740398405481",
+      "category": "合作学习",
+      "tags": [
+        "课题调整",
+        "边界表达"
+      ],
+      "answers": [
+        {
+          "answerId": "1943981193520448198",
+          "url": "https://www.zhihu.com/question/1933983740398405481/answer/1943981193520448198?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "工藤正男",
+          "voteCount": 18,
+          "fetchedAt": "2026-09-14T06:10:07.5552770Z",
+          "excerpt": "可以直接先试着拒绝，看看导师的反应，如果导师还是态度坚决，那就不要不应，也不要全应！只跟导师说，我先看看文献，了解一些国内外研究现状，弄好了我再跟您汇报！这样留下一个口子！\n千万别本来想拒绝，又说不出口，不表达，还痛痛快快的把方向接了下来！",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-8198243722474474960",
+          "searchHashId": "dbb05eda1b6608610fbcbb7f5f8b5881",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议在接受新方向前保留讨论空间，先了解文献与研究现状，再向导师汇报。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想调整研究课题的博士生",
+        "counterpartRole": "博士导师",
+        "situation": "你认为现有方向存在尚未解决的困难，希望先把依据整理清楚，再讨论是否调整。",
+        "goal": "区分已验证的困难与自己的猜测，提出一个先核对再决定的步骤，避免把未评估的新方向直接承诺下来。"
+      }
+    },
+    {
+      "id": "zhihu-q-9036959244",
+      "questionId": "9036959244",
+      "title": "被录取了,博士生要跟博导怎么相处?",
+      "questionUrl": "https://www.zhihu.com/question/9036959244",
+      "category": "合作学习",
+      "tags": [
+        "入组准备",
+        "沟通方式"
+      ],
+      "answers": [
+        {
+          "answerId": "96575710385",
+          "url": "https://www.zhihu.com/question/9036959244/answer/96575710385?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "Urvin",
+          "voteCount": 6,
+          "fetchedAt": "2026-09-14T06:10:07.5552770Z",
+          "excerpt": "博士生被录取后，与导师建立良好的相处关系至关重要。我既当过博士生，又指导过博士生，我诚心给你一些建议。\n一、明确沟通是关键。有事主动与导师约定会面，讨论研究进展、遇到的难题及未来规划。在沟通时，保持开放和真诚的态度，确保信息准确传递。同时，也要学会倾听导师的意见和建议，这对你的学术成长大有裨益。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "4681143528382258527",
+          "searchHashId": "dbb05eda1b6608610fbcbb7f5f8b5881",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议新入学博士主动与导师约定讨论，说明研究进展、难题和未来规划，并准确传递信息。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "已被录取、准备入组的博士新生",
+        "counterpartRole": "未来的博士导师",
+        "situation": "你已收到录取结果，准备和导师沟通入组后的学习与沟通安排。",
+        "goal": "询问入组前应准备的材料、初步研究方向与平时沟通方式，保留尚待导师确认的部分。"
+      }
+    },
+    {
+      "id": "zhihu-q-665901087",
+      "questionId": "665901087",
+      "title": "博士延期半年,对找工作影响大吗,要不要延期?",
+      "questionUrl": "https://www.zhihu.com/question/665901087",
+      "category": "实习与初入职场",
+      "tags": [
+        "延期沟通",
+        "入职时间"
+      ],
+      "answers": [
+        {
+          "answerId": "1895219979307181432",
+          "url": "https://www.zhihu.com/question/665901087/answer/1895219979307181432?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "小楼玉笙",
+          "voteCount": 40,
+          "fetchedAt": "2026-09-14T06:10:44.6149634Z",
+          "excerpt": "鄙校就曾经面过一位原定按期毕业的三985博士，有一篇权威加一篇c，面试时评委印象也极佳。\n听说大论文出了个小瑕疵，延期半年，不能按期报到。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "3656613334441787807",
+          "searchHashId": "cdd323ebe7ebea99a454a4e4c94443d3",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者提到一名博士候选人因论文问题延期半年，无法按原时间报到的面试经历。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "毕业时间可能变化的博士求职者",
+        "counterpartRole": "招聘联系人",
+        "situation": "你的论文进度可能影响毕业和报到时间，需要及时向招聘联系人说明哪些日期还未确定。",
+        "goal": "说明已知进度与不确定事项，询问岗位能否调整报到安排及需要补充的材料。"
+      }
+    },
+    {
+      "id": "zhihu-q-666870541",
+      "questionId": "666870541",
+      "title": "博士延期的负面影响有哪些,简历会不会不好看?",
+      "questionUrl": "https://www.zhihu.com/question/666870541",
+      "category": "实习与初入职场",
+      "tags": [
+        "经历表达",
+        "求职问答"
+      ],
+      "answers": [
+        {
+          "answerId": "1920154078224298144",
+          "url": "https://www.zhihu.com/question/666870541/answer/1920154078224298144?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "小楼玉笙",
+          "voteCount": 45,
+          "fetchedAt": "2026-09-14T06:10:44.6149634Z",
+          "excerpt": "但博士求职是否成功，是个多因素综合性问题，延期只是其中一环。影响多大，还要看具体问题具体分析。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6619025186597375439",
+          "searchHashId": "cdd323ebe7ebea99a454a4e4c94443d3",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者把延期看作多因素求职过程的一部分，提醒结合具体情况判断。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "有延期经历的博士求职者",
+        "counterpartRole": "面试官",
+        "situation": "你准备在面试中如实说明延期经历，同时讲清这一阶段实际完成了什么。",
+        "goal": "简洁说明延期原因和已完成的工作，区分事实与评价，并接住面试官需要进一步核对的问题。"
+      }
+    },
+    {
+      "id": "zhihu-q-483836857",
+      "questionId": "483836857",
+      "title": "26岁末流211博一,对未来感到很迷茫,最近失恋,更加迷茫以及失去动力该怎么办?",
+      "questionUrl": "https://www.zhihu.com/question/483836857",
+      "category": "合作学习",
+      "tags": [
+        "科研启动",
+        "求助表达"
+      ],
+      "answers": [
+        {
+          "answerId": "2156485983",
+          "url": "https://www.zhihu.com/question/483836857/answer/2156485983?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:10:45.0548534Z",
+          "excerpt": "2.目前最重要的是尽快进入工作状态，多看文献，总结思路，写综述，然后和老板商量博士课题方案。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-7352241108418942996",
+          "searchHashId": "1f108476d59a05e3f46ac268081ab878",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先看文献、梳理思路，再与导师商量博士课题方案。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "研究方向仍在梳理的博士新生",
+        "counterpartRole": "博士导师",
+        "situation": "你最近难以进入科研状态，想把读过的材料和困惑带给导师，先商量一个可开始的小步骤。",
+        "goal": "说清当前卡点与已经尝试的办法，提出一个可核对的小任务，并询问获得反馈的方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-530201491",
+      "questionId": "530201491",
+      "title": "在普通211读博,现在博一,实验室气氛不好硕士都很水无学术交流,想去一所985高校读博,值不值得退学?",
+      "questionUrl": "https://www.zhihu.com/question/530201491",
+      "category": "合作学习",
+      "tags": [
+        "科研交流",
+        "信息核对"
+      ],
+      "answers": [
+        {
+          "answerId": "2459198596",
+          "url": "https://www.zhihu.com/question/530201491/answer/2459198596?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 6,
+          "fetchedAt": "2026-09-14T06:10:45.0548534Z",
+          "excerpt": "我没理解错的话有两种可能性\n1）实验室里没有别的博士/博士后/研究员了，清一色的硕士\n2）题主除了跟实验室的硕士交流过以外没有跟博士/博士后/研究员交流过",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6411079019057195529",
+          "searchHashId": "1f108476d59a05e3f46ac268081ab878",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者先区分实验室是否缺少其他研究人员与是否尚未交流两种情况，需要进一步核对。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "缺少学术交流的博士一年级学生",
+        "counterpartRole": "课题组导师",
+        "situation": "你觉得组内交流不足，准备先问清可以向谁讨论问题，以及是否能参与更合适的交流活动。",
+        "goal": "用具体经历说明交流困难，询问组内外可用的讨论途径，先核对信息再讨论是否调整环境。"
+      }
+    },
+    {
+      "id": "zhihu-q-547418783",
+      "questionId": "547418783",
+      "title": "读博士期间会很穷吗?",
+      "questionUrl": "https://www.zhihu.com/question/547418783",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "补助核对",
+        "助教安排"
+      ],
+      "answers": [
+        {
+          "answerId": "3254467977",
+          "url": "https://www.zhihu.com/question/547418783/answer/3254467977?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 115,
+          "fetchedAt": "2026-09-14T06:10:45.0548534Z",
+          "excerpt": "01，博一，杭州某末流211\n助教津贴一年一万，博士期间选一年完成即可。前两年不返学费，学费一万块，后三年前百分之四十12000，后百分之六十9500。\n宿舍双人间，2000一年。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-3546581347609903483",
+          "searchHashId": "1f108476d59a05e3f46ac268081ab878",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者以自己的博士一年级经历列出了助教、学费和住宿相关支出与安排。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "需要核对收支安排的博士新生",
+        "counterpartRole": "院系研究生事务老师",
+        "situation": "你希望弄清补助、学费、住宿和助教安排，避免把同学分享的金额直接当成自己的待遇。",
+        "goal": "列出需要核对的项目，询问适用条件与正式信息入口，再整理自己的待确认清单。"
+      }
+    },
+    {
+      "id": "zhihu-q-374715072",
+      "questionId": "374715072",
+      "title": "第一学历专升本,现在211学校博三能获得什么学校的教职?",
+      "questionUrl": "https://www.zhihu.com/question/374715072",
+      "category": "实习与初入职场",
+      "tags": [
+        "成果展示",
+        "岗位询问"
+      ],
+      "answers": [
+        {
+          "answerId": "1042044849",
+          "url": "https://www.zhihu.com/question/374715072/answer/1042044849?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "嗯好的",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:11:57.5790954Z",
+          "excerpt": "这个还是要查你的文章。\n至于专升本，211属于参考因素，绝对不是决定因素",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "8919608258227908979",
+          "searchHashId": "f69d6fe012b24f693c7f54fd8eb321f4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者认为应先看科研文章，学历背景只是其观点中的参考因素。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备了解教职要求的博士三年级学生",
+        "counterpartRole": "高校招聘联系人",
+        "situation": "你想了解岗位要求如何核对，需要把自己的科研成果与教育经历如实说清楚。",
+        "goal": "询问该岗位的公开条件与材料要求，说明已有成果，避免用学校标签推断自己必定被录用或拒绝。"
+      }
+    },
+    {
+      "id": "zhihu-q-2012555174539961491",
+      "questionId": "2012555174539961491",
+      "title": "本科双非,硕博211,现在博三,想留校,导师都是内敛实干型,该怎么开口提留校?有希望吗?",
+      "questionUrl": "https://www.zhihu.com/question/2012555174539961491",
+      "category": "实习与初入职场",
+      "tags": [
+        "留校沟通",
+        "权限边界"
+      ],
+      "answers": [
+        {
+          "answerId": "2012572525750657036",
+          "url": "https://www.zhihu.com/question/2012555174539961491/answer/2012572525750657036?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "王爷",
+          "voteCount": 1,
+          "fetchedAt": "2026-09-14T06:11:57.5790954Z",
+          "excerpt": "你看看学校网站公布的博士人才引进计划，招聘公告， 这是公开层面的，你看看相关要求，其次就是问导师，导师再问院长，看看有没有内部的指标， 这些就是直接问就行了。\n你不要理解为导师和院长有这个权力和资源，就像他自己有存款一样，借给你是他个人的面子， 完全不是，这是工作层面的沟通，和个人私事无关， 你直接问就是了。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "2260691917125722411",
+          "searchHashId": "f69d6fe012b24f693c7f54fd8eb321f4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先看公开招聘公告，再把留校机会与条件作为工作层面的事情向导师询问。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想了解留校机会的博士三年级学生",
+        "counterpartRole": "博士导师",
+        "situation": "你想留校，但不知道怎样向导师开口，也不清楚是否存在适合自己的公开岗位。",
+        "goal": "表达意向并询问公开条件、可能的沟通渠道与需核对的信息，不把导师的态度当成录用承诺。"
+      }
+    },
+    {
+      "id": "zhihu-q-1964985194458097079",
+      "questionId": "1964985194458097079",
+      "title": "三211博,中科院工热所和空天院特别研究助理,选哪个?",
+      "questionUrl": "https://www.zhihu.com/question/1964985194458097079",
+      "category": "实习与初入职场",
+      "tags": [
+        "岗位职责",
+        "职业选择"
+      ],
+      "answers": [
+        {
+          "answerId": "2082062462409619014",
+          "url": "https://www.zhihu.com/question/1964985194458097079/answer/2082062462409619014?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "理工小夫",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:11:57.5790954Z",
+          "excerpt": "1和2都是中科院体系下，方向本质上也差不多，每天干活偏研究，研究员序列认可度较高。\n3比较偏工程，一看工资待遇，二看发展，应该更加要看下发展，在决定。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "4679516727682727644",
+          "searchHashId": "f69d6fe012b24f693c7f54fd8eb321f4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者比较了研究与工程工作方向，并建议除待遇外也了解后续发展。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "比较研究岗位的博士求职者",
+        "counterpartRole": "研究团队招聘联系人",
+        "situation": "你正在比较不同研究岗位，希望问清日常工作、评价方式与发展路径。",
+        "goal": "选择当前岗位逐项询问实际职责、考核与支持条件，记录可核实的差异和仍未知的问题。"
+      }
+    },
+    {
+      "id": "zhihu-q-559157484",
+      "questionId": "559157484",
+      "title": "大家能分享一下当前博士就业的情况吗?",
+      "questionUrl": "https://www.zhihu.com/question/559157484",
+      "category": "实习与初入职场",
+      "tags": [
+        "岗位比较",
+        "报到条件"
+      ],
+      "answers": [
+        {
+          "answerId": "2078221324384847283",
+          "url": "https://www.zhihu.com/question/559157484/answer/2078221324384847283?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "和光同尘",
+          "voteCount": 4,
+          "fetchedAt": "2026-09-14T06:12:00.5394783Z",
+          "excerpt": "背景：文科，本为双非，硕为211，博为C9，学科排名均一般。成果包括2篇一作C，2篇二作C扩以及多篇普刊，四年制但申请提前一年毕业，大湾区求职，主要找教职。\n求职情况：投递10+份简历，面试5所，拿到4所offer，分别为广州某高校青年英才（待遇30+，3+3考核任务难）、深圳某大学博后（待遇25+，考核不多，说是两年后能留）、惠州某高校（编制＋较低考核＋相应安家费、补贴，好像税前有三四十w）、广州某高校（编制＋一定量考核＋市10w补贴）。\n其余投递高校或第一学历不好，或成果不够，或要求8月底/7月底前拿证无法通过初审。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-8567207319071604289",
+          "searchHashId": "1e251422fbe8a1e3236a82f0f0215ffe",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者分享了博士求职中同时比较考核、岗位安排与毕业拿证时间的经历。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备核对岗位条件的博士求职者",
+        "counterpartRole": "高校招聘联系人",
+        "situation": "你需要比较不同岗位，准备把考核要求、工作内容和毕业材料截止分别问清楚。",
+        "goal": "先核对一个岗位的公开要求与需补材料，区分已书面确认、口头说明和仍待确认的条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-2025134647130990349",
+      "questionId": "2025134647130990349",
+      "title": "双非博士有可能进大厂吗?",
+      "questionUrl": "https://www.zhihu.com/question/2025134647130990349",
+      "category": "实习与初入职场",
+      "tags": [
+        "研究转岗位",
+        "项目表达"
+      ],
+      "answers": [
+        {
+          "answerId": "2068043870294763306",
+          "url": "https://www.zhihu.com/question/2025134647130990349/answer/2068043870294763306?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "青蛙咕",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:12:00.5394783Z",
+          "excerpt": "有可能，但大厂不会因为“博士、人工智能、多模态、Agent”这些关键词同时出现，就自动把简历送进人才计划。\n题主现在的方向名字很有吸引力，真正决定就业的还是你能交付哪一段工作。是做模型训练和微调，做数据和评测，做推理部署，还是把模型接进一个真实业务？这几种岗位需要的能力并不一样。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5142945393194568456",
+          "searchHashId": "1e251422fbe8a1e3236a82f0f0215ffe",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议把研究方向拆成能说明的具体工作，例如训练、数据评测或部署，而非只罗列热门关键词。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "希望进入企业研发岗位的博士生",
+        "counterpartRole": "研发岗位面试官",
+        "situation": "你想把研究经历讲成招聘方能理解的具体贡献，先弄清岗位究竟需要哪种工作。",
+        "goal": "选择一段真实研究经历说明个人贡献，询问岗位需要的工作与核验方式，未知结果保留待补。"
+      }
+    },
+    {
+      "id": "zhihu-q-1943261312277803720",
+      "questionId": "1943261312277803720",
+      "title": "博士毕业28岁,西安双非毕业的博士出路在哪里?",
+      "questionUrl": "https://www.zhihu.com/question/1943261312277803720",
+      "category": "实习与初入职场",
+      "tags": [
+        "就业路径",
+        "岗位匹配"
+      ],
+      "answers": [
+        {
+          "answerId": "1952751518961866025",
+          "url": "https://www.zhihu.com/question/1943261312277803720/answer/1952751518961866025?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "萝卜萝卜",
+          "voteCount": 11,
+          "fetchedAt": "2026-09-14T06:12:00.5394783Z",
+          "excerpt": "去企业的话，可以找一些地方性国企，对AI、CV有一定需求，且没很多人投的，偏稳定，但工资少。去私企如海康等CV相关的，竞争激烈，可以先海投简历，不要抱太大的希望。\n再就是考公考编了，竞争更激烈，博士也没什么优势。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4202274823120213965",
+          "searchHashId": "1e251422fbe8a1e3236a82f0f0215ffe",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者提出关注地方企业与其他就业路径，强调不同选择存在竞争与条件差异。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "比较就业方向的博士毕业生",
+        "counterpartRole": "愿意提供岗位信息的校友",
+        "situation": "你希望除了教职之外了解企业岗位，准备向校友询问实际工作与研究背景的联系。",
+        "goal": "说明自己的研究技能和目标，询问岗位实际需要与信息渠道，不把个别经历视为录用保证。"
+      }
+    },
+    {
+      "id": "zhihu-q-2003765546324345662",
+      "questionId": "2003765546324345662",
+      "title": "双非博以后就业方向?",
+      "questionUrl": "https://www.zhihu.com/question/2003765546324345662",
+      "category": "实习与初入职场",
+      "tags": [
+        "成果介绍",
+        "科研岗位"
+      ],
+      "answers": [
+        {
+          "answerId": "2008285973956548415",
+          "url": "https://www.zhihu.com/question/2003765546324345662/answer/2008285973956548415?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "男团女团八卦多",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:12:00.5394783Z",
+          "excerpt": "第二看科研成果。你学校可以不给力，但自己文章又多又硬，去投奔国内名校相关的课题组做博后，或者双非校领导的课题组入职，也是一条出路。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4417437210633164249",
+          "searchHashId": "1e251422fbe8a1e3236a82f0f0215ffe",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者提出以已有科研成果了解相关课题组或博士后机会这一方向。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备联系研究团队的博士毕业生",
+        "counterpartRole": "意向团队负责人",
+        "situation": "你想了解一个研究团队是否有合适岗位，准备把自己的成果和合作兴趣说明白。",
+        "goal": "介绍可核对的研究经历，询问团队需要、岗位条件与下一步沟通安排，不将推荐视为录用。"
+      }
+    },
+    {
+      "id": "zhihu-q-624440493",
+      "questionId": "624440493",
+      "title": "想问一下过来人,博士毕业以后想继续从事科研工作,博士跟一个双非的巨佬好一点还是跟985的普通博导较好?",
+      "questionUrl": "https://www.zhihu.com/question/624440493",
+      "category": "合作学习",
+      "tags": [
+        "导师支持",
+        "职业信息"
+      ],
+      "answers": [
+        {
+          "answerId": "3297709588",
+          "url": "https://www.zhihu.com/question/624440493/answer/3297709588?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "伊尔",
+          "voteCount": 7,
+          "fetchedAt": "2026-09-14T06:11:59.5794112Z",
+          "excerpt": "我一同学A硕士调剂到双非天坑专业，博士继续在该双非读，导师是该校副校长，行业大牛，没到优青杰青的层次，只是在这个领域有些知名度。读博期间，参与各种国家项目，各种奖学金拿到手软。毕业后留校，在导师的帮助下，国家青年基金，面上都是一次搞定，最近又上了省里面的英才计划，破格评上了教授，博导，未来可期……\n另外一个同学B，读研期间成绩好，考了985学校TOP专业，博士继续在985读，选的博导人品好，但能力有限，勉强毕业后。\n毕业后，想去A同学学校任教，但竞争激烈，没上，遂回家乡一个二本，安家费20万，勉强够房子首付。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-6455860616647262688",
+          "searchHashId": "7359340b9c649de46f47ed00214ad5f0",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者用两位同学的经历说明，导师支持、科研参与与毕业后的岗位选择可能很不一样。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想了解科研与职业支持的博士生",
+        "counterpartRole": "博士导师",
+        "situation": "你希望了解当前课题组能提供哪些研究参与和职业信息支持，避免只靠学校名气判断。",
+        "goal": "提出自己需要了解的资源与参与机会，询问适用条件，区分导师可提供的支持与不能保证的结果。"
+      }
+    },
+    {
+      "id": "zhihu-q-308523686",
+      "questionId": "308523686",
+      "title": "33岁要考博吗,211毕业,两个孩子宝妈?",
+      "questionUrl": "https://www.zhihu.com/question/308523686",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "家庭协作",
+        "论文安排"
+      ],
+      "answers": [
+        {
+          "answerId": "825793058",
+          "url": "https://www.zhihu.com/question/308523686/answer/825793058?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "庸人自扰",
+          "voteCount": 1,
+          "fetchedAt": "2026-09-14T06:11:57.5790954Z",
+          "excerpt": "35岁的，博三，有一个孩子，铁饭碗的工作，不过是异地的。\n工作辞掉读的博现在最大的问题就是论文",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "3809274244690813491",
+          "searchHashId": "f69d6fe012b24f693c7f54fd8eb321f4",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者自述在有孩子的情况下辞职读博，到了博士三年级，当前主要困难是论文。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "需要协调家庭与论文工作的博士生",
+        "counterpartRole": "家人",
+        "situation": "你在读博期间需要兼顾家庭，希望把论文阶段最需要支持的地方说清楚。",
+        "goal": "说明眼前的论文卡点和需要协商的家庭安排，听取对方限制，保留未确认的支持方式。"
+      }
+    },
+    {
+      "id": "zhihu-q-659692584",
+      "questionId": "659692584",
+      "title": "想逃离一线城市竞争,去二三线城市当医生,只求正常小康生活,双一流临床专业毕业博士够吗?",
+      "questionUrl": "https://www.zhihu.com/question/659692584",
+      "category": "实习与初入职场",
+      "tags": [
+        "医院求职",
+        "工作生活安排"
+      ],
+      "answers": [
+        {
+          "answerId": "3540060960",
+          "url": "https://www.zhihu.com/question/659692584/answer/3540060960?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "无U无L",
+          "voteCount": 3,
+          "fetchedAt": "2026-09-14T06:14:16.0051772Z",
+          "excerpt": "即使进不了我们这，中国二三线城市数量也不少，所以可以广撒网看一下。\n说完就业之后，再就是生活。这部分人现在的状态基本能满足正常的小康生活，有车有房，日常生活消费也能满足，除了临床类的忙一点，其他的感觉也没想象中那么忙，有更多的时间投入到生活和家人身上。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "6819156394754444782",
+          "searchHashId": "0b213c1c7155b3e982c337fdb3ce1eed",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者根据身边医生的经历，建议扩大城市范围了解岗位，并讨论工作与生活安排。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备医院求职的临床博士毕业生",
+        "counterpartRole": "医院招聘联系人",
+        "situation": "你希望了解不同城市医院的岗位与生活安排，准备把职责、排班和培养支持问清楚。",
+        "goal": "询问岗位实际职责、排班、培养及招聘条件，区分已确认的信息与个人期待，不把城市或学历视为录用保证。"
+      }
+    },
+    {
+      "id": "zhihu-q-68712884",
+      "questionId": "68712884",
+      "title": "现在985毕业的化学硕士就业待遇怎么样?",
+      "questionUrl": "https://www.zhihu.com/question/68712884",
+      "category": "实习与初入职场",
+      "tags": [
+        "岗位核对",
+        "毕业选择",
+        "向前辈求助"
+      ],
+      "answers": [
+        {
+          "answerId": "465725967",
+          "url": "https://www.zhihu.com/question/68712884/answer/465725967?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "羊羊羊",
+          "voteCount": 195,
+          "fetchedAt": "2026-09-14T06:11:14.3961719Z",
+          "excerpt": "本人普通985高校化学硕士一枚，即将毕业。男朋友是我师兄，已经工作了。薪资待遇和地区，公司关系比较大。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-3336353344910822160",
+          "searchHashId": "19c27cc0100ae1a4145ec4012184cffd",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者在叙述自己临近硕士毕业时，认为待遇与地区、公司有关；这是个人经验，不是当前薪酬统计。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "即将毕业的化学硕士",
+        "counterpartRole": "愿意介绍岗位的师兄",
+        "situation": "你正在比较不同地区的化学相关岗位，想请已工作的师兄说明日常职责和新人培养情况。",
+        "goal": "先说明自己的研究经历和关心的工作条件，再询问岗位职责、培养方式及需要向招聘方核实的事项。"
+      }
+    },
+    {
+      "id": "zhihu-q-1887571861715546461",
+      "questionId": "1887571861715546461",
+      "title": "985机械研二,但研究生期间做的东西和传统机械完全没关系,就业应该怎么办?",
+      "questionUrl": "https://www.zhihu.com/question/1887571861715546461",
+      "category": "实习与初入职场",
+      "tags": [
+        "项目表达",
+        "能力迁移",
+        "面试沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "2080268316963349433",
+          "url": "https://www.zhihu.com/question/1887571861715546461/answer/2080268316963349433?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "机械老兵",
+          "voteCount": 4,
+          "fetchedAt": "2026-09-14T06:11:13.8959043Z",
+          "excerpt": "你的课题是Matlab航天器轨迹优化、最优控制数学建模，看着和传统机械结构、实体硬件不搭边，但这套研究问题能力是完全可以应用到传统机械结构上的。最优控制、轨迹规划本质和无人机路径规划、运动规划底层逻辑相通，并不是完全无用的经历，只是应用场景不一样，面试的时候要学会做能力迁移。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-3850627167343112113",
+          "searchHashId": "90d45c3e301ad15a0f6cfeaa89658745",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议在面试中解释研究经历能够迁移到目标岗位的能力，而非只把课题名称与职位名称对照。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "机械专业研二学生",
+        "counterpartRole": "机械研发岗位面试官",
+        "situation": "你的研究课题与意向岗位名称不完全一致，面试官想了解这段研究经历与岗位有什么联系。",
+        "goal": "用自己实际做过的一项研究说明方法、个人贡献和可迁移能力，诚实区分已有经验与仍需学习的部分。"
+      }
+    },
+    {
+      "id": "zhihu-q-1910153326953234613",
+      "questionId": "1910153326953234613",
+      "title": "985控制工程马上研二了,未来想做机器人相关的,或者嵌入式AI,有推荐的开源项目吗?",
+      "questionUrl": "https://www.zhihu.com/question/1910153326953234613",
+      "category": "合作学习",
+      "tags": [
+        "项目范围",
+        "任务取舍",
+        "导师沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "2055694110548300136",
+          "url": "https://www.zhihu.com/question/1910153326953234613/answer/2055694110548300136?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "海归博士Dr魏",
+          "voteCount": 6,
+          "fetchedAt": "2026-09-14T06:11:13.8959043Z",
+          "excerpt": "如果你是 985 控制工程专业，马上研二，又已经参加了手术机器人方向的科研项目，那我不太建议你再为了“经历好看”硬挤时间去打比赛。比赛当然有价值，但如果精力有限，做一个方向明确、能持续迭代、能写进简历和论文/项目经历里的开源项目，可能更适合你。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-775260675207522774",
+          "searchHashId": "90d45c3e301ad15a0f6cfeaa89658745",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者认为在精力有限时，可以比较比赛与持续迭代项目的投入，而不是只为增加经历而叠加任务。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "控制工程硕士生",
+        "counterpartRole": "项目指导老师",
+        "situation": "你已有科研任务，又想做一个机器人相关开源项目，准备与老师商量如何安排投入。",
+        "goal": "说明现有任务与目标，提出一个可以独立验证的小范围项目，并核对它与科研安排是否冲突。"
+      }
+    },
+    {
+      "id": "zhihu-q-15512956453",
+      "questionId": "15512956453",
+      "title": "985研二,准备工作还是读博?",
+      "questionUrl": "https://www.zhihu.com/question/15512956453",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "读博与就业",
+        "信息核对",
+        "选择沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "1960008259520958625",
+          "url": "https://www.zhihu.com/question/15512956453/answer/1960008259520958625?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "津黎",
+          "voteCount": 35,
+          "fetchedAt": "2026-09-14T06:11:13.8959043Z",
+          "excerpt": "是准备工作还是读博要尽早决定，决定了就向着这个方向使劲。不要等毕业再随便选一个，那时候就有些晚了。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4172713001464862808",
+          "searchHashId": "90d45c3e301ad15a0f6cfeaa89658745",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议尽早考虑工作或读博方向，再安排对应准备；摘录没有证明哪种选择适合所有人。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在考虑去向的研二学生",
+        "counterpartRole": "导师",
+        "situation": "你还没有决定读博还是工作，想与导师讨论两条路径分别需要了解哪些信息。",
+        "goal": "说明自己的兴趣、顾虑和已有准备，询问需要补证据的问题，商量下一步核对方式而非仓促承诺。"
+      }
+    },
+    {
+      "id": "zhihu-q-2064782466276128259",
+      "questionId": "2064782466276128259",
+      "title": "985集成电路废物研二,导师放养,对于本专业没有热情,应该继续死磕本专业还是转行?",
+      "questionUrl": "https://www.zhihu.com/question/2064782466276128259",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "职业探索",
+        "研究安排",
+        "经验表达"
+      ],
+      "answers": [
+        {
+          "answerId": "2066245591257069380",
+          "url": "https://www.zhihu.com/question/2064782466276128259/answer/2066245591257069380?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "远远哥科研院所",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:11:13.8959043Z",
+          "excerpt": "不建议继续死磕纯研发，也不建议直接裸转运营。\n更稳妥的做法是保住985集成电路硕士这个学历，同时用半年时间测试三条方向：芯片行业里的非研发岗，如产品、项目、质量、供应链和技术支持；制造业质量或项目管理岗；互联网或游戏相关运营岗。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "8621046339170217221",
+          "searchHashId": "90d45c3e301ad15a0f6cfeaa89658745",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者主张先探索相邻岗位，再考虑职业转换；其中的时间安排是作者建议，模拟不会自动当成已经确认的承诺。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "对研究方向感到犹豫的硕士生",
+        "counterpartRole": "愿意交流的行业前辈",
+        "situation": "你对继续纯研发还是尝试相邻岗位感到犹豫，想请行业前辈帮助了解工作内容。",
+        "goal": "说清当前研究、实际参与的活动和顾虑，询问一项低投入探索方式，保留毕业任务与待核实条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-488442559",
+      "questionId": "488442559",
+      "title": "985硕士毕业,25岁,找不到工作,焦虑,前路茫茫?",
+      "questionUrl": "https://www.zhihu.com/question/488442559",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "毕业焦虑",
+        "城市选择",
+        "家庭沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "3384249231",
+          "url": "https://www.zhihu.com/question/488442559/answer/3384249231?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "陈墨瞳",
+          "voteCount": 87,
+          "fetchedAt": "2026-09-14T06:11:14.3961719Z",
+          "excerpt": "211本硕，即将毕业，同样焦虑中。\n2024的就业压力卷到离谱，211.985硕士都在考公考编，我在天坑专业，更是卷到离谱。\n前路茫茫。\n曾几何时，我也是有着满腔热血的青年，想要在大城市，北上广深奋斗，在大城市获得自己的一席之地。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-6114151412213895041",
+          "searchHashId": "19c27cc0100ae1a4145ec4012184cffd",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者描述了自己即将毕业时对就业和工作城市的焦虑；文中的就业评价是其当时感受，不能推广为当前就业统计。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "临近毕业的硕士生",
+        "counterpartRole": "关心去向的家人",
+        "situation": "你希望在较大的城市找工作，但目前机会与期待有差距，家人也在催促你确定去向。",
+        "goal": "区分个人偏好、已经核实的机会和未知事项，与家人商量一项可以继续推进的求职行动。"
+      }
+    },
+    {
+      "id": "zhihu-q-2037626392",
+      "questionId": "2037626392",
+      "title": "211机械硕士这几年就业咋样,学到什么档次可以找到什么工作?",
+      "questionUrl": "https://www.zhihu.com/question/2037626392",
+      "category": "实习与初入职场",
+      "tags": [
+        "岗位要求",
+        "实践证据",
+        "求职准备"
+      ],
+      "answers": [
+        {
+          "answerId": "1997356661334094320",
+          "url": "https://www.zhihu.com/question/2037626392/answer/1997356661334094320?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "一见倾心",
+          "voteCount": 7,
+          "fetchedAt": "2026-09-14T06:11:14.8793695Z",
+          "excerpt": "想拿更高薪，当然就和研究方向脱不了关系，要往企业的需求上靠。\n根据读研期间学到什么水平，可以划个档，看看大概能找什么工作：",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-7223176531351981690",
+          "searchHashId": "02a816e52058a403442db554cde8a741",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者从研究与企业需求的关系讨论求职准备；原文的薪资分档未在这里核实或用作模拟保证。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备了解机械岗位的硕士生",
+        "counterpartRole": "招聘联系人",
+        "situation": "你想了解一个机械相关岗位，准备询问它实际需要哪些项目经验和技能。",
+        "goal": "介绍自己能展示的项目证据，询问岗位任务和能力要求，并记录哪些要求尚未确认。"
+      }
+    },
+    {
+      "id": "zhihu-q-492326095",
+      "questionId": "492326095",
+      "title": "某211控制类(多智能体协同控制)硕士,有点偏理论,不想读博,想将来找个好工作,需要准备什么?",
+      "questionUrl": "https://www.zhihu.com/question/492326095",
+      "category": "合作学习",
+      "tags": [
+        "理论与实践",
+        "合作分工",
+        "导师沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "2048837469114832264",
+          "url": "https://www.zhihu.com/question/492326095/answer/2048837469114832264?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "电路fpga",
+          "voteCount": 7,
+          "fetchedAt": "2026-09-14T06:11:14.8793695Z",
+          "excerpt": "自动控制原理这些理论和算法除了要用matlab去验证外，还要在硬件平台去实现这些算法，绝对不能停留在表面。\n甚至本科阶段的电赛等控制类赛题都会用到一些pid等控制算法，硕士资源应该还会更多验证算法的平台。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2855605197479448090",
+          "searchHashId": "02a816e52058a403442db554cde8a741",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议把理论和算法放到实际平台上验证；是否有可用设备与资源仍需向所在团队核对。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "研究方向偏理论的控制类硕士生",
+        "counterpartRole": "课题组师兄",
+        "situation": "你想把已有理论方法做一次实际验证，准备向师兄询问实验平台和可承担的任务。",
+        "goal": "说明目前已经掌握的方法，询问平台条件，提出一个边界清楚的验证任务并核对负责人与验收要求。"
+      }
+    },
+    {
+      "id": "zhihu-q-667490414",
+      "questionId": "667490414",
+      "title": "211硕士毕业去军工研究所还是企业?",
+      "questionUrl": "https://www.zhihu.com/question/667490414",
+      "category": "实习与初入职场",
+      "tags": [
+        "工作条件",
+        "毕业去向",
+        "岗位核对"
+      ],
+      "answers": [
+        {
+          "answerId": "3630879911",
+          "url": "https://www.zhihu.com/question/667490414/answer/3630879911?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "中国剑圣aa",
+          "voteCount": 195,
+          "fetchedAt": "2026-09-14T06:11:14.8793695Z",
+          "excerpt": "我这研究院具体也不透露名字了，前阵子疯狂加班，基本都晚上9点以后走的，过段时间还要去北京怀柔做个项目，还要去趟深圳，很头大",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "5792691395054945078",
+          "searchHashId": "02a816e52058a403442db554cde8a741",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者叙述自己所在研究院曾有加班和异地项目安排；这是单个工作经历，不代表所有研究所或岗位。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "比较毕业去向的硕士生",
+        "counterpartRole": "岗位招聘联系人",
+        "situation": "你正在比较研究所与企业岗位，希望在决定前了解工作节奏、出差安排和培养方式。",
+        "goal": "逐项询问最影响选择的工作条件，分清对方能够确认的条款与仍需核实的信息。"
+      }
+    },
+    {
+      "id": "zhihu-q-1984737966090904831",
+      "questionId": "1984737966090904831",
+      "title": "化工双一流研一要不要退学?",
+      "questionUrl": "https://www.zhihu.com/question/1984737966090904831",
+      "category": "合作学习",
+      "tags": [
+        "任务压力",
+        "导师沟通",
+        "研究进度"
+      ],
+      "answers": [
+        {
+          "answerId": "1984916384073922147",
+          "url": "https://www.zhihu.com/question/1984737966090904831/answer/1984916384073922147?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "水果皮儿",
+          "voteCount": 1,
+          "fetchedAt": "2026-09-14T06:11:55.7080009Z",
+          "excerpt": "在push的课题组压力确实大，所以得练练向上沟通，向上管理。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5753960953728859033",
+          "searchHashId": "feeb26a0ca2f658fca4c55c31949c95a",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议面对课题组压力时尝试沟通。这里只用于模拟表达研究困难，不替用户决定退学、换组或其他现实选择。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "感到研究压力的研一学生",
+        "counterpartRole": "导师",
+        "situation": "你觉得近期科研任务难以同时完成，想向导师说明进度与具体卡点。",
+        "goal": "如实说明已经完成和仍未完成的部分，询问任务优先级与必要支持，商量可检查的下一步。"
+      }
+    },
+    {
+      "id": "zhihu-q-465437037",
+      "questionId": "465437037",
+      "title": "北京双一流高校传统工科本硕,研一,转金融找实习有什么好的建议吗?",
+      "questionUrl": "https://www.zhihu.com/question/465437037",
+      "category": "实习与初入职场",
+      "tags": [
+        "跨专业实习",
+        "岗位核对",
+        "经历表达"
+      ],
+      "answers": [
+        {
+          "answerId": "1944276672",
+          "url": "https://www.zhihu.com/question/465437037/answer/1944276672?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "某科学的超电磁镐",
+          "voteCount": 2,
+          "fetchedAt": "2026-09-14T06:11:55.7080009Z",
+          "excerpt": "我有行研实习经历，但是没有衍生品实习。投沪上三屌丝卖方研究简历全挂。衍生品部或者it岗基本简历都能过，\n衍生品基本要求数学，物理，金工，cs，自动化，电子这种专业的。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "5971996950731911643",
+          "searchHashId": "feeb26a0ca2f658fca4c55c31949c95a",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者描述自己在不同方向投递实习的经历。这里保留“不同岗位需分别核对”的问题，不把个人结果推断为所有人的机会。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想了解金融实习的工科硕士生",
+        "counterpartRole": "实习招聘联系人",
+        "situation": "你有工科学习经历，想了解一个金融相关实习岗位是否匹配已有能力。",
+        "goal": "说明可以提供的能力证据，询问岗位日常任务和专业要求，不把对某行业的兴趣当成已具备经验。"
+      }
+    },
+    {
+      "id": "zhihu-q-513785762",
+      "questionId": "513785762",
+      "title": "00年男,双一流大学研一,准备22下半年征兵。研一就可以修完全部学分。能否在部队完成论文答辩?",
+      "questionUrl": "https://www.zhihu.com/question/513785762",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "学业衔接",
+        "手续核对",
+        "论文安排"
+      ],
+      "answers": [
+        {
+          "answerId": "2328855214",
+          "url": "https://www.zhihu.com/question/513785762/answer/2328855214?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "饭包肉丸",
+          "voteCount": 1,
+          "fetchedAt": "2026-09-14T06:11:55.7080009Z",
+          "excerpt": "研一入伍的战友两年期满后退役回去上学了。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "5174244335866469756",
+          "searchHashId": "feeb26a0ca2f658fca4c55c31949c95a",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者转述了身边一位读研期间入伍者后来返校的经历，单个案例不能证明其他学校或年份的手续与安排。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "考虑调整学业安排的研一学生",
+        "counterpartRole": "学院培养秘书",
+        "situation": "你正在了解入伍与研究生学业如何衔接，准备向学院询问正式手续和论文安排。",
+        "goal": "说明目前学业进度，询问适用的正式流程、材料和负责部门，记录需要查证的信息，不把网络案例当作本校批准。"
+      }
+    },
+    {
+      "id": "zhihu-q-1946123019337565903",
+      "questionId": "1946123019337565903",
+      "title": "我在读二本测绘工程研二,行业让我迷惘和焦虑,何去何从?",
+      "questionUrl": "https://www.zhihu.com/question/1946123019337565903",
+      "category": "合作学习",
+      "tags": [
+        "毕业设计",
+        "职业探索",
+        "导师沟通"
+      ],
+      "answers": [
+        {
+          "answerId": "2057225088735487971",
+          "url": "https://www.zhihu.com/question/1946123019337565903/answer/2057225088735487971?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "老骥伏枥",
+          "voteCount": 4,
+          "fetchedAt": "2026-09-14T06:15:18.4230948Z",
+          "excerpt": "研究生期间，他下定决心转型技术方向。他遵循系统学习路径，从前端三剑客（HTML/CSS/JS）开始，逐步深入Vue框架和WebGIS开发。他将毕业设计与Cesium结合，开发了一个智慧校园三维可视化系统。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-6709560122325174838",
+          "searchHashId": "3ad172a36183cfe7f9901cd8c1337786",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者叙述了将毕业设计与感兴趣的技术项目结合的案例；这里不据此保证转型结果或就业待遇。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在考虑方向的测绘硕士生",
+        "counterpartRole": "毕业设计指导老师",
+        "situation": "你想探索技术开发方向，同时需要推进毕业设计，准备与老师讨论两者可以结合的部分。",
+        "goal": "说清已经掌握的内容和兴趣，询问毕业设计要求，商量一个能检查的项目范围及尚需确认的条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-1952010287180936425",
+      "questionId": "1952010287180936425",
+      "title": "双非机械硕,机电,毕业搞仿真还是转嵌入式呢?",
+      "questionUrl": "https://www.zhihu.com/question/1952010287180936425",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "方向选择",
+        "能力核对",
+        "向前辈求助"
+      ],
+      "answers": [
+        {
+          "answerId": "1965176516531954571",
+          "url": "https://www.zhihu.com/question/1952010287180936425/answer/1965176516531954571?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "哆啦A的梦",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:15:18.4230948Z",
+          "excerpt": "从楼主的背景出发，双非机械硕，机械电子专业，开学研二，现在纠结仿真和嵌入式俩方向，基于以下原因，更推荐楼主选择嵌入式。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-1158784405811522960",
+          "searchHashId": "3ad172a36183cfe7f9901cd8c1337786",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者复述了题主的双非机械硕士、开学研二背景，并倾向嵌入式方向；这一倾向不代表已经核实岗位前景。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "比较仿真和嵌入式方向的机械硕士生",
+        "counterpartRole": "愿意介绍工作的行业前辈",
+        "situation": "你在仿真与嵌入式两个方向之间犹豫，想了解自己需要补哪些实际能力。",
+        "goal": "介绍现有学习与项目经历，询问两类工作的具体任务和入门要求，再提出可核对的小步探索。"
+      }
+    },
+    {
+      "id": "zhihu-q-634976934",
+      "questionId": "634976934",
+      "title": "双非机械硕士,存款15w+,人生迷茫,就业如何选择?",
+      "questionUrl": "https://www.zhihu.com/question/634976934",
+      "category": "合作学习",
+      "tags": [
+        "任务冲突",
+        "项目沟通",
+        "范围与期限"
+      ],
+      "answers": [
+        {
+          "answerId": "3334003827",
+          "url": "https://www.zhihu.com/question/634976934/answer/3334003827?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "星辰则灵",
+          "voteCount": 11,
+          "fetchedAt": "2026-09-14T06:15:18.4230948Z",
+          "excerpt": "还是建议跟副业老板说明实情，要么这个项目延期要么就另择他人。\n…\n题主自身条件：双非硕士，研二，半年副业项目收入15w～20w，家父做过产品设计，本科得过奖。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "7204123434321072726",
+          "searchHashId": "3ad172a36183cfe7f9901cd8c1337786",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者在讨论任务冲突时，提到说明实际情况、商量延期或转交；模拟不沿用文中加班或收入的保证。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "有项目任务的研二学生",
+        "counterpartRole": "项目合作方",
+        "situation": "你发现研究安排与一个项目的交付发生冲突，需要尽早向合作方说明实际进度。",
+        "goal": "说明当前完成情况和冲突，提出调整范围、时间或转交的方案，核对对方是否接受，保留未谈妥部分。"
+      }
+    },
+    {
+      "id": "zhihu-q-613264605",
+      "questionId": "613264605",
+      "title": "请问各位大佬有没有建议双非准研二的学生呢?",
+      "questionUrl": "https://www.zhihu.com/question/613264605",
+      "category": "合作学习",
+      "tags": [
+        "科研安排",
+        "读博探索",
+        "向同门求助"
+      ],
+      "answers": [
+        {
+          "answerId": "3148811069",
+          "url": "https://www.zhihu.com/question/613264605/answer/3148811069?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "snoxy",
+          "voteCount": 21,
+          "fetchedAt": "2026-09-14T06:15:18.4230948Z",
+          "excerpt": "考博的思路和方法可跟师兄师姐沟通也不要局限于这些思路。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4995165762444791759",
+          "searchHashId": "3ad172a36183cfe7f9901cd8c1337786",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议向师兄师姐请教读博准备的方法，并保留其他思路；这里只取沟通建议，不保证论文发表或升学结果。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "即将进入研二的硕士生",
+        "counterpartRole": "同组师兄师姐",
+        "situation": "你希望弄清下一阶段科研和未来读博准备的关系，想向有经验的同门请教。",
+        "goal": "说明已有研究进展和未知问题，询问一项近期可做的准备，以及需要进一步与导师核对的要求。"
+      }
+    },
+    {
+      "id": "zhihu-q-2072719994115380379",
+      "questionId": "2072719994115380379",
+      "title": "现在的大学生,你们毕业找工作真的很难麽?",
+      "questionUrl": "https://www.zhihu.com/question/2072719994115380379",
+      "category": "实习与初入职场",
+      "tags": [
+        "招聘反馈",
+        "投递记录"
+      ],
+      "answers": [
+        {
+          "answerId": "2072738610189809394",
+          "url": "https://www.zhihu.com/question/2072719994115380379/answer/2072738610189809394?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "看灰机",
+          "voteCount": 82,
+          "fetchedAt": "2026-09-14T06:11:27.7403185Z",
+          "excerpt": "我是一个211的本科生，比上不足，但比下还是有余的，在我的省份好歹也是高考排前5%的人\n我是明年毕业，不过今年6月就已经开始投秋招了，今天又投了十来家，总共投了几十家了",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4467000899852169811",
+          "searchHashId": "da5cc828eb22cce5534b4757ba1cec20",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者自述自己是211本科生，在毕业前已开始秋招投递。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "正在参加秋招的本科生",
+        "counterpartRole": "招聘联系人",
+        "situation": "你已经投递简历，想礼貌询问当前流程和是否需要补充材料。",
+        "goal": "说明应聘岗位和已完成的步骤，询问下一步安排与反馈渠道，不把暂未回复直接理解为录用或拒绝。"
+      }
+    },
+    {
+      "id": "zhihu-q-661191887",
+      "questionId": "661191887",
+      "title": "末流211机械工程本科就业如何?",
+      "questionUrl": "https://www.zhihu.com/question/661191887",
+      "category": "实习与初入职场",
+      "tags": [
+        "岗位职责",
+        "专业与工作"
+      ],
+      "answers": [
+        {
+          "answerId": "2072349630780666936",
+          "url": "https://www.zhihu.com/question/661191887/answer/2072349630780666936?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "小毅",
+          "voteCount": 2,
+          "fetchedAt": "2026-09-14T06:11:27.7403185Z",
+          "excerpt": "我们身边大部分同学毕业去的是车企、重工、装备厂，岗位大多是工艺、设备、质量、现场技术",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-3215892785820537515",
+          "searchHashId": "da5cc828eb22cce5534b4757ba1cec20",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者描述身边机械本科同学在车企、重工与装备厂从事工艺、设备、质量等工作的经历。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "了解机械岗位的本科求职者",
+        "counterpartRole": "企业招聘联系人",
+        "situation": "你想弄清一个机械相关岗位的日常职责，以及入职后是否涉及不同工作环节。",
+        "goal": "围绕实际任务、工作环境和培养方式提出问题，记录对方能确认的条件与仍待核实的信息。"
+      }
+    },
+    {
+      "id": "zhihu-q-9388556602",
+      "questionId": "9388556602",
+      "title": "中等211大一机械大类在读,上学期不是很努力,接下来该怎么规划?",
+      "questionUrl": "https://www.zhihu.com/question/9388556602",
+      "category": "合作学习",
+      "tags": [
+        "入组请教",
+        "工程体验"
+      ],
+      "answers": [
+        {
+          "answerId": "2073744734766609841",
+          "url": "https://www.zhihu.com/question/9388556602/answer/2073744734766609841?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "机械老兵",
+          "voteCount": 7,
+          "fetchedAt": "2026-09-14T06:11:26.4068326Z",
+          "excerpt": "2.本科就业\n第二，如果未来打算本科直接就业，就要提前布局就业需要的核心筹码——项目与实习经历。\n大一现阶段不用急着出去找校外实习，最便捷的路径，是主动联系学院老师，争取进课题组帮忙。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2585644935853276566",
+          "searchHashId": "474e8b3920b98a14a71452cdfee76a92",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议有本科就业意向的学生先联系学院老师，了解课题组参与机会。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "机械大类在读本科新生",
+        "counterpartRole": "学院老师",
+        "situation": "你希望通过一个基础任务了解真实工程问题，准备向学院老师询问是否有参与学习的机会。",
+        "goal": "说明目前基础和可投入时间，询问任务要求、指导方式及后续反馈，不把机会当成已录用。"
+      }
+    },
+    {
+      "id": "zhihu-q-1915373317210243436",
+      "questionId": "1915373317210243436",
+      "title": "我是双一流本科的法学生,我该向哪些方向努力?",
+      "questionUrl": "https://www.zhihu.com/question/1915373317210243436",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "职业探索",
+        "学习选择"
+      ],
+      "answers": [
+        {
+          "answerId": "1919378914943427427",
+          "url": "https://www.zhihu.com/question/1915373317210243436/answer/1919378914943427427?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "青云",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:11:28.7375473Z",
+          "excerpt": "首先考虑未来的职业方向以及是否需要硕博学业深造。根据不同目标制定不同规划。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "7112412378922201636",
+          "searchHashId": "242ae8c0e5f18632f1e27a3bfd8e1177",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先区分职业方向与是否继续深造，再据此制定不同规划。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "探索职业方向的法学本科生",
+        "counterpartRole": "愿意提供信息的专业老师",
+        "situation": "你想了解不同法学相关工作的日常内容，暂时还没决定是否继续深造。",
+        "goal": "说明自己最想了解的工作内容，询问可用的体验或访谈机会，先补信息再决定下一步。"
+      }
+    },
+    {
+      "id": "zhihu-q-5959812165",
+      "questionId": "5959812165",
+      "title": "大一本科电科(双一流),意向数字ic,打算保研,有竞赛想法,求本科学习路线?",
+      "questionUrl": "https://www.zhihu.com/question/5959812165",
+      "category": "合作学习",
+      "tags": [
+        "科研入门",
+        "竞赛选择"
+      ],
+      "answers": [
+        {
+          "answerId": "77742245187",
+          "url": "https://www.zhihu.com/question/5959812165/answer/77742245187?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 3,
+          "fetchedAt": "2026-09-14T06:11:29.6995866Z",
+          "excerpt": "其实把上述这一点做好，就已经需要付出很多努力了，在此基础上，根据你的个人兴趣，可以尝试科研或者竞赛。\n如果选择科研，不用急于出成果，先和课题组的师兄们多交流，熟悉硕、博士生的日常环境，认识到怎样的课题组是适合你的，这对你选择硕博的课题组和导师非常重要。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-2129674527248173301",
+          "searchHashId": "f47b4347402266338fd32d32348ab105",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议在基础学习之外，根据兴趣尝试科研或竞赛，并先与课题组师兄交流、了解实际环境。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想尝试科研或竞赛的本科新生",
+        "counterpartRole": "课题组师兄或师姐",
+        "situation": "你希望了解科研或竞赛的实际工作，准备先向高年级同学请教适合自己的入门方式。",
+        "goal": "介绍已有基础与兴趣，询问一个能尝试的学习任务及参与条件，避免急着承诺成果。"
+      }
+    },
+    {
+      "id": "zhihu-q-508849600",
+      "questionId": "508849600",
+      "title": "双一流本科大一学生,计算机类,现在大一上过完了感觉自己什么都没有学到,有大佬指点一下未来方向吗?",
+      "questionUrl": "https://www.zhihu.com/question/508849600",
+      "category": "合作学习",
+      "tags": [
+        "新生适应",
+        "主动学习"
+      ],
+      "answers": [
+        {
+          "answerId": "2290735398",
+          "url": "https://www.zhihu.com/question/508849600/answer/2290735398?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 4,
+          "fetchedAt": "2026-09-14T06:11:29.6995866Z",
+          "excerpt": "我认为整个大一一年都是给你用来习惯大学生活的，从高中那种他律变成现在的自律，同时学会独立生活，适应半开放环境的社交。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-7422606648263709057",
+          "searchHashId": "f47b4347402266338fd32d32348ab105",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者把大一视为适应自主学习、独立生活和社交环境的阶段，提醒不必因一学期的感受就给自己定性。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "刚读完大一上学期的计算机本科生",
+        "counterpartRole": "学业导师",
+        "situation": "你觉得一学期下来收获不清楚，希望请老师一起看看课程学习与独立安排上的具体卡点。",
+        "goal": "用一个实际例子说明困难，询问可先改进的一步和如何核对进展。"
+      }
+    },
+    {
+      "id": "zhihu-q-653302630",
+      "questionId": "653302630",
+      "title": "本人双非普通一本,目前大二下半学期,电子信息工程专业,目前比较迷茫,求高人指条明路?",
+      "questionUrl": "https://www.zhihu.com/question/653302630",
+      "category": "合作学习",
+      "tags": [
+        "岗位访谈",
+        "专业技能"
+      ],
+      "answers": [
+        {
+          "answerId": "2042655751597031490",
+          "url": "https://www.zhihu.com/question/653302630/answer/2042655751597031490?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "格雷码不是格蕾玛",
+          "voteCount": 2,
+          "fetchedAt": "2026-09-14T06:13:23.7856343Z",
+          "excerpt": "对口岗位：硬件运维、设备调试、嵌入式技术支持、网络运维、测控技术、弱电工程。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-8201470907829136127",
+          "searchHashId": "d0b601c6f0164d994e49e1fb95d058f1",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者列出硬件运维、设备调试、嵌入式技术支持等可以进一步了解的岗位方向。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "探索职业方向的电子信息本科生",
+        "counterpartRole": "从事技术工作的校友",
+        "situation": "你想把宽泛的职业目标变成对具体岗位的了解，准备向校友询问真实工作内容。",
+        "goal": "挑选一个岗位询问日常任务、所需基础与验证技能的方法，记录仍需要进一步了解的条件。"
+      }
+    },
+    {
+      "id": "zhihu-q-1937359390949742387",
+      "questionId": "1937359390949742387",
+      "title": "双非二本,目前一无所长,没有技能和实习经历,对未来很迷茫,我该从哪里开始?",
+      "questionUrl": "https://www.zhihu.com/question/1937359390949742387",
+      "category": "合作学习",
+      "tags": [
+        "兴趣尝试",
+        "请求反馈"
+      ],
+      "answers": [
+        {
+          "answerId": "1938636480890254518",
+          "url": "https://www.zhihu.com/question/1937359390949742387/answer/1938636480890254518?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "南野95",
+          "voteCount": 39,
+          "fetchedAt": "2026-09-14T06:13:23.7856343Z",
+          "excerpt": "那么你可以尝试基于你的兴趣，做一些技巧方面的针对性练习，比如去搜集一些文手梗/30天挑战之类的，玩玩儿看。\n长篇脑洞往往很美好，但正文容易火葬场。\n短篇练习更容易让你意识到自己有待提升的能力。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "1812285390692735564",
+          "searchHashId": "d0b601c6f0164d994e49e1fb95d058f1",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议从兴趣出发做小型技巧练习，并用短篇作品发现需要提升的部分。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "想从小练习开始的本科生",
+        "counterpartRole": "愿意看作品的同学",
+        "situation": "你想选一个自己感兴趣的小作品练习，先请同学对具体部分给反馈。",
+        "goal": "说明本次练习的范围和想获得的反馈，约定对方能查看的内容，避免用一句评价概括自己全部能力。"
+      }
+    },
+    {
+      "id": "zhihu-q-2039678621305065789",
+      "questionId": "2039678621305065789",
+      "title": "生物工程双非本科已毕业三年,只想以后有份稳定的工作的话,建议重新考研读研吗?",
+      "questionUrl": "https://www.zhihu.com/question/2039678621305065789",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "职业沟通",
+        "学习动机"
+      ],
+      "answers": [
+        {
+          "answerId": "2079475851914224277",
+          "url": "https://www.zhihu.com/question/2039678621305065789/answer/2079475851914224277?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 18,
+          "fetchedAt": "2026-09-14T06:13:29.9475312Z",
+          "excerpt": "题主是双非生物工程本科，毕业后在生物公司做一些基础的工作，觉得工作不稳定，担心日后的情况也是这样，遂萌生了考研的想法。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-5778137303102270208",
+          "searchHashId": "1ed6d411bf038f5e9d8640974edd62a2",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者复述了提问者本科毕业后工作不稳定、因此考虑继续学习的具体困惑。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "工作后考虑继续学习的本科毕业生",
+        "counterpartRole": "家人",
+        "situation": "你在工作后产生了继续学习的想法，想先向家人解释自己希望解决的具体问题。",
+        "goal": "区分当前工作困难与继续学习的期待，讨论需要了解的信息和现实安排，不把升学当成稳定工作的保证。"
+      }
+    },
+    {
+      "id": "zhihu-q-2079061405823656731",
+      "questionId": "2079061405823656731",
+      "title": "双非本科,考个在职研究生(211及以上,非全或冷门专业)对就业帮助大吗?",
+      "questionUrl": "https://www.zhihu.com/question/2079061405823656731",
+      "category": "选择与家庭沟通",
+      "tags": [
+        "信息核对",
+        "继续学习"
+      ],
+      "answers": [
+        {
+          "answerId": "2081142543241236540",
+          "url": "https://www.zhihu.com/question/2079061405823656731/answer/2081142543241236540?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 4,
+          "fetchedAt": "2026-09-14T06:13:29.9475312Z",
+          "excerpt": "如果单纯想换工作，或者锚定考公考编，建议找出近几年官网公布的职位表筛选下你意向专业能报的岗位，看看报录比，地区，部门，岗位等能不能接受。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "-4117829754804020719",
+          "searchHashId": "1ed6d411bf038f5e9d8640974edd62a2",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议先用公开职位信息核对自己考虑的专业与岗位，看看具体地区和工作是否符合意愿。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "考虑在职学习的本科毕业生",
+        "counterpartRole": "意向岗位招聘联系人",
+        "situation": "你想了解一个岗位是否需要自己考虑的学习方向，准备先核对实际要求。",
+        "goal": "询问岗位当前公开要求和工作内容，再比较学习计划是否解决具体需求，不推定读研后必然获得岗位。"
+      }
+    },
+    {
+      "id": "zhihu-q-2031889266456934136",
+      "questionId": "2031889266456934136",
+      "title": "22届二本会计专业考研四年,空窗后如何进入职场?",
+      "questionUrl": "https://www.zhihu.com/question/2031889266456934136",
+      "category": "实习与初入职场",
+      "tags": [
+        "空窗表达",
+        "技能核对"
+      ],
+      "answers": [
+        {
+          "answerId": "2037887970716471841",
+          "url": "https://www.zhihu.com/question/2031889266456934136/answer/2037887970716471841?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "",
+          "voteCount": 0,
+          "fetchedAt": "2026-09-14T06:13:29.9475312Z",
+          "excerpt": "Excel、开票、报销、应收应付这些能不能上手？\n  \n你会不会做一段时间又继续考研走人？\n\n\n所以你要把叙述重点从“我过去为什么空窗”，转成“我现在能做什么”。\n\n\n简历上也别写得太虚。\n\n\n不要只写“备考研究生”。\n可以把这几年处理成一段相对简洁的经历，然后把重点放到你最近补回来的能力上：\n\n会计基础有没有复盘；  \n初级/中级有没有准备或考过；  \nExcel 会到什么程度；  \n金蝶、用友有没有练过；  \n有没有做过模拟账、报税流程、费用报销、银行流水整理。\n\n\n哪怕这些不是正式工作，也比空着强。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "4061355382749912545",
+          "searchHashId": "1ed6d411bf038f5e9d8640974edd62a2",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议求职时说明目前能做的事，区分正式经历与最近补充的练习，不只围绕空窗作解释。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备重新求职的会计本科毕业生",
+        "counterpartRole": "财务岗位面试官",
+        "situation": "你希望如实解释备考空窗，并把已经掌握或仍需练习的技能讲清楚。",
+        "goal": "说明真实经历与目前能力边界，询问岗位需要进一步核对的技能，不把模拟练习说成正式工作。"
+      }
+    },
+    {
+      "id": "zhihu-q-349332993",
+      "questionId": "349332993",
+      "title": "有什么建议可以给大专新生的?",
+      "questionUrl": "https://www.zhihu.com/question/349332993",
+      "category": "合作学习",
+      "tags": [
+        "学习启动",
+        "核对信息"
+      ],
+      "answers": [
+        {
+          "answerId": "2078583507551515008",
+          "url": "https://www.zhihu.com/question/349332993/answer/2078583507551515008?utm_medium=openapi_platform&utm_source=cf621feb3f2d",
+          "author": "二流三四",
+          "voteCount": 1,
+          "fetchedAt": "2026-09-14T06:13:35.8968034Z",
+          "excerpt": "我认为没有一个学生能保证自己在短时间内立马见到成效。所以咱们大一就可以一点一点去学习。现在要做的是查专科本科对照表。",
+          "summaryKind": "search_excerpt",
+          "sourceContentId": "4304109761761332541",
+          "searchHashId": "38621df6a106494f0cccb34ad61d327e",
+          "retrievalMethod": "official_api",
+          "viewpoints": [
+            "作者建议从大一开始逐步学习，并提前了解升学相关信息，而非期待临时准备立刻见效。"
+          ]
+        }
+      ],
+      "scenarioSeed": {
+        "userRole": "准备安排学习的专科新生",
+        "counterpartRole": "辅导员",
+        "situation": "你希望同时安排好当前课程与未来选择，想先知道哪些信息应从正式渠道核对。",
+        "goal": "说明当前学习基础，询问本校和本省本届适用的信息入口，并确定一个可开始的学习步骤。"
+      }
+    }
+  ]
+}

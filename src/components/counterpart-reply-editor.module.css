@@ -1,0 +1,12 @@
+.editor { margin: 8px 0 12px 48px; min-width: 0; }
+.editor > button { border: 0; background: transparent; padding: 6px 0; color: #765b42; font-size: .78rem; text-decoration: underline; text-underline-offset: 4px; }
+.editor form { padding: 16px; margin-top: 8px; background: #fff9ef; border: 1px solid #d9c9b2; border-radius: 12px; }
+.editor form label { font-size: .9rem; font-weight: 650; }
+.editor form p { font-size: .78rem; line-height: 1.7; color: #75664f; margin: 8px 0 12px; }
+.editor form textarea { width: 100%; box-sizing: border-box; min-width: 0; resize: vertical; padding: 10px; font: inherit; font-size: .92rem; line-height: 1.65; border: 1px solid #baac97; border-radius: 8px; background: #fff; color: #302c25; }
+.editor form > div { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; margin-top: 12px; }
+.editor form button { min-height: 42px; padding: 8px 12px; border: 1px solid #bca586; border-radius: 8px; background: #fff; color: #4e3e2c; }
+.editor form button[type=submit] { background: #725633; border-color: #725633; color: #fff; }
+.editor button:disabled { opacity: .5; cursor: not-allowed; }
+.editor :focus-visible { outline: 3px solid #b97824; outline-offset: 3px; }
+@media (max-width: 480px) { .editor { margin-left: 0; } }

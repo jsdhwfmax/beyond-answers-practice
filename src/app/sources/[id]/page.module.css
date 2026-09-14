@@ -1,0 +1,23 @@
+.page{min-height:100svh;background:#fff9ef;color:#442c27;padding:clamp(20px,5vw,64px)}
+.page nav{max-width:860px;margin:auto;display:flex;justify-content:space-between;gap:18px;font-size:14px}
+.page nav a{color:#923f32;text-underline-offset:5px}.page nav span{color:#79685e}
+.page article{max-width:720px;margin:56px auto;background:#fffdf8;border:1px solid #e9d9c6;border-radius:20px;padding:clamp(22px,5vw,58px)}
+.eyebrow{font-size:13px;color:#923f32}.page h1{font-family:var(--font-editorial,serif);font-size:clamp(26px,4vw,38px);line-height:1.5;margin:16px 0}
+.page header p,.note{font-size:14px;color:#79685e}.page section{margin-top:36px}.page h2{font-size:17px;margin-bottom:12px}
+.page p{line-height:1.9}.page blockquote{white-space:pre-line;border-left:3px solid #ba7861;margin:0;padding:18px 24px;background:#f7eee1;line-height:2}
+.page footer{border-top:1px solid #e9d9c6;margin-top:38px;padding-top:22px;font-size:12px;color:#79685e;line-height:1.9;overflow-wrap:anywhere}
+@media(max-width:480px){.page nav{flex-direction:column}.page article{margin:28px auto}.page blockquote{padding:14px 18px}}
+
+.readingNotes{display:contents}
+@media screen and (min-width:1100px){
+  .page{padding:36px 48px 64px}
+  .page nav{max-width:1344px}
+  .page article{max-width:1344px;margin:36px auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px 52px;padding:40px 44px;border-radius:12px}
+  .page article>header{grid-column:1/-1;max-width:55em}
+  .page h1{text-wrap:balance}
+  .page .sourceExcerpt{margin:0;min-width:0}
+  .readingNotes{display:block;border-left:1px solid #dfc8b2;padding-left:38px;min-width:0}
+  .readingNotes>section:first-child{margin-top:0}
+  .readingNotes p{max-width:35em}
+  .page footer{grid-column:1/-1;margin:0;padding-top:20px}
+}
