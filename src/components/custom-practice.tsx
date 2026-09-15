@@ -19,6 +19,7 @@ import { CounterpartReplyEditor } from './counterpart-reply-editor';
 import type { CampusCorpusQuestion } from '@/content/campus-corpus';
 import type { PracticeIntakeView } from '@/domain/practice-intake';
 import { formatCustomPracticeText } from '@/domain/custom-export';
+import { captureCustomRetryDraft, matchesCustomDraft, restoreQuestionDraft, restoreStoredQuestionDraft } from '@/domain/custom-draft';
 import { ArrowRight, BookOpen, Check, ChevronDown, Lightbulb, PenLine } from 'lucide-react';
 
 const SELECTED = 'practice-custom-selected';
@@ -73,6 +74,7 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
   const [choosing, setChoosing] = useState(openLibrary);
   const initialInput = useRef({ entryIntent, topic: initialTopic, openLibrary, question: initialQuestion });
   const draftQuestionId = useRef<string | null>(initialQuestion?.id ?? null);
+  const sourceSelectionRevision = useRef(0);
   const updateTopic = useCallback((value: string) => { topicRef.current = value; setTopic(value); setIntake(null); save(DRAFT, value); if (draftQuestionId.current) save(`${QUESTION_DRAFT}${draftQuestionId.current}`, value); }, []);
   const [session, setSession] = useState<CustomPracticeView | null>(null);
   const [setup, setSetup] = useState<CustomSetup | null>(null);
@@ -136,19 +138,35 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
   useEffect(() => {
     mounted.current = true;
     const epoch = navigationEpoch.current;
+    const selectionRevision = sourceSelectionRevision.current;
     void (async () => {
       try {
         await list();
-        if (!mounted.current || epoch !== navigationEpoch.current) return;
+        if (!mounted.current || epoch !== navigationEpoch.current || selectionRevision !== sourceSelectionRevision.current) return;
         const initial = initialInput.current;
+        if (topicRef.current !== initial.topic) return;
         if (initial.question) save(QUESTION, JSON.stringify(initial.question));
-        if (topicRef.current === initial.topic) updateTopic(initial.question ? stored(`${QUESTION_DRAFT}${initial.question.id}`) ?? initial.topic : initial.topic || stored(DRAFT) || '');
+        let restoredQuestionTopic: string | undefined;
+        if (!initial.topic && !initial.question) {
+          try {
+            const raw = stored(QUESTION);
+            if (raw) {
+              const value = JSON.parse(raw) as CampusCorpusQuestion;
+              if (value && typeof value.id === 'string' && typeof value.questionUrl === 'string' && typeof value.title === 'string' && value.scenarioSeed && [value.scenarioSeed.userRole, value.scenarioSeed.counterpartRole, value.scenarioSeed.situation, value.scenarioSeed.goal].every(item => typeof item === 'string')) {
+                const restored = restoreStoredQuestionDraft(value, stored(DRAFT));
+                setSourceQuestion(restored.question); draftQuestionId.current = restored.question.id;
+                save(QUESTION, JSON.stringify(restored.question)); restoredQuestionTopic = restored.topic;
+              }
+            }
+          } catch { /* An invalid local selection can be replaced from the library. */ }
+        }
+        updateTopic(initial.question ? restoreQuestionDraft(initial.question.id, stored(`${QUESTION_DRAFT}${initial.question.id}`), initial.topic) : restoredQuestionTopic ?? (initial.topic || stored(DRAFT) || ''));
         try { const raw = stored(INTAKE_HELP); if (raw) { const value = JSON.parse(raw); if (['who', 'situation', 'goal'].every(key => typeof value[key] === 'string')) setHelper(value); } } catch { /* The free description remains available. */ }
-        if (!initial.topic) { try { const raw = stored(QUESTION); if (raw) { const value = JSON.parse(raw) as CampusCorpusQuestion; if (typeof value.id === 'string' && typeof value.questionUrl === 'string' && typeof value.title === 'string') { setSourceQuestion(value); draftQuestionId.current = value.id; } } } catch { /* An invalid local selection can be replaced from the library. */ } }
         const selected = initial.entryIntent !== 'new' && !initial.topic && !initial.openLibrary && stored(SELECTED);
         if (selected) {
+          const restoringDraft = { topic: topicRef.current, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current };
           const result = await api<{ session: CustomPracticeView }>(`/api/custom-practices/${selected}`);
-          if (mounted.current && epoch === navigationEpoch.current) { restorePending(selected); setDraftValue(stored(`practice-custom-draft:${selected}`) ?? ''); accept(result.session); }
+          if (mounted.current && epoch === navigationEpoch.current && matchesCustomDraft(restoringDraft, { topic: topicRef.current, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current })) { restorePending(selected); setDraftValue(stored(`practice-custom-draft:${selected}`) ?? ''); accept(result.session); }
         }
       } catch (cause) { if (mounted.current) setError(cause instanceof Error ? cause.message : '暂时无法恢复练习。'); }
     })();
@@ -184,6 +202,11 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
     try { await work(); return true; } catch (cause) { if (mounted.current) setError(cause instanceof Error ? cause.message : '暂时无法完成操作，原话还在。'); return false; }
     finally { if (mounted.current) setBusy(false); }
   }
+  function clearPreparedDraft() {
+    save(CREATE, null); save(QUESTION, null); save(DRAFT, null); save(INTAKE_HELP, null);
+    setSourceQuestion(null); draftQuestionId.current = null; sourceSelectionRevision.current++;
+    topicRef.current = ''; setTopic(''); setIntake(null); setRefiningTopic(false); setHelper({ who: '', situation: '', goal: '' });
+  }
   async function create() {
     if (createInFlight.current || busy || pending) return;
     if (intake && intake.status !== 'ready' && intake.originalText === topicRef.current) {
@@ -195,10 +218,12 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
     const epoch = navigationEpoch.current;
     const submittedText = topicRef.current;
     const intakeRequestId = crypto.randomUUID();
-    const sourceQuestionId = sourceQuestion?.id;
+    const sourceQuestionId = draftQuestionId.current ?? undefined;
+    const submittedDraft = { topic: submittedText, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current };
+    const stillCurrentDraft = () => matchesCustomDraft(submittedDraft, { topic: topicRef.current, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current });
     try { await run(async () => {
       const checked = await api<{ intake: PracticeIntakeView }>('/api/practice-intake', { method: 'POST', body: JSON.stringify({ requestId: intakeRequestId, text: submittedText }) });
-      if (epoch !== navigationEpoch.current || !mounted.current || topicRef.current !== submittedText) return;
+      if (epoch !== navigationEpoch.current || !mounted.current || !stillCurrentDraft()) return;
       const assessment = checked.intake;
       if (!assessment || assessment.version !== 'practice-intake-v1' || assessment.requestId !== intakeRequestId || assessment.originalText !== submittedText || !['ready', 'needs_context', 'knowledge_request', 'topic_only'].includes(assessment.status) || !Array.isArray(assessment.questions) || assessment.questions.length > 2 || !Array.isArray(assessment.suggestions) || assessment.suggestions.length > 2 || assessment.suggestions.some(item => typeof item.draft !== 'string' || typeof item.label !== 'string' || !Array.isArray(item.assumptions))) throw new Error('这次整理与当前描述没有对上。原话还在，请再试一次。');
       setIntake(assessment);
@@ -210,9 +235,9 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
       save(CREATE, JSON.stringify(request));
       const result = await api<{ session: CustomPracticeView }>('/api/custom-practices', { method: 'POST', body: JSON.stringify(request) });
       if (epoch !== navigationEpoch.current || !mounted.current) return;
-      if (topicRef.current !== submittedText) { setNotice('上一次描述的情境已存到下方记录。你刚写的内容保留在这里。'); await list(); return; }
+      if (!stillCurrentDraft()) { setNotice('上一次描述的情境已存到下方记录。你刚写的内容保留在这里。'); await list(); return; }
       accept(result.session); onSessionReady?.(result.session.id);
-      if (result.session.branches.length) { save(CREATE, null); save(QUESTION, null); save(DRAFT, null); save(INTAKE_HELP, null); setSourceQuestion(null); topicRef.current = ''; setTopic(''); setIntake(null); setRefiningTopic(false); setHelper({ who: '', situation: '', goal: '' }); }
+      if (result.session.branches.length) clearPreparedDraft();
       await list();
     }); } finally { createInFlight.current = false; }
   }
@@ -220,9 +245,15 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
     if (!session) return;
     setOperation('正在重新准备你的情境');
     const epoch = navigationEpoch.current; const id = session.id;
+    const preparedDraft = captureCustomRetryDraft(session.topic, session.sourceQuestionId ?? null, { topic: topicRef.current, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current });
     await run(async () => {
       const result = await api<{ session: CustomPracticeView }>('/api/custom-practices', { method: 'POST', body: JSON.stringify({ id, actionId: crypto.randomUUID(), topic: session.topic, ...(session.sourceQuestionId ? { sourceQuestionId: session.sourceQuestionId } : {}) }) });
-      if (epoch === navigationEpoch.current && currentId.current === id && mounted.current) accept(result.session);
+      if (epoch === navigationEpoch.current && currentId.current === id && mounted.current) {
+        accept(result.session);
+        if (result.session.branches.length && preparedDraft && matchesCustomDraft(preparedDraft, { topic: topicRef.current, questionId: draftQuestionId.current, selectionRevision: sourceSelectionRevision.current })) {
+          clearPreparedDraft(); onSessionReady?.(result.session.id);
+        }
+      }
     });
   }
   async function load(id: string) {
@@ -292,6 +323,7 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
   const matchedQuestions = active?.sourceContext?.questions ?? [];
   const currentProgress = active?.goalProgress?.evaluatedThroughTurnId === active?.turns.at(-1)?.id ? active?.goalProgress : undefined;
   function selectQuestion(question: CampusCorpusQuestion) {
+    sourceSelectionRevision.current++;
     draftQuestionId.current = question.id;
     const seed = question.scenarioSeed;
     const value = `我扮演${seed.userRole}，想和${seed.counterpartRole}聊一聊。${seed.situation}\n这次我希望：${seed.goal}`;
@@ -321,7 +353,7 @@ export function CustomPractice({ onHome, initialTopic = '', initialQuestion, top
       <div className={styles.entrySwitch} role="group" aria-label="选择练习方式"><button type="button" aria-pressed={choosing} onClick={() => setChoosing(true)}><BookOpen size={17} aria-hidden="true" />不知道练什么，选一件事</button><button type="button" aria-pressed={!choosing} onClick={() => setChoosing(false)}><PenLine size={17} aria-hidden="true" />我已经有件事</button></div>
       {choosing && <CampusLibrary onChoose={selectQuestion} initiallyOpen />}
       {!choosing && <section className={styles.start} aria-label="描述想练习的事">
-        {sourceQuestion ? <div className={styles.topicSeed}><span>借这个问题开始</span><a href={sourceQuestion.questionUrl} target="_blank" rel="noopener noreferrer">{sourceQuestion.title}</a><p>下方是原创练习起点，可以改成自己的情况。</p><button type="button" disabled={working} onClick={() => { setSourceQuestion(null); draftQuestionId.current = null; save(QUESTION, null); onQuestionDetached?.(topicRef.current); }}>取消这个问题关联</button></div> : topicSource && <div className={styles.topicSeed}><span>借一个话题开始</span><a href={topicSource.url} target="_blank" rel="noreferrer">{topicSource.title}</a><p>请把描述改成自己的角色、顾虑和目标。</p></div>}
+        {sourceQuestion ? <div className={styles.topicSeed}><span>借这个问题开始</span><a href={sourceQuestion.questionUrl} target="_blank" rel="noopener noreferrer">{sourceQuestion.title}</a><p>下方是原创练习起点，可以改成自己的情况。</p><button type="button" disabled={working} onClick={() => { setSourceQuestion(null); draftQuestionId.current = null; sourceSelectionRevision.current++; save(QUESTION, null); onQuestionDetached?.(topicRef.current); }}>取消这个问题关联</button></div> : topicSource && <div className={styles.topicSeed}><span>借一个话题开始</span><a href={topicSource.url} target="_blank" rel="noreferrer">{topicSource.title}</a><p>请把描述改成自己的角色、顾虑和目标。</p></div>}
         <label htmlFor="custom-topic">我想练习……</label>
         <p className={styles.stepNote} id="custom-topic-hint">先描述想和谁谈、希望谈成什么。这里准备对话情境，还没有开始聊天。</p>
         <textarea id="custom-topic" aria-describedby="custom-topic-hint custom-prior-context-hint" rows={4} maxLength={2000} value={topic} onChange={event => updateTopic(event.target.value)} placeholder="比如：室友常在深夜开麦。我明天早八，想和他商量一个彼此能接受的时间。" />

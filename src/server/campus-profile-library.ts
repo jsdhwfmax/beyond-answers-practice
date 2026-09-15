@@ -4,10 +4,10 @@ import annotations from '@/content/campus-profile-tags.json';
 import { matchCampusProfiles, type CampusProfileMetadata } from '@/domain/campus-profile';
 import type { CampusDiscoveryPreview, CampusDiscoveryResult, CampusProfileFilters, CampusProfileRelaxation } from '@/domain/campus-profile-options';
 
-export const PROFILE_SOURCE_VERSION = 'campus-profile-2026-09-14-v3';
+export const PROFILE_SOURCE_VERSION = 'campus-profile-2026-09-15-v4';
 const metadata = annotations as CampusProfileMetadata;
-// Preserve all original objects and their v2 identity. Supplementary questions
-// are only an additional source for discovery and exact-ID selection.
+// Profile evidence/annotations are unchanged. New discovery snapshots include
+// the current reviewed scenario seeds, while saved sessions keep their snapshots.
 const questions = [...new Map([
   ...(extras.questions as CampusCorpusQuestion[]).map(question => [question.id, question] as const),
   ...CAMPUS_CORPUS.map(question => [question.id, question] as const),

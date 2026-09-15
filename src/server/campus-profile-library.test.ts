@@ -20,8 +20,11 @@ test('the supplementary accessor preserves every original object and resolves on
 
 test('published profile metadata uses valid options and exact acquired source quotations', () => {
   const metadata = annotations as CampusProfileMetadata;
-  expect(metadata.version).toBe(PROFILE_SOURCE_VERSION);
-  expect(extras.version).toBe(PROFILE_SOURCE_VERSION);
+  // Evidence archives keep their published identity; current snapshots also
+  // include the separately reviewed 2026-09-15 scenario revisions.
+  expect(metadata.version).toBe('campus-profile-2026-09-14-v3');
+  expect(extras.version).toBe(metadata.version);
+  expect(PROFILE_SOURCE_VERSION).toBe('campus-profile-2026-09-15-v4');
   for (const [id, entry] of Object.entries(metadata.entries)) {
     const question = getProfileQuestion(id);
     expect(question, `annotated question ${id} must exist`).toBeDefined();

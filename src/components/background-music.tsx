@@ -1,84 +1,89 @@
 'use client';
 
-import { useEffect, useId, useRef, useState, useSyncExternalStore } from 'react';
-import { ChevronDown, LoaderCircle, Music2, Pause, Play, Volume2, VolumeX, X } from 'lucide-react';
+import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState, useSyncExternalStore, type PointerEvent as ReactPointerEvent } from 'react';
+import { LoaderCircle, Music2, Pause, Play, RotateCcw, X } from 'lucide-react';
+import { createMusicPlayback, type MusicPlaybackSnapshot } from '@/domain/music-playback';
+import { initialMusicOrbPosition, musicOrbPoint, moveMusicOrb, musicOrbKeyboardDelta, parseMusicOrbPosition, type MusicOrbPosition, type MusicOrbViewport } from '@/domain/music-orb';
 import styles from './background-music.module.css';
 
-const AUDIO_SOURCE = '/audio/our-next-line-v1.mp3';
 const VOLUME_KEY = 'beyond-answers-music-volume-v1';
+const POSITION_KEY = 'beyond-answers-music-position-v1';
+const PAUSED_KEY = 'beyond-answers-music-paused-v2';
 const DEFAULT_VOLUME = 0.15;
-type PlaybackStatus = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
-
+const ORB_SIZE = 48;
 function readSavedVolume() {
   try {
     const raw = localStorage.getItem(VOLUME_KEY);
-    const saved: unknown = raw === null ? null : JSON.parse(raw);
-    if (typeof saved === 'number' && Number.isFinite(saved) && saved >= 0 && saved <= 1) return saved;
-  } catch { /* Storage is optional. */ }
+    const value: unknown = raw === null ? null : JSON.parse(raw);
+    if (typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 1) return value;
+  } catch { /* Preferences are optional. */ }
   return DEFAULT_VOLUME;
 }
 function subscribeVolume(onChange: () => void) {
-  const onStorage = (event: StorageEvent) => { if (event.key === VOLUME_KEY || event.key === null) onChange(); };
-  window.addEventListener('storage', onStorage);
-  return () => window.removeEventListener('storage', onStorage);
+  const changed = (event: StorageEvent) => { if (event.key === VOLUME_KEY || event.key === null) onChange(); };
+  window.addEventListener('storage', changed);
+  return () => window.removeEventListener('storage', changed);
 }
-const defaultVolumeSnapshot = () => DEFAULT_VOLUME;
+const defaultVolume = () => DEFAULT_VOLUME;
 const subscribeHydration = () => () => {};
-const clientHydratedSnapshot = () => true;
-const serverHydratedSnapshot = () => false;
+const clientHydrated = () => true;
+const serverHydrated = () => false;
+function viewport(): MusicOrbViewport {
+  const view = window.visualViewport;
+  return { width: view?.width ?? window.innerWidth, height: view?.height ?? window.innerHeight, offsetLeft: view?.offsetLeft ?? 0, offsetTop: view?.offsetTop ?? 0 };
+}
 
-/** The root layout keeps this media element alive during client navigation. */
+/** Kept alive by the root layout; the floating control takes no document space. */
 export default function BackgroundMusic() {
-  const hydrated = useSyncExternalStore(subscribeHydration, clientHydratedSnapshot, serverHydratedSnapshot);
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const controlsRef = useRef<HTMLDivElement>(null);
-  const settingsRef = useRef<HTMLButtonElement>(null);
-  const compactRef = useRef<HTMLButtonElement>(null);
-  const retryRef = useRef<HTMLButtonElement>(null);
-  const manualControlsRef = useRef(false);
-  const focusCompactRef = useRef(false);
-  const focusRetryRef = useRef(false);
-  const hasPlayedRef = useRef(false);
-  const attemptRef = useRef(0);
-  const intendedPlayRef = useRef(false);
-  const disposedRef = useRef(false);
-  const volumeRef = useRef(DEFAULT_VOLUME);
-  const [status, setStatus] = useState<PlaybackStatus>('idle');
-  const savedVolume = useSyncExternalStore(subscribeVolume, readSavedVolume, defaultVolumeSnapshot);
+  const hydrated = useSyncExternalStore(subscribeHydration, clientHydrated, serverHydrated);
+  const savedVolume = useSyncExternalStore(subscribeVolume, readSavedVolume, defaultVolume);
   const [volumeOverride, setVolumeOverride] = useState<number | null>(null);
   const volume = volumeOverride ?? savedVolume;
+  const volumeRef = useRef(DEFAULT_VOLUME);
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const playerRef = useRef<ReturnType<typeof createMusicPlayback> | null>(null);
+  const rootRef = useRef<HTMLElement>(null);
+  const orbRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const positionRef = useRef<MusicOrbPosition | null>(null);
+  const dragRef = useRef<{ pointerId: number; startX: number; startY: number; startPosition: MusicOrbPosition; moved: boolean } | null>(null);
+  const animationFrame = useRef<number | null>(null);
+  const pendingPosition = useRef<MusicOrbPosition | null>(null);
+  const suppressClick = useRef(false);
+  const [playback, setPlayback] = useState<MusicPlaybackSnapshot>({ status: 'idle', message: '' });
   const [expanded, setExpanded] = useState(false);
-  const [compact, setCompact] = useState(false);
-  const [message, setMessage] = useState('');
   const panelId = useId();
   const volumeId = useId();
+  const hintId = useId();
 
-  useEffect(() => {
-    disposedRef.current = false;
-    const audio = audioRef.current;
-    if (audio) audio.volume = volumeRef.current;
-
-    const pauseOnHidden = () => {
-      if (!document.hidden || !audio || (!intendedPlayRef.current && audio.paused)) return;
-      intendedPlayRef.current = false;
-      attemptRef.current += 1;
-      audio.pause();
-      setStatus('paused');
-      setMessage('切到后台后已暂停，想听时可以继续播放。');
-    };
-    document.addEventListener('visibilitychange', pauseOnHidden);
-    return () => {
-      disposedRef.current = true;
-      intendedPlayRef.current = false;
-      attemptRef.current += 1;
-      document.removeEventListener('visibilitychange', pauseOnHidden);
-      if (audio) {
-        audio.pause();
-        audio.removeAttribute('src');
-        audio.load();
-      }
-    };
+  const placePanel = useCallback(() => {
+    const panel = panelRef.current;
+    if (!panel) return;
+    const view = viewport();
+    const point = musicOrbPoint(positionRef.current ?? initialMusicOrbPosition(view), view);
+    const inset = Math.min(12, view.width / 4, view.height / 4);
+    const width = Math.max(1, Math.min(288, view.width - inset * 2));
+    panel.style.width = `${width}px`;
+    panel.style.maxHeight = `${Math.max(1, view.height - inset * 2)}px`;
+    const height = panel.getBoundingClientRect().height;
+    const left = Math.max((view.offsetLeft ?? 0) + inset, Math.min(point.x + ORB_SIZE - width, (view.offsetLeft ?? 0) + view.width - width - inset));
+    const desiredTop = point.y - height - 12 >= (view.offsetTop ?? 0) + inset ? point.y - height - 12 : point.y + ORB_SIZE + 12;
+    const top = Math.max((view.offsetTop ?? 0) + inset, Math.min(desiredTop, (view.offsetTop ?? 0) + view.height - height - inset));
+    panel.style.left = `${left}px`;
+    panel.style.top = `${top}px`;
   }, []);
+
+  const placeOrb = useCallback((position: MusicOrbPosition, persist = false) => {
+    positionRef.current = position;
+    const point = musicOrbPoint(position, viewport());
+    const root = rootRef.current;
+    if (root) {
+      root.style.left = `${point.x}px`; root.style.top = `${point.y}px`;
+      root.style.right = 'auto'; root.style.bottom = 'auto';
+    }
+    placePanel();
+    if (persist) try { localStorage.setItem(POSITION_KEY, JSON.stringify(position)); } catch { /* Optional. */ }
+  }, [placePanel]);
 
   useEffect(() => {
     volumeRef.current = volume;
@@ -86,183 +91,146 @@ export default function BackgroundMusic() {
   }, [volume]);
 
   useEffect(() => {
-    if (!compact || !focusCompactRef.current) return;
-    focusCompactRef.current = false;
-    compactRef.current?.focus({ preventScroll: true });
-  }, [compact]);
+    const audio = audioRef.current;
+    if (!audio) return;
+    let initiallyPaused = false;
+    try { initiallyPaused = sessionStorage.getItem(PAUSED_KEY) === 'true'; } catch { /* Optional. */ }
+    const player = createMusicPlayback(audio, {
+      getVolume: () => volumeRef.current, isHidden: () => document.hidden,
+      onChange: setPlayback, initiallyPaused,
+      onManualPreference: paused => { try { sessionStorage.setItem(PAUSED_KEY, String(paused)); } catch { /* Optional. */ } },
+    });
+    playerRef.current = player;
+    const gesture = (event: MouseEvent | KeyboardEvent) => {
+      if (!event.isTrusted || (event.target instanceof Node && rootRef.current?.contains(event.target))) return;
+      if (event instanceof KeyboardEvent && (event.isComposing || event.ctrlKey || event.metaKey || event.altKey || ['Shift', 'Control', 'Alt', 'Meta', 'Escape'].includes(event.key))) return;
+      player.userGesture();
+    };
+    const visibility = () => { if (document.hidden) player.pauseForHidden(); else player.startAutomatic(); };
+    document.addEventListener('click', gesture, true);
+    document.addEventListener('keydown', gesture, true);
+    document.addEventListener('visibilitychange', visibility);
+    player.startAutomatic();
+    return () => {
+      document.removeEventListener('click', gesture, true);
+      document.removeEventListener('keydown', gesture, true);
+      document.removeEventListener('visibilitychange', visibility);
+      player.dispose(); playerRef.current = null;
+    };
+  }, []);
 
   useEffect(() => {
-    if (status !== 'error' || compact || !focusRetryRef.current) return;
-    focusRetryRef.current = false;
-    retryRef.current?.focus({ preventScroll: true });
-  }, [compact, status]);
+    let saved: MusicOrbPosition | null = null;
+    try { saved = parseMusicOrbPosition(localStorage.getItem(POSITION_KEY)); } catch { /* Optional. */ }
+    placeOrb(saved ?? initialMusicOrbPosition(viewport()));
+    const resize = () => {
+      // A viewport change ends an active drag; preserve its latest bounded position.
+      dragRef.current = null;
+      if (orbRef.current) delete orbRef.current.dataset.dragging;
+      if (animationFrame.current !== null) cancelAnimationFrame(animationFrame.current);
+      animationFrame.current = null; pendingPosition.current = null;
+      placeOrb(positionRef.current ?? initialMusicOrbPosition(viewport()));
+    };
+    window.addEventListener('resize', resize);
+    const visual = window.visualViewport;
+    visual?.addEventListener('resize', resize);
+    visual?.addEventListener('scroll', resize);
+    return () => {
+      window.removeEventListener('resize', resize);
+      visual?.removeEventListener('resize', resize);
+      visual?.removeEventListener('scroll', resize);
+      if (animationFrame.current !== null) cancelAnimationFrame(animationFrame.current);
+    };
+  }, [placeOrb]);
+
+  useLayoutEffect(() => {
+    if (!expanded || !panelRef.current) return;
+    placePanel();
+    const observer = new ResizeObserver(placePanel);
+    observer.observe(panelRef.current);
+    return () => observer.disconnect();
+  }, [expanded, placePanel]);
 
   useEffect(() => {
     if (!expanded) return;
-    const closeOutside = (event: PointerEvent) => {
-      if (event.target instanceof Node && !controlsRef.current?.contains(event.target)) {
-        manualControlsRef.current = false;
-        setExpanded(false);
-        if (status === 'playing') setCompact(true);
-      }
+    const outside = (event: PointerEvent) => { if (event.target instanceof Node && !rootRef.current?.contains(event.target)) setExpanded(false); };
+    const escape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') { event.preventDefault(); setExpanded(false); orbRef.current?.focus({ preventScroll: true }); }
     };
-    const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key !== 'Escape') return;
-      manualControlsRef.current = false;
-      setExpanded(false);
-      if (status === 'playing' && !compact) {
-        focusCompactRef.current = true;
-        setCompact(true);
-      } else (compact ? compactRef.current : settingsRef.current)?.focus({ preventScroll: true });
-    };
-    document.addEventListener('pointerdown', closeOutside);
-    document.addEventListener('keydown', closeOnEscape);
-    return () => {
-      document.removeEventListener('pointerdown', closeOutside);
-      document.removeEventListener('keydown', closeOnEscape);
-    };
-  }, [compact, expanded, status]);
+    document.addEventListener('pointerdown', outside);
+    document.addEventListener('keydown', escape);
+    return () => { document.removeEventListener('pointerdown', outside); document.removeEventListener('keydown', escape); };
+  }, [expanded]);
 
-  const togglePlayback = async () => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    const attempt = ++attemptRef.current;
-    if (intendedPlayRef.current || !audio.paused) {
-      intendedPlayRef.current = false;
-      audio.pause();
-      setStatus('paused');
-      setMessage('');
-      return;
-    }
-
-    // Assigning src only inside this click handler avoids a pre-gesture audio request.
-    if (!audio.hasAttribute('src')) audio.src = AUDIO_SOURCE;
-    else if (audio.error) audio.load();
-    audio.volume = volumeRef.current;
-    intendedPlayRef.current = true;
-    setStatus('loading');
-    setMessage('');
-    try {
-      await audio.play();
-      if (disposedRef.current || attempt !== attemptRef.current) return;
-      if (!intendedPlayRef.current || document.hidden) {
-        audio.pause();
-        return;
-      }
-      setStatus('playing');
-    } catch {
-      if (disposedRef.current || attempt !== attemptRef.current) return;
-      intendedPlayRef.current = false;
-      setStatus('error');
-      setMessage('暂时没能播放，请检查网络后点「重试播放」。');
-      focusRetryRef.current = Boolean(controlsRef.current?.contains(document.activeElement));
-      manualControlsRef.current = false;
-      setCompact(false);
-      setExpanded(true);
-    }
-  };
-
-  const changeVolume = (value: number) => {
-    const next = Math.max(0, Math.min(1, value));
-    volumeRef.current = next;
-    setVolumeOverride(next);
-    if (audioRef.current) audioRef.current.volume = next;
-    try { localStorage.setItem(VOLUME_KEY, JSON.stringify(next)); } catch { /* Optional preference. */ }
-  };
-
-  const failPlayback = () => {
-    if (disposedRef.current) return;
-    intendedPlayRef.current = false;
-    attemptRef.current += 1;
-    focusRetryRef.current = Boolean(controlsRef.current?.contains(document.activeElement));
-    manualControlsRef.current = false;
-    setStatus('error');
-    setMessage('音乐加载中断了，请检查网络后点「重试播放」。');
-    setCompact(false);
-    setExpanded(true);
-  };
-
-  const label = status === 'playing' ? '暂停音乐' : status === 'loading' ? '取消加载'
-    : status === 'error' ? '重试播放' : status === 'paused' ? '继续播放' : '播放主题曲';
-  const PlaybackIcon = status === 'playing' ? Pause : status === 'loading' ? LoaderCircle : Play;
-
-  const closePanel = () => {
-    manualControlsRef.current = false;
+  function startDrag(event: ReactPointerEvent<HTMLButtonElement>) {
+    if (!event.isPrimary || event.button !== 0) return;
+    suppressClick.current = false;
+    dragRef.current = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, startPosition: positionRef.current ?? initialMusicOrbPosition(viewport()), moved: false };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  }
+  function drag(event: ReactPointerEvent<HTMLButtonElement>) {
+    const current = dragRef.current;
+    if (!current || current.pointerId !== event.pointerId) return;
+    const delta = { x: event.clientX - current.startX, y: event.clientY - current.startY };
+    if (!current.moved && Math.hypot(delta.x, delta.y) < 6) return;
+    current.moved = true; suppressClick.current = true;
+    event.currentTarget.dataset.dragging = 'true';
     setExpanded(false);
-    if (status === 'playing' && !compact) {
-      focusCompactRef.current = true;
-      setCompact(true);
-    } else (compact ? compactRef.current : settingsRef.current)?.focus({ preventScroll: true });
-  };
-  const compactLabel = status === 'playing' ? '音乐正在播放，打开控制' : status === 'loading' ? '音乐正在加载，打开控制' : '音乐已暂停，打开控制';
-
-  return <aside className={styles.bar} aria-label="主题曲播放器" data-playback-status={status} data-controls-state={compact ? 'compact' : 'full'}>
-    <audio ref={audioRef} preload="none" loop aria-hidden="true"
-      onPlaying={() => {
-        if (disposedRef.current) return;
-        if (!intendedPlayRef.current || document.hidden) { audioRef.current?.pause(); return; }
-        setStatus('playing');
-        // Only a real playing event collapses the bar. Opening the controls is
-        // deliberate, so later buffering/playing events must not dismiss them.
-        const firstPlaying = !hasPlayedRef.current;
-        hasPlayedRef.current = true;
-        if (firstPlaying || !manualControlsRef.current) {
-          manualControlsRef.current = false;
-          if (!compact) focusCompactRef.current = Boolean(controlsRef.current?.contains(document.activeElement));
-          setExpanded(false);
-          setCompact(true);
-        }
-      }}
-      onPause={() => {
-        // A queued pause event can arrive after a newer click has resumed this element.
-        if (disposedRef.current || !audioRef.current?.paused) return;
-        intendedPlayRef.current = false;
-        setStatus(previous => previous === 'idle' || previous === 'error' ? previous : 'paused');
-      }}
-      onError={failPlayback}
-    />
-    <div className={styles.inner}>
-      {!compact && <span className={styles.title}><Music2 size={16} aria-hidden="true" /><span>我们的下一句</span></span>}
-      <div ref={controlsRef} className={styles.controls}>
-        {compact ? <button ref={compactRef} className={styles.compactButton} type="button" aria-label={compactLabel}
-          aria-expanded={expanded} aria-controls={panelId} onClick={() => {
-            manualControlsRef.current = !expanded;
-            setExpanded(previous => !previous);
-          }}>
-          {status === 'playing' ? <Music2 size={14} aria-hidden="true" /> : status === 'loading' ? <LoaderCircle className={styles.loading} size={14} aria-hidden="true" /> : <Pause size={13} aria-hidden="true" />}
-          <span>音乐</span><ChevronDown size={12} aria-hidden="true" />
-        </button> : <>
-        <button ref={retryRef} className={styles.playButton} type="button" onClick={togglePlayback} aria-label={label} disabled={!hydrated}>
-          <PlaybackIcon className={status === 'loading' ? styles.loading : undefined} size={15} aria-hidden="true" />
-          <span>{label}</span>
-        </button>
-        <button ref={settingsRef} className={styles.settingsButton} type="button"
-          aria-label="音乐音量与设置" aria-expanded={expanded} aria-controls={panelId} disabled={!hydrated}
-          onClick={() => {
-            manualControlsRef.current = !expanded;
-            setExpanded(previous => !previous);
-          }}>
-          {volume === 0 ? <VolumeX size={17} aria-hidden="true" /> : <Volume2 size={17} aria-hidden="true" />}
-          <ChevronDown size={12} aria-hidden="true" />
-        </button>
-        </>}
-        {expanded ? <div id={panelId} className={styles.panel} role="group" aria-label="主题曲设置">
-          <div className={styles.panelHeading}><strong>我们的下一句</strong>
-            <button type="button" className={styles.closeButton} aria-label="收起音乐设置" onClick={closePanel}><X size={16} aria-hidden="true" /></button>
-          </div>
-          <p className={styles.description}>让校园的旋律，陪你把下一句说出来。</p>
-          {compact && <button className={styles.panelPlayback} type="button" onClick={togglePlayback} aria-label={label}>
-            <PlaybackIcon className={status === 'loading' ? styles.loading : undefined} size={15} aria-hidden="true" /><span>{label}</span>
-          </button>}
-          <div className={styles.volumeLabel}><label htmlFor={volumeId}>音乐音量</label><output htmlFor={volumeId}>{Math.round(volume * 100)}%</output></div>
-          <input id={volumeId} className={styles.volume} type="range" min="0" max="100" step="1"
-            value={Math.round(volume * 100)} aria-valuetext={`${Math.round(volume * 100)}%`}
-            onChange={event => changeVolume(Number(event.target.value) / 100)} />
-          <p className={styles.hint}>也可用设备音量键调节。切到后台会暂停。</p>
-          {message ? <p className={status === 'error' ? styles.error : styles.message}>{message}</p> : null}
-        </div> : null}
-      </div>
-    </div>
-    <span className="sr-only" role="status" aria-live="polite">{status === 'playing' ? `主题曲正在播放${compact && !expanded ? '，播放器已收起，可通过顶部的音乐按钮打开控制。' : ''}` : message}</span>
+    pendingPosition.current = moveMusicOrb(current.startPosition, delta, viewport());
+    if (animationFrame.current === null) animationFrame.current = requestAnimationFrame(() => {
+      animationFrame.current = null;
+      if (pendingPosition.current) placeOrb(pendingPosition.current);
+    });
+  }
+  function endDrag(event: ReactPointerEvent<HTMLButtonElement>) {
+    const current = dragRef.current;
+    if (!current || current.pointerId !== event.pointerId) return;
+    dragRef.current = null;
+    if (animationFrame.current !== null) cancelAnimationFrame(animationFrame.current);
+    animationFrame.current = null;
+    if (current.moved && pendingPosition.current) placeOrb(pendingPosition.current, true);
+    pendingPosition.current = null;
+    delete event.currentTarget.dataset.dragging;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+  }
+  function changeVolume(value: number) {
+    const next = Math.max(0, Math.min(1, value));
+    volumeRef.current = next; setVolumeOverride(next);
+    if (audioRef.current) audioRef.current.volume = next;
+    try { localStorage.setItem(VOLUME_KEY, JSON.stringify(next)); } catch { /* Optional. */ }
+  }
+  const { status, message } = playback;
+  const playing = status === 'playing';
+  const playbackLabel = playing ? '暂停音乐' : status === 'loading' ? '取消加载' : status === 'error' ? '重试播放' : status === 'paused' ? '继续播放' : '播放主题曲';
+  const statusLabel = playing ? '音乐正在播放' : status === 'loading' ? '音乐正在加载' : status === 'error' ? '音乐需要重试' : '音乐已暂停';
+  const PlaybackIcon = playing ? Pause : status === 'loading' ? LoaderCircle : Play;
+  return <aside ref={rootRef} className={styles.floating} aria-label="主题曲播放器" data-playback-status={status} data-controls-state="orb">
+    <audio ref={audioRef} preload="none" loop aria-hidden="true" />
+    <button ref={orbRef} className={styles.orb} type="button" disabled={!hydrated}
+      aria-label={`${statusLabel}，${expanded ? '收起控制' : '打开控制'}`} aria-expanded={expanded} aria-controls={panelId} aria-describedby={hintId}
+      title="点击打开音乐设置 · 拖动可移动"
+      onPointerDown={startDrag} onPointerMove={drag} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag}
+      onClick={event => { if (suppressClick.current && event.detail !== 0) { suppressClick.current = false; return; } setExpanded(value => !value); }}
+      onKeyDown={event => {
+        if (event.altKey || event.ctrlKey || event.metaKey) return;
+        const delta = musicOrbKeyboardDelta(event.key);
+        if (delta) { event.preventDefault(); placeOrb(moveMusicOrb(positionRef.current ?? initialMusicOrbPosition(viewport()), delta, viewport()), true); }
+        if (event.key === 'Home') { event.preventDefault(); placeOrb(initialMusicOrbPosition(viewport()), true); }
+      }}>
+      <Music2 className={styles.note} size={22} strokeWidth={1.7} aria-hidden="true" />
+      <span className={styles.indicator} aria-hidden="true">{status === 'loading' ? <LoaderCircle size={10} className={styles.loading} /> : playing ? <span /> : <Pause size={9} />}</span>
+    </button>
+    <span id={hintId} className="sr-only">点击打开音乐设置。可拖动；键盘方向键移动，Home 键恢复位置。</span>
+    {expanded && <div ref={panelRef} id={panelId} className={styles.panel} role="group" aria-label="主题曲设置">
+      <div className={styles.panelHeading}><strong>我们的下一句</strong><button type="button" className={styles.closeButton} aria-label="收起音乐设置" onClick={() => { setExpanded(false); orbRef.current?.focus({ preventScroll: true }); }}><X size={16} aria-hidden="true" /></button></div>
+      <p className={styles.description}>让校园的旋律，陪你把下一句说出来。</p>
+      <button className={styles.panelPlayback} type="button" onClick={() => playerRef.current?.toggle()} aria-label={playbackLabel}><PlaybackIcon size={15} className={status === 'loading' ? styles.loading : undefined} aria-hidden="true" /><span>{playbackLabel}</span></button>
+      <div className={styles.volumeLabel}><label htmlFor={volumeId}>音乐音量</label><output htmlFor={volumeId}>{Math.round(volume * 100)}%</output></div>
+      <input id={volumeId} className={styles.volume} type="range" min="0" max="100" step="1" value={Math.round(volume * 100)} aria-valuetext={`${Math.round(volume * 100)}%`} onChange={event => changeVolume(Number(event.target.value) / 100)} />
+      <p className={styles.hint}>也可用设备音量键调节。切到后台会暂停。</p>
+      {message && <p className={status === 'error' ? styles.error : styles.message}>{message}</p>}
+      <button className={styles.resetPosition} type="button" onClick={() => placeOrb(initialMusicOrbPosition(viewport()), true)}><RotateCcw size={12} aria-hidden="true" />恢复小球位置</button>
+    </div>}
+    <span className="sr-only" role="status" aria-live="polite">{playing ? '主题曲正在播放。' : message}</span>
   </aside>;
 }

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { createHash } from 'node:crypto';
 import { CAMPUS_CORPUS, CAMPUS_CORPUS_VERSION, CAMPUS_HIGH_VOTE_THRESHOLD } from './campus-corpus';
 import baseline from '../../tests/fixtures/campus-v1-fingerprints.json';
+import archived from './campus-corpus-data.json';
 
 // Fingerprints come from the original 180-question snapshot, not from the
 // current corpus. Keep the full immutability check without duplicating its text.
@@ -15,15 +16,20 @@ function canonicalJson(value: unknown): string {
 
 describe('published campus experience source integrity', () => {
   it('adds at least 60 questions without rewriting any v1 source snapshot', () => {
-    expect(CAMPUS_CORPUS_VERSION).toBe('zhihu-campus-2026-09-14-v2');
+    expect(CAMPUS_CORPUS_VERSION).toBe('zhihu-campus-2026-09-15-v3');
     expect(baseline).toHaveLength(180);
     const oldIds = new Set(baseline.map(row => row.id));
     expect(CAMPUS_CORPUS.filter(row => !oldIds.has(row.id)).length).toBeGreaterThanOrEqual(60);
     expect(CAMPUS_CORPUS.length).toBeLessThanOrEqual(280);
     for (const previous of baseline) {
-      const current = CAMPUS_CORPUS.find(row => row.id === previous.id);
+      const current = archived.find(row => row.id === previous.id);
       expect(current).toBeDefined();
       expect(createHash('sha256').update(canonicalJson(current)).digest('hex')).toBe(previous.sha256);
+    }
+    for (const previous of archived) {
+      const current = CAMPUS_CORPUS.find(row => row.id === previous.id)!;
+      // Scenario edits cannot rewrite any author, excerpt, URL, category or tag.
+      expect({ ...current, scenarioSeed: previous.scenarioSeed }).toEqual(previous);
     }
   });
 

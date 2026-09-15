@@ -1,4 +1,5 @@
 import corpus from './campus-corpus-data.json';
+import { reviseCampusScenarioSeed } from './campus-scenario-seeds';
 
 /** Public Zhihu API excerpts, never full-answer claims. Votes are observation-time facts. */
 export interface CampusCorpusAnswer {
@@ -29,6 +30,8 @@ export interface CampusCorpusQuestion {
   scenarioSeed: { userRole: string; counterpartRole: string; situation: string; goal: string };
 }
 
-export const CAMPUS_CORPUS_VERSION = 'zhihu-campus-2026-09-14-v2';
+export const CAMPUS_CORPUS_VERSION = 'zhihu-campus-2026-09-15-v3';
 export const CAMPUS_HIGH_VOTE_THRESHOLD = 100;
-export const CAMPUS_CORPUS: CampusCorpusQuestion[] = corpus as CampusCorpusQuestion[];
+// The published raw archive stays unchanged. Only new source snapshots use these
+// reviewed original-scenario corrections; stored session snapshots remain intact.
+export const CAMPUS_CORPUS: CampusCorpusQuestion[] = (corpus as CampusCorpusQuestion[]).map(reviseCampusScenarioSeed);
